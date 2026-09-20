@@ -219,23 +219,6 @@ Wi-Fi в литературата за Интернет на нещата.
 
 ---
 
-## Използвани източници към раздел 1.1
-
-1. IEEE Std 802.11-2020. *Part 11: Wireless LAN MAC and PHY Specifications.* IEEE, 2021.
-2. IEEE Std 802.15.4-2020. *Standard for Low-Rate Wireless Networks.* IEEE, 2020.
-3. Bluetooth SIG. *Bluetooth Core Specification, Version 5.3.* 2021.
-4. Espressif Systems. *ESP8266EX Datasheet.* Version 7.0, 2023.
-5. Espressif Systems. *ESP-NOW User Guide.*
-6. Connectivity Standards Alliance. *Matter Specification, Version 1.0.* CSA, 2022.
-7. Thread Group. *Thread 1.3 Specification.* 2022.
-8. EN 50090. *Home and Building Electronic Systems (HBES).* CENELEC.
-9. ISO/IEC 14543-3. *Home electronic systems (HES) architecture (KNX).* ISO/IEC.
-10. RFC 7228. *Terminology for Constrained-Node Networks.* IETF, 2014.
-11. RFC 4944. *Transmission of IPv6 Packets over IEEE 802.15.4 Networks.* IETF, 2007.
-12. RFC 7252. *The Constrained Application Protocol (CoAP).* IETF, 2014.
-
----
-
 ## 1.2. Връзка с проблематиката на електромобилите и локалния енергиен мениджмънт
 
 ### 1.2.1. Домашното зареждане като ограничение на битовото присъединяване
@@ -375,20 +358,6 @@ ESP-NOW (единици милисекунди) са напълно достат
 
 ---
 
-## Използвани източници към раздел 1.2
-
-13. IEC 61851-1:2017. *Electric vehicle conductive charging system – Part 1: General
-    requirements.* IEC.
-14. ISO 15118-2:2014. *Road vehicles – Vehicle to grid communication interface – Part 2:
-    Network and application protocol requirements.* ISO.
-15. Open Charge Alliance. *Open Charge Point Protocol (OCPP) 2.0.1 – Part 2: Specification.*
-16. EN 50160:2010. *Voltage characteristics of electricity supplied by public distribution
-    networks.* CENELEC.
-17. EN 60898-1. *Circuit-breakers for overcurrent protection for household and similar
-    installations.* CENELEC.
-
----
-
 ## 1.3. Цел и задачи на дипломната работа
 
 ### 1.3.1. Цел
@@ -476,3 +445,29 @@ ESP-NOW (единици милисекунди) са напълно достат
 организацията на неблокиращия главен цикъл. **Глава 4** представя експерименталните
 резултати. В **Заключението** са обобщени получените резултати и са формулирани насоките за
 бъдещо развитие.
+
+---
+
+## Използвани източници към Глава 1
+
+1. IEEE Std 802.11-2020. *Part 11: Wireless LAN MAC and PHY Specifications.* IEEE, 2021.
+2. IEEE Std 802.15.4-2020. *Standard for Low-Rate Wireless Networks.* IEEE, 2020.
+3. Bluetooth SIG. *Bluetooth Core Specification, Version 5.3.* 2021.
+4. Espressif Systems. *ESP8266EX Datasheet.* Version 7.0, 2023.
+5. Espressif Systems. *ESP-NOW User Guide.*
+6. Connectivity Standards Alliance. *Matter Specification, Version 1.0.* CSA, 2022.
+7. Thread Group. *Thread 1.3 Specification.* 2022.
+8. EN 50090. *Home and Building Electronic Systems (HBES).* CENELEC.
+9. ISO/IEC 14543-3. *Home electronic systems (HES) architecture (KNX).* ISO/IEC.
+10. RFC 7228. *Terminology for Constrained-Node Networks.* IETF, 2014.
+11. RFC 4944. *Transmission of IPv6 Packets over IEEE 802.15.4 Networks.* IETF, 2007.
+12. RFC 7252. *The Constrained Application Protocol (CoAP).* IETF, 2014.
+13. IEC 61851-1:2017. *Electric vehicle conductive charging system – Part 1: General
+    requirements.* IEC.
+14. ISO 15118-2:2014. *Road vehicles – Vehicle to grid communication interface – Part 2:
+    Network and application protocol requirements.* ISO.
+15. Open Charge Alliance. *Open Charge Point Protocol (OCPP) 2.0.1 – Part 2: Specification.*
+16. EN 50160:2010. *Voltage characteristics of electricity supplied by public distribution
+    networks.* CENELEC.
+17. EN 60898-1. *Circuit-breakers for overcurrent protection for household and similar
+    installations.* CENELEC.
