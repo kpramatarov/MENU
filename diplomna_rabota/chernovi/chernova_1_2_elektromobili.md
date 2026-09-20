@@ -96,3 +96,20 @@ EVSE контролер с генератор на Control Pilot сигнал и
 
 ---
 
+
+---
+
+## Източници, преместени тук от раздел 1.1
+
+Тези заглавия вече не се цитират в 1.1 (материалът за електромобилите беше изнесен),
+затова се включват в списъка към раздел 1.2:
+
+1. IEC 61851-1:2017. *Electric vehicle conductive charging system – Part 1: General
+   requirements.* IEC.
+2. ISO 15118-2:2014. *Road vehicles – Vehicle to grid communication interface – Part 2.* ISO.
+3. Open Charge Alliance. *Open Charge Point Protocol (OCPP) 2.0.1 – Part 2: Specification.*
+4. EN 50160:2010. *Voltage characteristics of electricity supplied by public distribution
+   networks.* CENELEC.
+5. EN 60898-1. *Circuit-breakers for overcurrent protection for household installations.*
+
+> Забележка: DS18B20 datasheet (Analog Devices/Maxim, Rev. 6) се цитира в **Глава 2**.
