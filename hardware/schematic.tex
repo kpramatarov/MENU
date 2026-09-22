@@ -1,14 +1,14 @@
-% ESP8266 Relay / Sensor Controller -- schematic
+% ESP8266 (NodeMCU V3 / LoLin) Relay & Sensor Controller -- schematic, Rev B
 % Build: pdflatex schematic.tex   (needs the circuitikz package)
 \documentclass[border=12pt]{standalone}
 \usepackage[american]{circuitikz}
 \usepackage{xcolor}
-\usetikzlibrary{calc}
 
 \definecolor{rail5}{RGB}{200,30,30}    % +5V net
 \definecolor{rail3}{RGB}{230,120,0}    % +3V3 net
 \definecolor{railg}{RGB}{40,40,40}     % GND net
 \definecolor{sig}{RGB}{20,80,170}      % GPIO signals
+\definecolor{nc}{RGB}{150,150,150}     % not connected
 
 \ctikzset{bipoles/length=1.1cm}
 \tikzset{
@@ -22,163 +22,178 @@
   s/.style     = {sig, thick},
 }
 
-% MCU pin helpers: \lpin{y}{name}  /  \rpin{y}{name}
+% ---- U1 pin helpers (box spans x = 0 .. 5) --------------------------------
+% \lpin{y}{label}, \rpin{y}{label}: connected pin
+% \lnc{y}{label},  \rnc{y}{label} : pin present on the board, not connected
 \newcommand{\lpin}[2]{\draw[thick] (-0.6,#1) -- (0,#1);
   \node[pin, anchor=west] at (0.1,#1) {#2};}
-\newcommand{\rpin}[2]{\draw[thick] (4.5,#1) -- (5.1,#1);
-  \node[pin, anchor=east] at (4.4,#1) {#2};}
+\newcommand{\rpin}[2]{\draw[thick] (5,#1) -- (5.6,#1);
+  \node[pin, anchor=east] at (4.9,#1) {#2};}
+\newcommand{\xmark}[2]{\draw[nc, thick] (#1-0.1,#2-0.1) -- (#1+0.1,#2+0.1)
+  (#1-0.1,#2+0.1) -- (#1+0.1,#2-0.1);}
+\newcommand{\lnc}[2]{\draw[nc] (-0.5,#1) -- (0,#1); \xmark{-0.5}{#1}
+  \node[pin, nc, anchor=west] at (0.1,#1) {#2};}
+\newcommand{\rnc}[2]{\draw[nc] (5,#1) -- (5.5,#1); \xmark{5.5}{#1}
+  \node[pin, nc, anchor=east] at (4.9,#1) {#2};}
 
-% Relay module: \relay{y of IN}{index}{GPIO label}
-\newcommand{\relay}[3]{
-  \draw[mod] (10,#1-0.6) rectangle (14.4,#1+0.6);
-  \node[title] at (12.2,#1+0.2) {K#2 \; RELAY #2 (5 V)};
-  \node[pin]   at (12.2,#1-0.28) {COM / NO / NC $\to$ Load #2};
-  % IN (left)
-  \draw[s] (5.1,#1) -- (10,#1);
-  \node[pin, sig, anchor=south] at (8.6,#1) {#3 $\to$ IN};
-  % VCC (right, to +5V rail)
-  \draw[p5] (14.4,#1+0.3) -- (18,#1+0.3) node[circ]{};
-  \node[pin, anchor=south west] at (14.45,#1+0.3) {VCC};
-  % GND (right, to common GND)
-  \draw[pg] (14.4,#1-0.3) -- (16,#1-0.3) node[ground]{};
-  \node[pin, anchor=north west] at (14.45,#1-0.3) {GND};
+% Relay module: \relay{IN y}{index}{MCU pin y}{bend x}{pin name}
+\newcommand{\relay}[5]{
+  \draw[mod] (11,#1-0.6) rectangle (15.4,#1+0.6);
+  \node[title] at (13.2,#1+0.2) {K#2 \; RELAY #2 (5 V)};
+  \node[pin]   at (13.2,#1-0.28) {COM / NO / NC $\to$ Load #2};
+  \draw[s] (5.6,#3) -| (#4,#1) -- (11,#1);
+  \node[pin, sig, anchor=south] at (10.2,#1) {#5 $\to$ IN};
+  \draw[p5] (15.4,#1+0.3) -- (19,#1+0.3) node[circ]{};
+  \node[pin, anchor=south west] at (15.45,#1+0.3) {VCC};
+  \draw[pg] (15.4,#1-0.3) -- (16.8,#1-0.3) node[ground]{};
+  \node[pin, anchor=north west] at (15.45,#1-0.3) {GND};
 }
 
 \begin{document}
 \begin{circuitikz}
 
 %======================================================================
-% ESP8266 (NodeMCU v1.0 / ESP-12E dev board)
+% U1 -- ESP8266 NodeMCU V3 (LoLin), all 30 pins in board order
+% (antenna at top, micro-USB at bottom)
 %======================================================================
-\draw[mod, fill=blue!4] (0,0) rectangle (4.5,13);
-\node[title, align=center] at (2.25,11) {U1 \; ESP8266\\(NodeMCU v1.0)};
+\draw[mod, fill=blue!4] (0,2.2) rectangle (5,16.2);
+\draw[gray, thin] (1.4,15.0) rectangle (3.6,16.0);
+\node[pin, gray] at (2.5,15.5) {ESP-12E (antenna)};
+\node[title, anchor=south] at (2.5,16.3) {U1 \; ESP8266 NodeMCU V3 (LoLin)};
 
-\lpin{12}{3V3}
-\lpin{10}{D4 / GPIO2}
-\lpin{8}{D7 / GPIO13}
-\lpin{5.5}{D5 / GPIO14}
-\lpin{4}{D6 / GPIO12}
-\lpin{1}{GND}
+% Left header (top -> bottom)
+\lpin{14.0}{A0 / ADC0}
+\lnc{13.2}{G}
+\lnc{12.4}{VU (VUSB)}
+\lnc{11.6}{S3 / GPIO10}
+\lnc{10.8}{S2 / GPIO9}
+\lnc{10.0}{S1 / MOSI}
+\lnc{9.2}{SC / CS}
+\lnc{8.4}{S0 / MISO}
+\lnc{7.6}{SK / SCLK}
+\lnc{6.8}{G}
+\lnc{6.0}{3V}
+\lnc{5.2}{EN}
+\lnc{4.4}{RST}
+\lnc{3.6}{G}
+\lpin{2.8}{VIN}
 
-\rpin{12}{VIN}
-\rpin{10}{A0}
-\rpin{7.4}{D0 / GPIO16}
-\rpin{5.9}{D1 / GPIO5}
-\rpin{4.4}{D2 / GPIO4}
-\rpin{2.9}{D3 / GPIO0}
-\rpin{1}{GND}
+% Right header (top -> bottom)
+\rpin{14.0}{D0 / GPIO16}
+\rpin{13.2}{D1 / GPIO5}
+\rpin{12.4}{D2 / GPIO4}
+\rpin{11.6}{D3 / GPIO0}
+\rpin{10.8}{D4 / GPIO2}
+\rpin{10.0}{3V}
+\rnc{9.2}{G}
+\rpin{8.4}{D5 / GPIO14}
+\rpin{7.6}{D6 / GPIO12}
+\rpin{6.8}{D7 / GPIO13}
+\rnc{6.0}{D8 / GPIO15}
+\rnc{5.2}{RX / GPIO3}
+\rnc{4.4}{TX / GPIO1}
+\rpin{3.6}{G}
+\rnc{2.8}{3V}
 
-% USB power input
-\draw[mod, fill=gray!20] (1,13.8) rectangle (3.5,14.8);
-\node[title] at (2.25,14.3) {J1 \; USB 5 V};
-\draw[p5] (2.25,13.8) -- (2.25,13);
-\node[note, anchor=west] at (3.6,14.3) {Powers U1 directly (VBUS $\to$ VIN, onboard AMS1117 $\to$ 3V3)};
+% J1 micro-USB (bottom of board)
+\draw[mod, fill=gray!20] (1.3,0.4) rectangle (3.7,1.5);
+\node[title] at (2.5,0.95) {J1 \; micro-USB};
+\draw[p5] (2.5,1.5) -- (2.5,2.2);
+\node[pin, anchor=west] at (2.6,1.85) {5 V};
 
 %======================================================================
 % POWER RAILS
 %======================================================================
-% +3V3 rail (left breadboard +)
-\draw[p3] (-0.6,12) -- (-13,12) node[circ]{};
-\draw[p3] (-13,12.8) -- (-13,3);
-\node[title, rail3, anchor=south] at (-13,12.8) {+3V3 RAIL (Left)};
+% +5V: VIN -> right breadboard + rail
+\draw[p5] (-0.6,2.8) -- (-6,2.8) -- (-6,20) -- (19,20) -- (19,14.2);
+\node[pin, rail5, anchor=south west] at (-5.9,20) {VIN = +5V};
+\node[title, rail5, anchor=south] at (19,20.1) {+5V RAIL (breadboard right +)};
 
-% +5V rail (right breadboard +)
-\draw[p5] (5.1,12) -- (18,12) node[circ]{};
-\draw[p5] (18,12.8) -- (18,2);
-\node[title, rail5, anchor=south] at (18,12.8) {+5V RAIL (Right)};
+% +3V3: U1 3V -> left breadboard + rail
+\draw[p3] (5.6,10) -- (18,10) node[circ]{};
+\draw[p3] (18,11.9) -- (18,7.1);
+\node[title, rail3, anchor=west, align=left] at (18.2,9) {+3V3 RAIL\\(breadboard left +)};
 
-% Common GND bus (negative rail of both breadboard buses)
-\draw[pg] (-0.6,1) -- (-1.2,1) -- (-1.2,-0.8) node[circ]{};
-\draw[pg] (5.1,1)  -- (5.7,1)  -- (5.7,-0.8)  node[circ]{};
-\draw[pg] (-13,-0.8) -- (18,-0.8);
-\draw[pg] (2.25,-0.8) node[circ]{} -- (2.25,-1.1) node[ground]{};
-\node[title, railg, anchor=north] at (9,-0.9)
-  {COMMON GND BUS \,--\, left \& right $-$ rails (every \,\raisebox{-1pt}{$\perp$}\, symbol = this net)};
-\node[pin, railg, anchor=east]  at (-13.1,-0.8) {L $-$ rail};
-\node[pin, railg, anchor=west]  at (18.1,-0.8)  {R $-$ rail};
+% Common GND bus
+\draw[pg] (5.6,3.6) -- (6.2,3.6) -- (6.2,-0.5) node[circ]{};
+\draw[pg] (-6,-0.5) -- (21,-0.5);
+\draw[pg] (8,-0.5) node[circ]{} -- (8,-0.8) node[ground]{};
+\node[title, railg, anchor=north west] at (8.4,-0.6)
+  {COMMON GND BUS -- both breadboard $-$ rails (every $\perp$ = this net)};
 
-% C1 bulk filter across +5V rail
-\draw[p5] (18,10.8) node[circ]{} -- (19.8,10.8);
-\draw (19.8,10.8) to[eC, l_={C1}, a^={1000\,$\mu$F / 16\,V}, *-] (19.8,9) node[ground]{};
-\node[pin, anchor=west] at (19.95,10.55) {$+$ to 5 V};
+% C1 bulk filter across +5V
+\draw[p5] (19,19.4) node[circ]{} -- (20.8,19.4);
+\draw (20.8,19.4) to[eC, l_={C1}, a^={1000\,$\mu$F / 16\,V}, *-] (20.8,17.6) node[ground]{};
 
 %======================================================================
-% VOLTAGE DIVIDER  (VIN monitoring on A0)
+% VIN MONITOR DIVIDER (A0)
 %======================================================================
-\draw (7.5,12) node[circ, rail5]{} to[R, l_={R1}, a^={47\,k$\Omega$}] (7.5,10);
-\draw[s]  (5.1,10) -- (7.5,10) node[circ]{};
-\draw     (7.5,10) to[R, l_={R2}, a^={20\,k$\Omega$}] (7.5,8.3) node[ground]{};
-\node[note, anchor=west] at (9.2,10.5)
-  {$V_{A0} = V_{5V}\cdot\frac{20k}{47k+20k} \approx 1.49$\,V @ 5.00\,V};
+\draw[s] (-0.6,14) -- (-3,14) node[circ]{};
+\draw (-3,20) node[circ, rail5]{} -- (-3,17.4) to[R, l_={R1}, a^={47\,k$\Omega$}] (-3,15.6) -- (-3,14);
+\draw (-3,14) to[R, l_={R2}, a^={20\,k$\Omega$}] (-3,12.2) node[ground]{};
+\node[title, anchor=east] at (-3.3,18.8) {VIN MONITOR};
 
 %======================================================================
 % RELAY BLOCK (5 V)
 %======================================================================
-\relay{7.4}{1}{D0}
-\relay{5.9}{2}{D1}
-\relay{4.4}{3}{D2}
-\relay{2.9}{4}{D3}
-\node[title, rail5] at (12.2,8.45) {RELAY BLOCK (5 V supply)};
+\node[title, rail5] at (13.2,19.45) {RELAY BLOCK (5 V)};
+\relay{18.4}{1}{14.0}{7.0}{D0}
+\relay{16.9}{2}{13.2}{7.8}{D1}
+\relay{15.4}{3}{12.4}{8.6}{D2}
+\relay{13.9}{4}{11.6}{9.4}{D3}
 
 %======================================================================
 % SENSOR BLOCK (3.3 V)
 %======================================================================
-\node[title, rail3] at (-7,12.5) {SENSOR BLOCK (3.3 V)};
+\node[title, rail3] at (13,12.75) {SENSOR BLOCK (3.3 V)};
 
-% DHT11
-\draw[mod] (-9,9.3) rectangle (-5,11.1);
-\node[title] at (-7,10.5) {U2 \; DHT11};
-\node[pin]   at (-7,9.85) {Temp / Humidity};
-\draw[p3] (-9,10.7) -- (-13,10.7) node[circ]{};
-\node[pin, anchor=south east] at (-9.05,10.7) {VCC};
-\draw[pg] (-9,9.7) -- (-10.2,9.7) node[ground]{};
-\node[pin, anchor=north east] at (-9.05,9.7) {GND};
-\draw[s] (-5,10) -- (-0.6,10);
-\node[pin, anchor=south west] at (-4.95,10) {DATA};
-\node[pin, sig, anchor=south] at (-2.6,10) {$\to$ D4};
+% U2 DHT11
+\draw[mod] (11,10.5) rectangle (15,12.3);
+\node[title] at (13,11.8) {U2 \; DHT11};
+\node[pin]   at (13,11.25) {Temp / Humidity};
+\draw[s] (5.6,10.8) -- (11,10.8);
+\node[pin, sig, anchor=south] at (10.2,10.8) {DATA};
+\draw[p3] (15,11.9) -- (18,11.9);
+\node[pin, anchor=south west] at (15.05,11.9) {VCC};
+\draw[pg] (15,11.0) -- (16.3,11.0) node[ground]{};
+\node[pin, anchor=north west] at (15.05,11.0) {GND};
 
-% HR202 humidity module (LM393 comparator board)
-\draw[mod] (-9,6.7) rectangle (-5,8.6);
-\node[title] at (-7,7.95) {U3 \; HR202};
-\node[pin]   at (-7,7.3) {Humidity (DO module)};
-\draw[p3] (-9,8.3) -- (-13,8.3) node[circ]{};
-\node[pin, anchor=south east] at (-9.05,8.3) {VCC};
-\draw[pg] (-9,7.1) -- (-10.2,7.1) node[ground]{};
-\node[pin, anchor=north east] at (-9.05,7.1) {GND};
-\draw[s] (-5,8) -- (-0.6,8);
-\node[pin, anchor=south west] at (-4.95,8) {DO};
-\node[pin, sig, anchor=south] at (-2.6,8) {$\to$ D7};
-\draw (-5,7.1) -- (-4.6,7.1) node[ocirc]{};
-\node[pin, anchor=north west] at (-4.95,7.1) {AO (n.c.)};
+% U3 HR202 module (LM393 comparator board)
+\draw[mod] (13,5.6) rectangle (16.6,7.4);
+\node[title] at (14.8,6.9) {U3 \; HR202};
+\node[pin]   at (14.8,6.35) {Humidity module};
+\draw[s] (5.6,6.8) -- (13,6.8);
+\node[pin, sig, anchor=south] at (12.4,6.8) {DO};
+\draw[nc] (13,6.0) -- (12.5,6.0); \xmark{12.5}{6.0}
+\node[pin, nc, anchor=east] at (12.35,6.0) {AO};
+\draw[p3] (16.6,7.1) -- (18,7.1);
+\node[pin, anchor=south west] at (16.65,7.1) {VCC};
+\draw[pg] (16.6,6.0) -- (17.6,6.0) node[ground]{};
+\node[pin, anchor=north west] at (16.65,6.0) {GND};
 
 %======================================================================
 % INPUT BUTTONS (active low, INPUT_PULLUP)
 %======================================================================
-\node[title] at (-7,6.25) {INPUTS (active low, INPUT\_PULLUP)};
-
-\draw[s] (-0.6,5.5) -- (-4.5,5.5);
-\draw (-4.5,5.5) to[push button, l_={SW1}, *-] (-8,5.5) -- (-8.6,5.5) node[ground]{};
-\node[pin, sig, anchor=south] at (-2.6,5.5) {D5 $\leftarrow$};
-\node[note, anchor=east] at (-9.2,5.5) {Relay 1 ON};
-
-\draw[s] (-0.6,4) -- (-4.5,4);
-\draw (-4.5,4) to[push button, l_={SW2}, *-] (-8,4) -- (-8.6,4) node[ground]{};
-\node[pin, sig, anchor=south] at (-2.6,4) {D6 $\leftarrow$};
-\node[note, anchor=east] at (-9.2,4) {ALL relays OFF};
+\node[title] at (9,9.35) {INPUTS (active low, INPUT\_PULLUP)};
+\draw[s] (5.6,8.4) -- (6.4,8.4);
+\draw (6.4,8.4) to[push button, l={SW1 -- Relay 1 ON}, *-] (8.2,8.4) -- (8.6,8.4) node[ground]{};
+\draw[s] (5.6,7.6) -- (10,7.6);
+\draw (10,7.6) to[push button, l={SW2 -- ALL OFF}, *-] (11.8,7.6) -- (12.2,7.6) node[ground]{};
 
 %======================================================================
 % LEGEND / TITLE BLOCK
 %======================================================================
-\draw[thick] (-13.5,-2.2) rectangle (21.2,-4.9);
-\node[note, anchor=north west] at (-13.3,-2.35) {%
-  \textbf{ESP8266 Relay \& Sensor Controller} \quad Rev A\\[2pt]
-  \textcolor{rail5}{\rule[2pt]{0.8cm}{1.5pt}} +5V (VIN / USB VBUS) \quad
-  \textcolor{rail3}{\rule[2pt]{0.8cm}{1.5pt}} +3V3 (onboard LDO) \quad
+\draw[thick] (-7,-2) rectangle (22.4,-4.0);
+\node[note, anchor=north west] at (-6.8,-2.15) {%
+  \textbf{ESP8266 Relay \& Sensor Controller} \quad Rev B \quad (U1 = NodeMCU V3 / LoLin, all 30 header pins shown)\\[2pt]
+  \textcolor{rail5}{\rule[2pt]{0.8cm}{1.5pt}} +5V (VIN) \quad
+  \textcolor{rail3}{\rule[2pt]{0.8cm}{1.5pt}} +3V3 \quad
   \textcolor{railg}{\rule[2pt]{0.8cm}{1.5pt}} GND \quad
-  \textcolor{sig}{\rule[2pt]{0.8cm}{1.5pt}} GPIO signal\\[2pt]
-  Dot = junction; crossing without dot = no connection. All $\perp$ symbols are the common GND net.\\
+  \textcolor{sig}{\rule[2pt]{0.8cm}{1.5pt}} GPIO signal \quad
+  \textcolor{nc}{$\times$} = pin not connected\\[2pt]
+  Dot = junction; crossing without dot = no connection. All G pins are common internally; all 3V pins are common internally.\\
   Divider: 5 V $\to$ 1.49 V at A0 (NodeMCU A0 accepts 0--3.2 V via its onboard 220k/100k divider).\\
-  Boot straps: D3 (GPIO0) and D4 (GPIO2) must be HIGH at reset -- use active-low relay modules; drive HIGH before pinMode(OUTPUT).};
+  Boot straps: D3 (GPIO0), D4 (GPIO2) must be HIGH and D8 (GPIO15) LOW at reset. RX/TX are used by the USB-serial chip.};
 
 \end{circuitikz}
 \end{document}
