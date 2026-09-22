@@ -1,4 +1,4 @@
-% ESP8266 (NodeMCU V3 / LoLin) Relay & Sensor Controller -- schematic, Rev B
+% ESP8266 (NodeMCU V3 / LoLin) Relay & Sensor Controller -- schematic, Rev C
 % Build: pdflatex schematic.tex   (needs the circuitikz package)
 \documentclass[border=12pt]{standalone}
 \usepackage[american]{circuitikz}
@@ -56,7 +56,7 @@
 % U1 -- ESP8266 NodeMCU V3 (LoLin), all 30 pins in board order
 % (antenna at top, micro-USB at bottom)
 %======================================================================
-\draw[mod, fill=blue!4] (0,2.2) rectangle (5,16.2);
+\draw[mod, fill=blue!4] (0,1.2) rectangle (5,16.2);
 \draw[gray, thin] (1.4,15.0) rectangle (3.6,16.0);
 \node[pin, gray] at (2.5,15.5) {ESP-12E (antenna)};
 \node[title, anchor=south] at (2.5,16.3) {U1 \; ESP8266 NodeMCU V3 (LoLin)};
@@ -72,7 +72,7 @@
 \lnc{8.4}{S0 / MISO}
 \lnc{7.6}{SK / SCLK}
 \lnc{6.8}{G}
-\lnc{6.0}{3V}
+\lpin{6.0}{3V3}
 \lnc{5.2}{EN}
 \lnc{4.4}{RST}
 \lnc{3.6}{G}
@@ -84,7 +84,7 @@
 \rpin{12.4}{D2 / GPIO4}
 \rpin{11.6}{D3 / GPIO0}
 \rpin{10.8}{D4 / GPIO2}
-\rpin{10.0}{3V}
+\rnc{10.0}{3V3}
 \rnc{9.2}{G}
 \rpin{8.4}{D5 / GPIO14}
 \rpin{7.6}{D6 / GPIO12}
@@ -93,32 +93,30 @@
 \rnc{5.2}{RX / GPIO3}
 \rnc{4.4}{TX / GPIO1}
 \rpin{3.6}{G}
-\rnc{2.8}{3V}
+\rnc{2.8}{3V3}
 
 % J1 micro-USB (bottom of board)
-\draw[mod, fill=gray!20] (1.3,0.4) rectangle (3.7,1.5);
-\node[title] at (2.5,0.95) {J1 \; micro-USB};
-\draw[p5] (2.5,1.5) -- (2.5,2.2);
-\node[pin, anchor=west] at (2.6,1.85) {5 V};
+\draw[thick, fill=gray!25] (1.1,1.3) rectangle (3.9,2.2);
+\node[pin] at (2.5,1.75) {J1 micro-USB (5 V)};
 
 %======================================================================
 % POWER RAILS
 %======================================================================
 % +5V: VIN -> right breadboard + rail
-\draw[p5] (-0.6,2.8) -- (-6,2.8) -- (-6,20) -- (19,20) -- (19,14.2);
+\draw[p5] (-0.6,2.8) -- (-4.3,2.8) arc(0:180:0.2) -- (-6,2.8) -- (-6,20) -- (19,20) -- (19,14.2);
 \node[pin, rail5, anchor=south west] at (-5.9,20) {VIN = +5V};
 \node[title, rail5, anchor=south] at (19,20.1) {+5V RAIL (breadboard right +)};
 
 % +3V3: U1 3V -> left breadboard + rail
-\draw[p3] (5.6,10) -- (18,10) node[circ]{};
-\draw[p3] (18,11.9) -- (18,7.1);
+\draw[p3] (-0.6,6) -- (-4.5,6) -- (-4.5,-0.4) -- (18,-0.4) -- (18,11.9);
+\node[pin, rail3, anchor=south east] at (-0.7,6) {+3V3 out};
+\node[title, rail3, anchor=north] at (6.5,-0.5) {+3V3 from U1 left-header 3V3 (pin 11) $\to$ sensor rail};
 \node[title, rail3, anchor=west, align=left] at (18.2,9) {+3V3 RAIL\\(breadboard left +)};
 
 % Common GND bus
-\draw[pg] (5.6,3.6) -- (6.2,3.6) -- (6.2,-0.5) node[circ]{};
-\draw[pg] (-6,-0.5) -- (21,-0.5);
-\draw[pg] (8,-0.5) node[circ]{} -- (8,-0.8) node[ground]{};
-\node[title, railg, anchor=north west] at (8.4,-0.6)
+\draw[pg] (5.6,3.6) -- (6.2,3.6) -- (6.2,0.4);
+\draw[pg] (6.2,0.4) -- (17,0.4) node[ground]{};
+\node[title, railg, anchor=south west] at (7,0.45)
   {COMMON GND BUS -- both breadboard $-$ rails (every $\perp$ = this net)};
 
 % C1 bulk filter across +5V
@@ -183,15 +181,15 @@
 %======================================================================
 % LEGEND / TITLE BLOCK
 %======================================================================
-\draw[thick] (-7,-2) rectangle (22.4,-4.0);
-\node[note, anchor=north west] at (-6.8,-2.15) {%
-  \textbf{ESP8266 Relay \& Sensor Controller} \quad Rev B \quad (U1 = NodeMCU V3 / LoLin, all 30 header pins shown)\\[2pt]
+\draw[thick] (-7,-1.6) rectangle (22.4,-3.6);
+\node[note, anchor=north west] at (-6.8,-1.75) {%
+  \textbf{ESP8266 Relay \& Sensor Controller} \quad Rev C \quad (U1 = NodeMCU V3 / LoLin, all 30 header pins shown)\\[2pt]
   \textcolor{rail5}{\rule[2pt]{0.8cm}{1.5pt}} +5V (VIN) \quad
   \textcolor{rail3}{\rule[2pt]{0.8cm}{1.5pt}} +3V3 \quad
   \textcolor{railg}{\rule[2pt]{0.8cm}{1.5pt}} GND \quad
   \textcolor{sig}{\rule[2pt]{0.8cm}{1.5pt}} GPIO signal \quad
   \textcolor{nc}{$\times$} = pin not connected\\[2pt]
-  Dot = junction; crossing without dot = no connection. All G pins are common internally; all 3V pins are common internally.\\
+  Dot = junction; crossing without dot = no connection. All G pins are common internally; all 3V3 pins are common internally. Sensors use the LEFT 3V3 pin.\\
   Divider: 5 V $\to$ 1.49 V at A0 (NodeMCU A0 accepts 0--3.2 V via its onboard 220k/100k divider).\\
   Boot straps: D3 (GPIO0), D4 (GPIO2) must be HIGH and D8 (GPIO15) LOW at reset. RX/TX are used by the USB-serial chip.};
 

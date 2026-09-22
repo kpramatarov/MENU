@@ -74,7 +74,7 @@ flowchart LR
 | Net | Connections |
 |---|---|
 | **+5V** | J1 VBUS → U1 VIN, C1(+), R1 pin 1, K1–K4 VCC |
-| **+3V3** | U1 3V3, U2 VCC, U3 VCC |
+| **+3V3** | U1 **left-header 3V3 (pin 11)**, U2 VCC, U3 VCC |
 | **GND** | U1 GND (both), C1(−), R2 pin 2, K1–K4 GND, U2 GND, U3 GND, SW1 T2, SW2 T2 |
 | VSENSE | R1 pin 2, R2 pin 1, U1 A0 |
 | RLY1…RLY4 | U1 D0 / D1 / D2 / D3 (GPIO16 / 5 / 4 / 0) → K1…K4 IN |
@@ -93,18 +93,18 @@ Board orientation: antenna at the top, micro-USB at the bottom. **×** = on the 
 | 3 | VU | USB 5 V | × | | 3 | D2 | GPIO4 | **Relay 3 IN** |
 | 4 | S3 | GPIO10 | × (flash) | | 4 | D3 | GPIO0 / FLASH | **Relay 4 IN** |
 | 5 | S2 | GPIO9 | × (flash) | | 5 | D4 | GPIO2 / TXD1 | **DHT11 DATA** |
-| 6 | S1 | MOSI | × (flash) | | 6 | 3V | 3.3 V | **+3V3 rail** |
+| 6 | S1 | MOSI | × (flash) | | 6 | 3V3 | 3.3 V | × |
 | 7 | SC | CS | × (flash) | | 7 | G | GND | × (common internally) |
 | 8 | S0 | MISO | × (flash) | | 8 | D5 | GPIO14 | **SW1** (Relay 1 ON) |
 | 9 | SK | SCLK | × (flash) | | 9 | D6 | GPIO12 | **SW2** (All OFF) |
 | 10 | G | GND | × | | 10 | D7 | GPIO13 | **HR202 DO** |
-| 11 | 3V | 3.3 V | × (same net as right 3V) | | 11 | D8 | GPIO15 | × (must stay LOW at boot) |
+| 11 | 3V3 | 3.3 V | **+3V3 rail → DHT11, HR202** | | 11 | D8 | GPIO15 | × (must stay LOW at boot) |
 | 12 | EN | Chip enable | × | | 12 | RX | GPIO3 / RXD0 | × (USB serial) |
 | 13 | RST | Reset | × | | 13 | TX | GPIO1 / TXD0 | × (USB serial) |
 | 14 | G | GND | × | | 14 | G | GND | **Common GND bus** |
-| 15 | VIN | 5 V in | **+5V rail** | | 15 | 3V | 3.3 V | × |
+| 15 | VIN | 5 V in | **+5V rail** | | 15 | 3V3 | 3.3 V | × |
 
-The drawing uses one pin of each kind (right 3V, right-bottom G). All G pins are tied together on the board, and so are all 3V pins, so on the breadboard you can use any G or 3V pin; the circuit is the same.
+The sensors take +3V3 from the **left-header 3V3 pin (pin 11)**, as wired on the breadboard. All G pins are tied together on the board, and so are all 3V3 pins.
 
 ## Design review notes
 
