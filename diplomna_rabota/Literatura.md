@@ -20,24 +20,31 @@
 15. ISO 15118-2:2014. *Road vehicles – Vehicle to grid communication interface – Part 2: Network and application protocol requirements.* ISO.
 16. Open Charge Alliance. *Open Charge Point Protocol (OCPP) 2.0.1 – Part 2: Specification.*
 17. EN 50160:2010. *Voltage characteristics of electricity supplied by public distribution networks.* CENELEC.
-18. onsemi. *P2N2222A / 2N2222A – Amplifier Transistors NPN Silicon – Datasheet.*
-19. Analog Devices (Maxim Integrated). *DS18B20 Programmable Resolution 1-Wire Digital Thermometer – Datasheet.* Rev. 6.
-20. Espressif Systems. *ESP8266 Hardware Design Guidelines.* Version 2.6, 2023.
-21. Vishay. *1N4001 – 1N4007 General Purpose Plastic Rectifier – Datasheet.*
-22. Advanced Monolithic Systems. *AMS1117 – 1A Low Dropout Voltage Regulator – Datasheet.*
-23. ESP8266 Community. *Arduino core for ESP8266 – Documentation: Filesystem (LittleFS), EEPROM, ESP8266WebServer.*
-24. Espressif Systems. *ESP8266 Non-OS SDK API Reference.* Version 3.0.
-25. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
-26. Fielding, R. T. *Architectural Styles and the Design of Network-based Software Architectures.* PhD dissertation, University of California, Irvine, 2000.
-27. WHATWG. *Fetch Living Standard.*
-28. Burton, M. *Arduino-Temperature-Control-Library (DallasTemperature) – Documentation.*
-29. Rappaport, T. S. *Wireless Communications: Principles and Practice.* 2nd ed., Prentice Hall, 2002.
-30. ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.
-31. JCGM 100:2008. *Evaluation of measurement data – Guide to the expression of uncertainty in measurement (GUM).* BIPM.
+18. Nanjing Qinheng Microelectronics (WCH). *CH340 – USB to Serial Chip – Datasheet.*
+19. Ningbo Songle Relay Co. *SRD Series Relay (SRD-05VDC-SL-C) – Datasheet.*
+20. NodeMCU Team. *NODEMCU DEVKIT V1.0 – Schematic.* GitHub: nodemcu/nodemcu-devkit-v1.0, 2015.
+21. Aosong Electronics. *DHT11 Humidity & Temperature Sensor – Datasheet.*
+22. Texas Instruments. *LMx93-N, LM2903-N Low-Power, Low-Offset Voltage, Dual Comparators (LM393) – Datasheet.*
+23. Sharp Corporation. *PC817 Series – DIP 4-pin General Purpose Photocoupler – Datasheet.*
+24. ESP8266 Community. *Arduino core for ESP8266 – Documentation.*
+25. Ganssle, J. G. *A Guide to Debouncing.* The Ganssle Group, 2004 (rev. 2008).
+26. Nielsen, J. *Usability Engineering.* Boston: Academic Press, 1993.
+27. Adafruit Industries. *DHT-sensor-library – Arduino library for DHT11, DHT22 and similar sensors.* Version 1.4.6, GitHub.
+28. USB Implementers Forum. *Universal Serial Bus Specification, Revision 2.0.* 2000.
+29. Advanced Monolithic Systems. *AMS1117 – 1A Low Dropout Voltage Regulator – Datasheet.*
+30. Espressif Systems. *ESP8266 Hardware Design Guidelines.* Version 2.6, 2023.
+31. Espressif Systems. *ESP8266 Non-OS SDK API Reference.* Version 3.0.
+32. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
+33. Fielding, R. T. *Architectural Styles and the Design of Network-based Software Architectures.* PhD dissertation, University of California, Irvine, 2000.
+34. WHATWG. *Fetch Living Standard.*
+35. Burton, M. *Arduino-Temperature-Control-Library (DallasTemperature) – Documentation.*
+36. Rappaport, T. S. *Wireless Communications: Principles and Practice.* 2nd ed., Prentice Hall, 2002.
+37. ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.
+38. Analog Devices (Maxim Integrated). *DS18B20 Programmable Resolution 1-Wire Digital Thermometer – Datasheet.* Rev. 6.
+39. JCGM 100:2008. *Evaluation of measurement data – Guide to the expression of uncertainty in measurement (GUM).* BIPM.
 
 ---
 
-**Общо: 31 заглавия** – 13 стандарта и спецификации, 5 каталожни листа
-на елементи и 13 други източника (техническа документация, монографии
-и дисертации).
-
+**Общо: 39 заглавия** – 19 стандарта и спецификации, 10 каталожни
+листа и документация на елементи и 10 други източника (програмна документация,
+монографии и дисертации).

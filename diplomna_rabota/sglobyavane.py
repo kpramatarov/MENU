@@ -6,7 +6,8 @@
 import re, subprocess, sys, os
 
 PB = '\n```{=openxml}\n<w:p><w:r><w:br w:type="page"/></w:r></w:p>\n```\n\n'
-WIDE = ('principna','blokova','uart','obhvat','zakasnenie','master','slave')
+WIDE = ('principna','blokova','uart','obhvat','zakasnenie','master','slave','dht11','releen','izmervane')
+NARROW = {'maket': '9cm'}          # снимки и високи фигури
 
 TITLE = """::: {custom-style="CenterMed"}
 ТЕХНИЧЕСКИ УНИВЕРСИТЕТ – СОФИЯ
@@ -115,7 +116,8 @@ def load(p):
     def img(m):
         alt, src = m.group(1), m.group(2)
         png = src.replace('figuri/', 'figuri/png/').replace('.svg', '.png')
-        w = '16cm' if any(k in png for k in WIDE) else '13cm'
+        w = next((v for k, v in NARROW.items() if k in png), None) or \
+            ('16cm' if any(k in png for k in WIDE) else '13cm')
         return '![{}]({}){{width={}}}'.format(alt, png, w)
     return re.sub(r'!\[([^\]]*)\]\(([^)]+\.svg)\)', img, t).strip()
 

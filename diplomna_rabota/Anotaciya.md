@@ -21,22 +21,26 @@ Wi-Fi в приложения от областта на Интернет на �
 по протокола ESP-NOW на връзково ниво, което премахва зависимостта от домашния
 маршрутизатор.
 
-В хардуерната част са оразмерени драйверните стъпала на четирите релейни канала, като
-допустимият диапазон за базовия резистор е изведен от две противоположни ограничения и
-възлиза на 217…728 Ω. В софтуерната част е реализирано **изцяло неблокиращо изпълнение**
-чрез крайни автомати, при което времето за един цикъл е сведено до 1…2 ms – 375 пъти
-по-малко от варианта с блокиращо четене на датчика. Конфигурирането по UART със запис в
-96-байтов буфер премахва твърдо кодираните мрежови данни от изходния код.
+В хардуерната част е анализирана съвместимостта на релейните модули с оптронен вход с 3,3 V
+логика на ESP8266 (входен ток около 2,2 mA на канал), изчислен е делителят за контрол на
+захранващото напрежение (пълна скала 11,19 V при калибрирани 10,91 V) и е съставен
+енергийният баланс при захранване по USB (около 0,49 A в най-неблагоприятния случай).
+Разпределението на изводите отчита функциите им при стартиране, включително преместването
+на едно от релетата от GPIO0 на GPIO15. В софтуерната част е реализиран **неблокиращ главен
+цикъл** с опашка от команди, защитна блокировка при отчетена течност и вградени средства за
+измерване на времето за цикъл, закъснението и надеждността на връзката. Конфигурирането по
+UART със запис в емулирана енергонезависима памет с контролна сума премахва твърдо
+кодираните мрежови данни от изходния код.
 
 Системата е позиционирана като **изпълнителен слой на локален енергиен мениджмънт** при
 домашно зареждане на електромобил: количествено е показано, че при еднофазно присъединяване
 25 A и зареждане с 16 A остава резерв от едва 2070 W.
 
 **Ключови думи:** IEEE 802.11, ESP8266, ESP-NOW, домашна автоматизация, енергиен
-мениджмънт, електромобили, неблокиращо програмиране, LittleFS, RESTful API.
+мениджмънт, електромобили, неблокиращо програмиране, релейни модули, RESTful API.
 
-Обемът на дипломната работа е 68 страници и съдържа 12 фигури, 27 таблици,
-11 листинга и 31 литературни източника. Графичната част се състои от 3 листа формат A1.
+Обемът на дипломната работа е 73 страници и съдържа 15 фигури, 29 таблици,
+11 листинга и 39 литературни източника. Графичната част се състои от 3 листа формат A1.
 
 ---
 
@@ -55,10 +59,14 @@ total. A **hybrid two-layer communication architecture** is justified: the user 
 from any browser over HTTP/REST, while inter-node exchange uses the ESP-NOW link-layer
 protocol, removing the dependency on the home router.
 
-The hardware section derives the admissible base-resistor range (217…728 Ω) for the relay
-driver stages from two opposing constraints. The software is **fully non-blocking**, built
-on finite state machines, reducing the loop time to 1…2 ms – 375 times shorter than the
-blocking-sensor variant. UART configuration stored in a 96-byte buffer eliminates hard-coded
+The hardware section analyses the compatibility of opto-isolated relay modules with the
+3.3 V logic of the ESP8266 (input current about 2.2 mA per channel), calculates the
+supply-voltage divider (11.19 V full scale versus 10.91 V calibrated) and derives the power
+budget for USB supply (about 0.49 A worst case). The pin assignment accounts for the boot-strap
+functions of the pins, including moving one relay from GPIO0 to GPIO15. The software
+implements a **non-blocking main loop** with a command queue, a liquid-detection safety
+interlock and built-in instrumentation for loop time, latency and link reliability. UART
+configuration stored in emulated non-volatile memory with a checksum eliminates hard-coded
 network credentials from the source code.
 
 The system is positioned as an **actuation layer for local home energy management** during
@@ -66,4 +74,4 @@ electric-vehicle charging: with a 25 A single-phase supply and 16 A charging, on
 headroom remains.
 
 **Keywords:** IEEE 802.11, ESP8266, ESP-NOW, home automation, energy management, electric
-vehicles, non-blocking programming, LittleFS, RESTful API.
+vehicles, non-blocking programming, relay modules, RESTful API.
