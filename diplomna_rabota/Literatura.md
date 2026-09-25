@@ -34,17 +34,20 @@
 29. Advanced Monolithic Systems. *AMS1117 – 1A Low Dropout Voltage Regulator – Datasheet.*
 30. Espressif Systems. *ESP8266 Hardware Design Guidelines.* Version 2.6, 2023.
 31. Espressif Systems. *ESP8266 Non-OS SDK API Reference.* Version 3.0.
-32. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
-33. Fielding, R. T. *Architectural Styles and the Design of Network-based Software Architectures.* PhD dissertation, University of California, Irvine, 2000.
-34. WHATWG. *Fetch Living Standard.*
-35. Burton, M. *Arduino-Temperature-Control-Library (DallasTemperature) – Documentation.*
-36. Rappaport, T. S. *Wireless Communications: Principles and Practice.* 2nd ed., Prentice Hall, 2002.
-37. ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.
-38. Analog Devices (Maxim Integrated). *DS18B20 Programmable Resolution 1-Wire Digital Thermometer – Datasheet.* Rev. 6.
-39. JCGM 100:2008. *Evaluation of measurement data – Guide to the expression of uncertainty in measurement (GUM).* BIPM.
+32. Fielding, R. T. *Architectural Styles and the Design of Network-based Software Architectures.* PhD dissertation, University of California, Irvine, 2000.
+33. RFC 9110. *HTTP Semantics.* IETF, 2022.
+34. RFC 8259. *The JavaScript Object Notation (JSON) Data Interchange Format.* IETF, 2017.
+35. WHATWG. *Fetch Living Standard.*
+36. RFC 6762. *Multicast DNS.* IETF, 2013.
+37. RFC 7617. *The 'Basic' HTTP Authentication Scheme.* IETF, 2015.
+38. Rappaport, T. S. *Wireless Communications: Principles and Practice.* 2nd ed., Prentice Hall, 2002.
+39. ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.
+40. Analog Devices (Maxim Integrated). *DS18B20 Programmable Resolution 1-Wire Digital Thermometer – Datasheet.* Rev. 6.
+41. JCGM 100:2008. *Evaluation of measurement data – Guide to the expression of uncertainty in measurement (GUM).* BIPM.
+42. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
 
 ---
 
-**Общо: 39 заглавия** – 19 стандарта и спецификации, 10 каталожни
-листа и документация на елементи и 10 други източника (програмна документация,
+**Общо: 42 заглавия** – 23 стандарта и спецификации, 10 каталожни
+листа и документация на елементи и 9 други източника (програмна документация,
 монографии и дисертации).

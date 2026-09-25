@@ -3,7 +3,7 @@
 Употреба:  python3 grafichna_chast/generirane_listove.py   (от папката diplomna_rabota)
 Изисква:   cairosvg
 """
-import re, xml.etree.ElementTree as ET
+import re, zlib, xml.etree.ElementTree as ET
 import cairosvg
 
 F = 'DejaVu Sans, Liberation Sans, Arial, sans-serif'
@@ -20,15 +20,18 @@ def R(x, y, w, h, sw=0.35):
 def L(x1, y1, x2, y2, sw=0.35):
     return f'<line x1="{x1}" y1="{y1}" x2="{x2}" y2="{y2}" stroke="#000" stroke-width="{sw}"/>'
 
-def place(path, x, y, maxw, maxh):
-    """Влага фигура като вложен <svg>; връща (svg, x, y, w, h) на реалното място."""
+def place(path, x, y, maxw, maxh, subs=()):
+    """Влага фигура като вложен <svg>; връща (svg, x, y, w, h) на реалното място.
+    subs - замени в надписите (препратките към фигури от записката)."""
     s = open(path, encoding='utf-8').read()
+    for a, b in subs:
+        s = s.replace(a, b)
     vw, vh = map(float, re.search(r'viewBox="([\d. ]+)"', s).group(1).split()[2:])
     inner = re.sub(r'^.*?<svg[^>]*>', '', s, flags=re.S)
     inner = re.sub(r'</svg>\s*$', '', inner, flags=re.S)
     inner = re.sub(r'<text[^>]*>Фиг\.[^<]*</text>', '', inner)            # надписът е в основния надпис
     inner = re.sub(r'<rect width="\d+" height="\d+" fill="#fff"/>', '', inner, count=1)
-    tag = 's' + str(abs(hash(path)) % 9973)
+    tag = "s" + str(zlib.crc32(path.encode()) % 9973)          # стабилно между стартиранията
     for i in set(re.findall(r'id="([^"]+)"', inner)):                    # уникални id на маркерите
         inner = inner.replace(f'id="{i}"', f'id="{i}{tag}"').replace(f'url(#{i})', f'url(#{i}{tag})')
     k = min(maxw / vw, maxh / vh); w, h = vw * k, vh * k
@@ -118,13 +121,16 @@ def main():
     write_sheet('List_2_Principna_shema', 'ПРИНЦИПНА ЕЛЕКТРИЧЕСКА СХЕМА', 'Подчинен възел', 'ДР.901322003.02.С2', 2,
                 place('figuri/fig_2_7_principna_shema.svg', CX, CY, CW, ty - CY - 8)[0] + sp)
     # Лист 3 – т. 5.3
-    cells = [('figuri/fig_3_1_algoritam_master.svg', 'а) Алгоритъм на главния възел', CX, CY),
-             ('figuri/fig_3_5_algoritam_slave.svg', 'б) Алгоритъм на подчинения възел', CX + 396, CY),
-             ('figuri/fig_3_2_algoritam_uart.svg', 'в) Разбор на командите по UART', CX, CY + 250),
-             ('figuri/fig_3_4_opashka.svg', 'г) Автомат на неблокиращата опашка', CX + 396, CY + 250)]
+    cells = [('figuri/fig_3_7_algoritam_master.svg', 'а) Алгоритъм на главния възел', CX, CY, 250, 290),
+             ('figuri/fig_3_8_algoritam_slave.svg', 'б) Алгоритъм на подчинения възел', CX + 260, CY, 250, 290),
+             ('figuri/fig_3_2_algoritam_uart.svg', 'в) Обработка на командите по UART', CX + 520, CY, 250, 290),
+             ('figuri/fig_3_3_opashka.svg', 'г) Краен автомат на опашката от команди', CX, CY + 308, 380, 186),
+             ('figuri/fig_3_6_zashtita.svg', 'д) Краен автомат на защитната блокировка', CX + 395, CY + 308, 380, 186)]
+    subs = ((' (Фиг. 3.2)', ' (в)'), (' (Фиг. 3.3)', ' (г)'), (' (Фиг. 3.6)', ' (д)'),
+            (' (Фиг. 3.5)', ''), (' (Листинг 3.3)', ''))
     alg = ''
-    for path, lbl, x, y in cells:
-        svg, ox, oy, w, h = place(path, x, y, 389, 232)
+    for path, lbl, x, y, mw, mh in cells:
+        svg, ox, oy, w, h = place(path, x, y, mw, mh, subs)
         alg += svg + T(ox + w / 2, oy + h + 6, lbl, 3.6, True, 'middle')
     write_sheet('List_3_Algoritam', ['АЛГОРИТЪМ НА', 'УПРАВЛЯВАЩАТА ПРОГРАМА'], 'Главен и подчинен възел',
                 'ДР.901322003.03.С3', 3, alg)

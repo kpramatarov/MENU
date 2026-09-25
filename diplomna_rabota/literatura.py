@@ -62,6 +62,11 @@ SRC = {
     'NIELSEN': ('Usability Engineering', 'o', 'Nielsen, J. *Usability Engineering.* Boston: Academic Press, 1993.'),
     'ADADHT': ('DHT-sensor-library', 'o', 'Adafruit Industries. *DHT-sensor-library – Arduino library for DHT11, DHT22 and similar sensors.* Version 1.4.6, GitHub.'),
     'USB20': ('Universal Serial Bus Specification', 's', 'USB Implementers Forum. *Universal Serial Bus Specification, Revision 2.0.* 2000.'),
+    # --- добавени с Глава 3 (програмите версия 3)
+    'RFC9110': ('RFC 9110', 's', 'RFC 9110. *HTTP Semantics.* IETF, 2022.'),
+    'RFC8259': ('RFC 8259', 's', 'RFC 8259. *The JavaScript Object Notation (JSON) Data Interchange Format.* IETF, 2017.'),
+    'RFC6762': ('RFC 6762', 's', 'RFC 6762. *Multicast DNS.* IETF, 2013.'),
+    'RFC7617': ('RFC 7617', 's', "RFC 7617. *The 'Basic' HTTP Authentication Scheme.* IETF, 2015."),
 }
 
 HEADER = """# ИЗПОЛЗВАНА ЛИТЕРАТУРА
