@@ -7,8 +7,8 @@
 
 ---
 
-В дипломната работа е проектирана, реализирана и подготвена за експериментално изследване
-**двувъзлова микроконтролерна система за управление на дома** с потребителски интерфейс по
+В дипломната работа е проектирана, реализирана и изследвана **двувъзлова микроконтролерна
+система за управление на дома** с потребителски интерфейс по
 стандарта IEEE 802.11, изградена върху два модула ESP8266.
 
 Проведеният литературен обзор съпоставя пет безжични технологии по десет
@@ -32,15 +32,21 @@ Wi-Fi в приложения от областта на Интернет на �
 UART със запис в емулирана енергонезависима памет с контролна сума премахва твърдо
 кодираните мрежови данни от изходния код.
 
+Устойчивостта на системата е изследвана чрез **съвместна симулация на двете непроменени
+програми** с модел на радиоканала по IEEE 802.11 – 44 h в 11 сценария. Двупосочното
+закъснение е 2,9…4,2 ms за 98 % от заявките. Главният възел отчита загубите точно, а
+показаното състояние се възстановява със следващия отчет. Защитната блокировка не допуска
+включено реле при нито едно от 495 намокряния.
+
 Системата е позиционирана като **изпълнителен слой на локален енергиен мениджмънт** при
 домашно зареждане на електромобил: количествено е показано, че при еднофазно присъединяване
 25 A и зареждане с 16 A остава резерв от едва 2070 W.
 
 **Ключови думи:** IEEE 802.11, ESP8266, ESP-NOW, домашна автоматизация, енергиен
-мениджмънт, електромобили, неблокиращо програмиране, релейни модули, RESTful API.
+мениджмънт, електромобили, неблокиращо програмиране, релейни модули, симулация.
 
-Обемът на дипломната работа е 74 страници и съдържа 18 фигури, 31 таблици,
-4 листинга и 41 литературни източника. Графичната част се състои от 3 листа формат A1.
+Обемът на дипломната работа е 75 страници и съдържа 19 фигури, 30 таблици,
+4 листинга и 40 литературни източника. Графичната част се състои от 3 листа формат A1.
 
 ---
 
@@ -48,7 +54,7 @@ UART със запис в емулирана енергонезависима п
 
 **Title:** Home Automation System via IEEE 802.11 (Wi-Fi) Interface
 
-The thesis presents the design and implementation of a **two-node microcontroller home
+The thesis presents the design, implementation and evaluation of a **two-node microcontroller home
 automation system** with an IEEE 802.11 user interface, built on two ESP8266 modules.
 
 A comparative review of five wireless technologies against ten technical and economic
@@ -69,9 +75,15 @@ interlock and built-in instrumentation for loop time, latency and link reliabili
 configuration stored in emulated non-volatile memory with a checksum eliminates hard-coded
 network credentials from the source code.
 
+Robustness is studied by **co-simulating both unmodified firmware images** with an IEEE 802.11
+channel model – 44 h in 11 scenarios. The round-trip time is 2.9–4.2 ms for 98 % of the
+requests, the master node accounts for every detectable packet loss, the displayed state
+recovers with the next report, and the safety interlock keeps all relays off in each of 495
+liquid-detection events.
+
 The system is positioned as an **actuation layer for local home energy management** during
 electric-vehicle charging: with a 25 A single-phase supply and 16 A charging, only 2070 W of
 headroom remains.
 
 **Keywords:** IEEE 802.11, ESP8266, ESP-NOW, home automation, energy management, electric
-vehicles, non-blocking programming, relay modules, RESTful API.
+vehicles, non-blocking programming, relay modules, simulation.
