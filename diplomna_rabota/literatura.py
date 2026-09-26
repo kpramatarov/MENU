@@ -12,7 +12,7 @@
 """
 import re
 
-FILES = ['Glava_1_Uvod_cel_zadachi.md', 'Glava_2_Harduerno_proektirane.md',
+FILES = ['Uvod.md', 'Glava_1_Literaturno_prouchvane.md', 'Glava_2_Harduerno_proektirane.md',
          'Glava_3_Softuerno_proektirane.md', 'Glava_4_Eksperimentalni_rezultati.md',
          'Zaklyuchenie.md']
 
@@ -52,7 +52,7 @@ SRC = {
     'ITUP1238': ('ITU-R P.1238', 's', 'ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.'),
     'GUM': ('JCGM 100', 's', 'JCGM 100:2008. *Evaluation of measurement data – Guide to the expression of uncertainty in measurement (GUM).* BIPM.'),
     # --- добавени с Глава 2 (реалният макет)
-    'CH340': ('CH340', 'd', 'Nanjing Qinheng Microelectronics (WCH). *CH340 – USB to Serial Chip – Datasheet.*'),
+    'CH340': ('Nanjing Qinheng', 'd', 'Nanjing Qinheng Microelectronics (WCH). *CH340 – USB to Serial Chip – Datasheet.*'),
     'SRD05': ('SRD-05VDC-SL-C', 'd', 'Ningbo Songle Relay Co. *SRD Series Relay (SRD-05VDC-SL-C) – Datasheet.*'),
     'NODEMCU': ('NODEMCU DEVKIT', 'd', 'NodeMCU Team. *NODEMCU DEVKIT V1.0 – Schematic.* GitHub: nodemcu/nodemcu-devkit-v1.0, 2015.'),
     'DHT11': ('DHT11 Humidity', 'd', 'Aosong Electronics. *DHT11 Humidity & Temperature Sensor – Datasheet.*'),
@@ -67,6 +67,9 @@ SRC = {
     'RFC9110': ('RFC 9110', 's', 'RFC 9110. *HTTP Semantics.* IETF, 2022.'),
     'RFC8259': ('RFC 8259', 's', 'RFC 8259. *The JavaScript Object Notation (JSON) Data Interchange Format.* IETF, 2017.'),
     'RFC6762': ('RFC 6762', 's', 'RFC 6762. *Multicast DNS.* IETF, 2013.'),
+    # --- ориентировъчни цени (т. 2.12)
+    'BERRYBASE': ('BerryBase', 'o', 'BerryBase. *NodeMCU v3 – ESP8266 Development Board, CH340G* [онлайн]. https://www.berrybase.de/en/nodemcu-v3-esp8266-development-board-ch340g (към 26.09.2026).'),
+    'EXALLTO': ('Exallto', 'o', 'Exallto. *1-канален релеен модул 5 V / 10 A – високо ниво* [онлайн]. https://exallto.com/elektronika/153-1-kanalen-releen-modul-5v-10a-visoko-nivo.html (към 26.09.2026).'),
     'RFC7617': ('RFC 7617', 's', "RFC 7617. *The 'Basic' HTTP Authentication Scheme.* IETF, 2015."),
 }
 
