@@ -92,7 +92,7 @@ def write_sheet(name, naim, podraz, shifr, n, content):
 def spec_table():
     elems = [('DD1', 'Развойна платка', 'NodeMCU v3 (ESP8266EX, CH340)', '1'),
              ('A1…A4', 'Релеен модул', '1 канал, 5 V, оптрон, избор H/L', '4'),
-             ('A5', 'Модул за наличие на течност', 'HR202 + LM393', '1'),
+             ('A5', 'Датчик за влага (модул)', 'HR202 + LM393, изход DO', '1'),
              ('BK1', 'Датчик за темп. и влажност', 'DHT11', '1'),
              ('SB1, SB2', 'Бутон', 'тактов 6 × 6 mm, н.о.', '2'),
              ('R1', 'Резистор', '47 kΩ, 0,25 W', '1'), ('R2', 'Резистор', '20 kΩ, 0,25 W', '1'),
@@ -118,8 +118,16 @@ def main():
                 place('figuri/fig_2_1_blokova_shema.svg', CX, CY, CW, H - FT - FB - 12 - 70)[0])
     # Лист 2 – т. 5.2
     sp, ty = spec_table()
+    # вътрешна схема на модула A5 - вторият датчик (HR202) в свободното поле долу вляво
+    det, dx, dy, dw, dh = place('figuri/fig_2_5_hr202_modul.svg', CX + 30, 454, 240, 126)
+    tx = dx + dw + 8
+    det += T(tx, dy + 22, 'A5 – датчик за влага HR202', 3.8, True)
+    det += T(tx, dy + 29, 'вътрешна схема на модула: B1 – влагочувствителен', 3.2)
+    det += T(tx, dy + 34.5, 'резистор HR202, DA1 – компаратор LM393', 3.2)
+    det += T(tx, dy + 42, 'Позиционните означения в тази схема се отнасят', 3.0, fill='#333')
+    det += T(tx, dy + 47, 'само за модула A5.', 3.0, fill='#333')
     write_sheet('List_2_Principna_shema', 'ПРИНЦИПНА ЕЛЕКТРИЧЕСКА СХЕМА', 'Подчинен възел', 'ДР.901322003.02.С2', 2,
-                place('figuri/fig_2_7_principna_shema.svg', CX, CY, CW, ty - CY - 8)[0] + sp)
+                place('figuri/fig_2_7_principna_shema.svg', CX, CY, CW, ty - CY - 8)[0] + det + sp)
     # Лист 3 – т. 5.3
     cells = [('figuri/fig_3_7_algoritam_master.svg', 'а) Алгоритъм на главния възел', CX, CY, 250, 290),
              ('figuri/fig_3_8_algoritam_slave.svg', 'б) Алгоритъм на подчинения възел', CX + 260, CY, 250, 290),

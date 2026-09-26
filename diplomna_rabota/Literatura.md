@@ -24,28 +24,29 @@
 19. Ningbo Songle Relay Co. *SRD Series Relay (SRD-05VDC-SL-C) – Datasheet.*
 20. NodeMCU Team. *NODEMCU DEVKIT V1.0 – Schematic.* GitHub: nodemcu/nodemcu-devkit-v1.0, 2015.
 21. Aosong Electronics. *DHT11 Humidity & Temperature Sensor – Datasheet.*
-22. Texas Instruments. *LMx93-N, LM2903-N Low-Power, Low-Offset Voltage, Dual Comparators (LM393) – Datasheet.*
-23. Sharp Corporation. *PC817 Series – DIP 4-pin General Purpose Photocoupler – Datasheet.*
-24. ESP8266 Community. *Arduino core for ESP8266 – Documentation.*
-25. Ganssle, J. G. *A Guide to Debouncing.* The Ganssle Group, 2004 (rev. 2008).
-26. Nielsen, J. *Usability Engineering.* Boston: Academic Press, 1993.
-27. Adafruit Industries. *DHT-sensor-library – Arduino library for DHT11, DHT22 and similar sensors.* Version 1.4.6, GitHub.
-28. USB Implementers Forum. *Universal Serial Bus Specification, Revision 2.0.* 2000.
-29. Advanced Monolithic Systems. *AMS1117 – 1A Low Dropout Voltage Regulator – Datasheet.*
-30. Espressif Systems. *ESP8266 Hardware Design Guidelines.* Version 2.6, 2023.
-31. Espressif Systems. *ESP8266 Non-OS SDK API Reference.* Version 3.0.
-32. Fielding, R. T. *Architectural Styles and the Design of Network-based Software Architectures.* PhD dissertation, University of California, Irvine, 2000.
-33. RFC 9110. *HTTP Semantics.* IETF, 2022.
-34. RFC 8259. *The JavaScript Object Notation (JSON) Data Interchange Format.* IETF, 2017.
-35. WHATWG. *Fetch Living Standard.*
-36. RFC 6762. *Multicast DNS.* IETF, 2013.
-37. RFC 7617. *The 'Basic' HTTP Authentication Scheme.* IETF, 2015.
-38. Rappaport, T. S. *Wireless Communications: Principles and Practice.* 2nd ed., Prentice Hall, 2002.
-39. ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.
-40. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
+22. Aosong Electronics. *HR202L – Humidity Sensitive Resistor – Datasheet.* 2022.
+23. Texas Instruments. *LMx93-N, LM2903-N Low-Power, Low-Offset Voltage, Dual Comparators (LM393) – Datasheet.*
+24. Sharp Corporation. *PC817 Series – DIP 4-pin General Purpose Photocoupler – Datasheet.*
+25. ESP8266 Community. *Arduino core for ESP8266 – Documentation.*
+26. Ganssle, J. G. *A Guide to Debouncing.* The Ganssle Group, 2004 (rev. 2008).
+27. Nielsen, J. *Usability Engineering.* Boston: Academic Press, 1993.
+28. Adafruit Industries. *DHT-sensor-library – Arduino library for DHT11, DHT22 and similar sensors.* Version 1.4.6, GitHub.
+29. USB Implementers Forum. *Universal Serial Bus Specification, Revision 2.0.* 2000.
+30. Advanced Monolithic Systems. *AMS1117 – 1A Low Dropout Voltage Regulator – Datasheet.*
+31. Espressif Systems. *ESP8266 Hardware Design Guidelines.* Version 2.6, 2023.
+32. Espressif Systems. *ESP8266 Non-OS SDK API Reference.* Version 3.0.
+33. Fielding, R. T. *Architectural Styles and the Design of Network-based Software Architectures.* PhD dissertation, University of California, Irvine, 2000.
+34. RFC 9110. *HTTP Semantics.* IETF, 2022.
+35. RFC 8259. *The JavaScript Object Notation (JSON) Data Interchange Format.* IETF, 2017.
+36. WHATWG. *Fetch Living Standard.*
+37. RFC 6762. *Multicast DNS.* IETF, 2013.
+38. RFC 7617. *The 'Basic' HTTP Authentication Scheme.* IETF, 2015.
+39. Rappaport, T. S. *Wireless Communications: Principles and Practice.* 2nd ed., Prentice Hall, 2002.
+40. ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.
+41. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
 
 ---
 
-**Общо: 40 заглавия** – 22 стандарта и спецификации, 9 каталожни
+**Общо: 41 заглавия** – 22 стандарта и спецификации, 10 каталожни
 листа и документация на елементи и 9 други източника (програмна документация,
 монографии и дисертации).
