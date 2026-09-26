@@ -42,12 +42,11 @@
 37. RFC 7617. *The 'Basic' HTTP Authentication Scheme.* IETF, 2015.
 38. Rappaport, T. S. *Wireless Communications: Principles and Practice.* 2nd ed., Prentice Hall, 2002.
 39. ITU-R P.1238. *Propagation data and prediction methods for the planning of indoor radiocommunication systems.* International Telecommunication Union.
-40. Analog Devices (Maxim Integrated). *DS18B20 Programmable Resolution 1-Wire Digital Thermometer – Datasheet.* Rev. 6.
-41. JCGM 100:2008. *Evaluation of measurement data – Guide to the expression of uncertainty in measurement (GUM).* BIPM.
-42. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
+40. JCGM 100:2008. *Evaluation of measurement data – Guide to the expression of uncertainty in measurement (GUM).* BIPM.
+41. ARM Ltd. *littlefs – A little fail-safe filesystem designed for microcontrollers.*
 
 ---
 
-**Общо: 42 заглавия** – 23 стандарта и спецификации, 10 каталожни
+**Общо: 41 заглавия** – 23 стандарта и спецификации, 9 каталожни
 листа и документация на елементи и 9 други източника (програмна документация,
 монографии и дисертации).

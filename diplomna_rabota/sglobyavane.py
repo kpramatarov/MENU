@@ -6,7 +6,7 @@
 import re, subprocess, sys, os
 
 PB = '\n```{=openxml}\n<w:p><w:r><w:br w:type="page"/></w:r></w:p>\n```\n\n'
-WIDE = ('principna','blokova','uart','obhvat','zakasnenie','master','slave','dht11','releen','izmervane',
+WIDE = ('principna','blokova','uart','postanovka','ping','master','slave','dht11','releen','izmervane',
         'struktura','opashka','posledovatelnost','telemetria','zashtita')
 NARROW = {'maket': '9cm'}          # снимки и високи фигури
 
