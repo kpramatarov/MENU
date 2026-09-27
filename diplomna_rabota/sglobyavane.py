@@ -2,12 +2,14 @@
 """Сглобява дипломната работа в един Word документ и я изобразява в PDF за проверка.
 
 Употреба:  python3 sglobyavane.py      (от папката diplomna_rabota)
-Изисква:   pandoc; за точните номера на страниците в съдържанието – LibreOffice (soffice)
-           и pypdfium2. Без тях номерата се оценяват приблизително.
+Изисква:   pandoc; за точните номера на страниците в съдържанието – LibreOffice (soffice) с
+           модула за формули (пакет libreoffice-math – без него формулите липсват в PDF) и
+           pypdfium2. Без тях номерата се оценяват приблизително.
 
 Редът на частите следва методическите указания на катедра „Електронна техника“:
-заглавна страница, задание, декларация, съдържание, списък на съкращенията, увод, глави,
-заключение, литература, анотация (1 страница), приложения.
+заглавна страница (по образеца на ТУ – София, на български и на английски; zaglavna_stranica.py),
+задание, декларация, съдържание, списък на съкращенията, увод, глави, заключение, литература,
+анотация (1 страница), приложения.
 Номерата на страниците в съдържанието се вземат от изобразения документ: сглобяване,
 изобразяване, търсене на заглавията по страниците, повторно сглобяване.
 """
@@ -18,6 +20,8 @@ import subprocess
 import tempfile
 import zipfile
 from pathlib import Path
+
+import zaglavna_stranica
 
 OUT = 'Diplomna_rabota_Pramatarov.docx'
 PDF = 'Diplomna_rabota_Pramatarov.pdf'
@@ -65,27 +69,6 @@ def para(runs, style=None, before=None, after=None):
             if part:
                 out += f'<w:r>{rpr}<w:t xml:space="preserve">{esc(part)}</w:t></w:r>'
     return out + '</w:p>'
-
-
-def title_page():
-    info = [('Дипломант:', 'инж. Кръстиян Тодоров Праматаров'), ('Факултетен номер:', '901322003'),
-            ('Специалност:', 'Електронни системи за хибридни и електромобили'),
-            ('Форма на обучение:', 'редовна'), ('Научен ръководител:', 'доц. д-р инж. Любомир Богданов'),
-            ('Консултант:', '..............................................')]
-    x = para('ТЕХНИЧЕСКИ УНИВЕРСИТЕТ – СОФИЯ', 'CenterMed', before=0)
-    x += para('ФАКУЛТЕТ ПО ЕЛЕКТРОННА ТЕХНИКА И ТЕХНОЛОГИИ', 'CenterSml')
-    x += para('Катедра „Електронна техника“', 'CenterSml')
-    x += para('ДИПЛОМНА РАБОТА', 'CenterBig', before=1700)
-    x += para('за придобиване на образователно-квалификационна степен „магистър“', 'CenterSml')
-    x += para('на тема:', 'CenterSml', before=360)
-    x += para('СИСТЕМА ЗА УПРАВЛЕНИЕ НА ДОМА ЧРЕЗ IEEE 802.11 (Wi-Fi) ИНТЕРФЕЙС', 'CenterMed')
-    x += para([(info[0][0] + '\t', True), (info[0][1], False)], 'TitleInfo', before=1100)
-    for k, v in info[1:]:
-        x += para([(k + '\t', True), (v, False)], 'TitleInfo')
-    x += para('Дипломант: ...........................', 'TitleInfo', before=900)
-    x += para('Научен ръководител: ...........................', 'TitleInfo', before=360)
-    x += para('София, 2026 г.', 'CenterMed', before=1500)
-    return raw(x)
 
 
 def assignment_page():
@@ -151,6 +134,16 @@ def render_pdf(docx, outdir):
     if not soffice:
         return None
     with tempfile.TemporaryDirectory(prefix='lo_profile_') as prof:
+        # формулите - с базов размер 14 pt, както ги показва Word (по подразбиране LibreOffice
+        # ползва 12 pt и формулите излизат по-дребни от текста)
+        os.makedirs(os.path.join(prof, 'user'))
+        with open(os.path.join(prof, 'user', 'registrymodifications.xcu'), 'w', encoding='utf-8') as f:
+            f.write('<?xml version="1.0" encoding="UTF-8"?><oor:items '
+                    'xmlns:oor="http://openoffice.org/2001/registry" '
+                    'xmlns:xs="http://www.w3.org/2001/XMLSchema" '
+                    'xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">'
+                    '<item oor:path="/org.openoffice.Office.Math/StandardFormat">'
+                    '<prop oor:name="BaseSize" oor:op="fuse"><value>14</value></prop></item></oor:items>')
         r = subprocess.run([soffice, f'-env:UserInstallation={Path(prof).as_uri()}', '--headless',
                             '--convert-to', 'pdf', '--outdir', outdir, docx], capture_output=True, text=True,
                            timeout=600, env=dict(os.environ, SAL_USE_VCLPLUGIN='svp'))
@@ -302,6 +295,28 @@ def fit_table(tbl):
 
 
 PB_XML = '<w:p><w:r><w:br w:type="page"/></w:r></w:p>'
+TALL = ('<m:f>', '<m:nary>', '<m:eqArr>', '<m:m>', '<m:rad>')
+
+
+def literal_brackets(doc):
+    """Кръглите и квадратните скоби във формулите стават обикновени знаци, когато между тях
+    няма дроб или сума. Pandoc ги записва като обект „ограничител“ (m:d), чиито скоби не са
+    текст и изчезват при извличане на текста от документа (например при проверка на работата)."""
+    pat = re.compile(r'<m:d><m:dPr>((?:(?!</m:dPr>).)*)</m:dPr><m:e>((?:(?!<m:d>|</m:d>).)*?)</m:e></m:d>', re.S)
+
+    def rep(m):
+        beg = re.search(r'<m:begChr m:val="([^"]*)"', m.group(1))
+        end = re.search(r'<m:endChr m:val="([^"]*)"', m.group(1))
+        b, e = (beg.group(1) if beg else '('), (end.group(1) if end else ')')
+        if (b, e) not in (('(', ')'), ('[', ']')) or any(t in m.group(2) for t in TALL):
+            return m.group(0).replace('<m:d>', '<m:d >', 1)          # остава; отбелязан като проверен
+        return f'<m:r><m:t>{b}</m:t></m:r>{m.group(2)}<m:r><m:t>{e}</m:t></m:r>'
+    while True:
+        new = pat.sub(rep, doc)
+        if new == doc:
+            break
+        doc = new
+    return doc.replace('<m:d >', '<m:d>')
 
 
 def page_break_before(doc):
@@ -334,8 +349,9 @@ def postprocess(path):
     z.close()
     doc = files['word/document.xml'].decode('utf-8')
     doc = re.sub(r'<w:tbl>.*?</w:tbl>',
-                 lambda m: fit_table(re.sub(r'<w:pStyle w:val="Compact"\s*/>', '<w:pStyle w:val="TableText" />',
-                                            m.group(0))),
+                 lambda m: m.group(0) if 'rIdTpTu' in m.group(0) else      # заглавната страница
+                 fit_table(re.sub(r'<w:pStyle w:val="Compact"\s*/>', '<w:pStyle w:val="TableText" />',
+                                  m.group(0))),
                  doc, flags=re.S)
     doc = re.sub(r'<w:p><w:pPr><w:pStyle w:val="ImageCaption" />(?:(?!</w:p>).)*?<w:t[^>]*>Фиг\. \d+\.\d+</w:t>'
                  r'(?:(?!<w:p>).)*?</w:p>', '', doc, flags=re.S)
@@ -343,8 +359,13 @@ def postprocess(path):
     doc = re.sub(r'<w:p><w:pPr><w:pStyle w:val="SourceCode" />.*?</w:p>',
                  lambda m: re.sub(r'<w:rPr><w:rStyle w:val="[A-Za-z]+Tok" /></w:rPr>', '', m.group(0)),
                  doc, flags=re.S)
+    doc = literal_brackets(doc)
     doc = page_break_before(doc)
+    # заглавните страници са отделен раздел без номер; номерирането продължава в основния раздел
+    last = doc.rindex('<w:sectPr')
+    doc = doc[:last] + re.sub(r'<w:pgNumType w:start="1"\s*/>|<w:titlePg\s*/>', '', doc[last:])
     files['word/document.xml'] = doc.encode('utf-8')
+    zaglavna_stranica.add_media(files)
     tmp = path + '.tmp'
     with zipfile.ZipFile(tmp, 'w', zipfile.ZIP_DEFLATED) as out:
         for n, data in files.items():
@@ -353,7 +374,7 @@ def postprocess(path):
 
 
 def build(tmp, entries, pages):
-    parts = [title_page(), PB, assignment_page(), PB, load('Zaglavna_chast.md'), PB,
+    parts = [raw(zaglavna_stranica.title_pages()), assignment_page(), PB, load('Zaglavna_chast.md'), PB,
              toc(entries, pages), PB, load('Sakrashteniya.md')]
     for f, _ in CHAPTERS:
         parts += [PB, load(f)]

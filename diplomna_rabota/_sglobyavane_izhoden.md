@@ -1,14 +1,7 @@
 
 ```{=openxml}
-<w:p><w:pPr><w:pStyle w:val="CenterMed"/><w:spacing w:before="0"/></w:pPr><w:r><w:t xml:space="preserve">ТЕХНИЧЕСКИ УНИВЕРСИТЕТ – СОФИЯ</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="CenterSml"/></w:pPr><w:r><w:t xml:space="preserve">ФАКУЛТЕТ ПО ЕЛЕКТРОННА ТЕХНИКА И ТЕХНОЛОГИИ</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="CenterSml"/></w:pPr><w:r><w:t xml:space="preserve">Катедра „Електронна техника“</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="CenterBig"/><w:spacing w:before="1700"/></w:pPr><w:r><w:t xml:space="preserve">ДИПЛОМНА РАБОТА</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="CenterSml"/></w:pPr><w:r><w:t xml:space="preserve">за придобиване на образователно-квалификационна степен „магистър“</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="CenterSml"/><w:spacing w:before="360"/></w:pPr><w:r><w:t xml:space="preserve">на тема:</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="CenterMed"/></w:pPr><w:r><w:t xml:space="preserve">СИСТЕМА ЗА УПРАВЛЕНИЕ НА ДОМА ЧРЕЗ IEEE 802.11 (Wi-Fi) ИНТЕРФЕЙС</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/><w:spacing w:before="1100"/></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Дипломант:</w:t></w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:tab/></w:r><w:r><w:t xml:space="preserve">инж. Кръстиян Тодоров Праматаров</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Факултетен номер:</w:t></w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:tab/></w:r><w:r><w:t xml:space="preserve">901322003</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Специалност:</w:t></w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:tab/></w:r><w:r><w:t xml:space="preserve">Електронни системи за хибридни и електромобили</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Форма на обучение:</w:t></w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:tab/></w:r><w:r><w:t xml:space="preserve">редовна</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Научен ръководител:</w:t></w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:tab/></w:r><w:r><w:t xml:space="preserve">доц. д-р инж. Любомир Богданов</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/></w:pPr><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:t xml:space="preserve">Консултант:</w:t></w:r><w:r><w:rPr><w:b/><w:bCs/></w:rPr><w:tab/></w:r><w:r><w:t xml:space="preserve">..............................................</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/><w:spacing w:before="900"/></w:pPr><w:r><w:t xml:space="preserve">Дипломант: ...........................</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TitleInfo"/><w:spacing w:before="360"/></w:pPr><w:r><w:t xml:space="preserve">Научен ръководител: ...........................</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="CenterMed"/><w:spacing w:before="1500"/></w:pPr><w:r><w:t xml:space="preserve">София, 2026 г.</w:t></w:r></w:p>
+<w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="20" w:lineRule="exact"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:drawing><wp:anchor distT="0" distB="0" distL="0" distR="0" simplePos="0" relativeHeight="0" behindDoc="1" locked="1" layoutInCell="0" allowOverlap="1"><wp:simplePos x="0" y="0"/><wp:positionH relativeFrom="margin"><wp:align>center</wp:align></wp:positionH><wp:positionV relativeFrom="margin"><wp:align>center</wp:align></wp:positionV><wp:extent cx="5760720" cy="6144260"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:wrapNone/><wp:docPr id="9101" name="Воден знак"/><wp:cNvGraphicFramePr/><a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic><pic:nvPicPr><pic:cNvPr id="9101" name="Воден знак"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="rIdTpWm"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="5760720" cy="6144260"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:anchor></w:drawing></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="9072" w:type="dxa"/><w:jc w:val="center"/><w:tblBorders><w:top w:val="nil"/><w:left w:val="nil"/><w:bottom w:val="nil"/><w:right w:val="nil"/><w:insideH w:val="nil"/><w:insideV w:val="nil"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblCellMar><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tblCellMar><w:tblLook w:val="0000"/></w:tblPr><w:tblGrid><w:gridCol w:w="1474"/><w:gridCol w:w="6124"/><w:gridCol w:w="1474"/></w:tblGrid><w:tr><w:tc><w:tcPr><w:tcW w:w="1474" w:type="dxa"/><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp:extent cx="834888" cy="890704"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="9102" name="Лого на ТУ – София"/><wp:cNvGraphicFramePr><a:graphicFrameLocks noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic><pic:nvPicPr><pic:cNvPr id="9102" name="Лого на ТУ – София"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="rIdTpTu"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="834888" cy="890704"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6124" w:type="dxa"/><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pBdr><w:bottom w:val="single" w:sz="8" w:space="2" w:color="17365D"/></w:pBdr><w:spacing w:before="0" w:after="40" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:color w:val="17365D"/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">ТЕХНИЧЕСКИ УНИВЕРСИТЕТ-СОФИЯ</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:b/><w:bCs/><w:color w:val="17365D"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">ФАКУЛТЕТ ПО ЕЛЕКТРОННА ТЕХНИКА</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:b/><w:bCs/><w:color w:val="17365D"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">И ТЕХНОЛОГИИ</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="1474" w:type="dxa"/><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr></w:p></w:tc></w:tr></w:tbl><w:p><w:pPr><w:spacing w:before="2600" w:after="120" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:spacing w:val="18"/><w:sz w:val="72"/><w:szCs w:val="72"/></w:rPr><w:t xml:space="preserve">ДИПЛОМНА РАБОТА</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:spacing w:val="10"/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">за придобиване на ОКС „Магистър“ по „Електронни системи за хибридни и електромобили“ от ПН: 5.2 Електротехника, електроника и автоматика</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="560" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">Тема: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:i/><w:iCs/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">„Система за управление на дома чрез IEEE 802.11 (Wi-Fi) интерфейс“</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="2500" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Изготвил</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:i/><w:iCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">инж. Кръстиян Тодоров Праматаров</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Факултетен №</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:i/><w:iCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">901322003</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="360" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Научен ръководител</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">доц. д-р инж. Любомир Богданов</w:t></w:r></w:p><w:p><w:pPr><w:pageBreakBefore/><w:spacing w:before="0" w:after="0" w:line="20" w:lineRule="exact"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:drawing><wp:anchor distT="0" distB="0" distL="0" distR="0" simplePos="0" relativeHeight="0" behindDoc="1" locked="1" layoutInCell="0" allowOverlap="1"><wp:simplePos x="0" y="0"/><wp:positionH relativeFrom="margin"><wp:align>center</wp:align></wp:positionH><wp:positionV relativeFrom="margin"><wp:align>center</wp:align></wp:positionV><wp:extent cx="5760720" cy="6144260"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:wrapNone/><wp:docPr id="9111" name="Воден знак"/><wp:cNvGraphicFramePr/><a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic><pic:nvPicPr><pic:cNvPr id="9111" name="Воден знак"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="rIdTpWm"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="5760720" cy="6144260"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:anchor></w:drawing></w:r></w:p><w:tbl><w:tblPr><w:tblW w:w="9072" w:type="dxa"/><w:jc w:val="center"/><w:tblBorders><w:top w:val="nil"/><w:left w:val="nil"/><w:bottom w:val="nil"/><w:right w:val="nil"/><w:insideH w:val="nil"/><w:insideV w:val="nil"/></w:tblBorders><w:tblLayout w:type="fixed"/><w:tblCellMar><w:left w:w="0" w:type="dxa"/><w:right w:w="0" w:type="dxa"/></w:tblCellMar><w:tblLook w:val="0000"/></w:tblPr><w:tblGrid><w:gridCol w:w="1474"/><w:gridCol w:w="6124"/><w:gridCol w:w="1474"/></w:tblGrid><w:tr><w:tc><w:tcPr><w:tcW w:w="1474" w:type="dxa"/><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:drawing><wp:inline distT="0" distB="0" distL="0" distR="0"><wp:extent cx="834888" cy="890704"/><wp:effectExtent l="0" t="0" r="0" b="0"/><wp:docPr id="9112" name="Лого на ТУ – София"/><wp:cNvGraphicFramePr><a:graphicFrameLocks noChangeAspect="1"/></wp:cNvGraphicFramePr><a:graphic><a:graphicData uri="http://schemas.openxmlformats.org/drawingml/2006/picture"><pic:pic><pic:nvPicPr><pic:cNvPr id="9112" name="Лого на ТУ – София"/><pic:cNvPicPr/></pic:nvPicPr><pic:blipFill><a:blip r:embed="rIdTpTu"/><a:stretch><a:fillRect/></a:stretch></pic:blipFill><pic:spPr><a:xfrm><a:off x="0" y="0"/><a:ext cx="834888" cy="890704"/></a:xfrm><a:prstGeom prst="rect"><a:avLst/></a:prstGeom></pic:spPr></pic:pic></a:graphicData></a:graphic></wp:inline></w:drawing></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="6124" w:type="dxa"/><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:pBdr><w:bottom w:val="single" w:sz="8" w:space="2" w:color="17365D"/></w:pBdr><w:spacing w:before="0" w:after="40" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:color w:val="17365D"/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">TECHNICAL UNIVERSITY OF SOFIA</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:b/><w:bCs/><w:color w:val="17365D"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">FACULTY OF ELECTRONIC ENGINEERING</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Calibri" w:hAnsi="Calibri" w:cs="Calibri"/><w:b/><w:bCs/><w:color w:val="17365D"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">AND TECHNOLOGIES</w:t></w:r></w:p></w:tc><w:tc><w:tcPr><w:tcW w:w="1474" w:type="dxa"/><w:vAlign w:val="center"/></w:tcPr><w:p><w:pPr><w:spacing w:before="0" w:after="0" w:line="240" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr></w:p></w:tc></w:tr></w:tbl><w:p><w:pPr><w:spacing w:before="2600" w:after="120" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:spacing w:val="18"/><w:sz w:val="72"/><w:szCs w:val="72"/></w:rPr><w:t xml:space="preserve">MASTER’S THESIS</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:spacing w:val="10"/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">“Electronic Systems for Hybrid and Electric Vehicles”, Professional Field: 5.2 Electrical Engineering, Electronics and Automation</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="560" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="center"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">Topic: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:i/><w:iCs/><w:sz w:val="36"/><w:szCs w:val="36"/></w:rPr><w:t xml:space="preserve">“Home Control System via IEEE 802.11 (Wi-Fi) Interface”</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="2500" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Submitted by</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:i/><w:iCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Krastiyan Todorov Pramatarov</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="0" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="left"/></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Faculty №</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:i/><w:iCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">901322003</w:t></w:r></w:p><w:p><w:pPr><w:spacing w:before="360" w:after="200" w:line="276" w:lineRule="auto"/><w:ind w:left="0" w:right="0" w:firstLine="0"/><w:jc w:val="left"/><w:sectPr><w:pgSz w:w="11906" w:h="16838"/><w:pgMar w:top="1417" w:right="1417" w:bottom="1417" w:left="1417" w:header="708" w:footer="708" w:gutter="0"/><w:pgNumType w:start="1"/><w:cols w:space="708"/><w:docGrid w:linePitch="360"/></w:sectPr></w:pPr><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:b/><w:bCs/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Supervisor</w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">: </w:t></w:r><w:r><w:rPr><w:rFonts w:ascii="Times New Roman" w:hAnsi="Times New Roman" w:cs="Times New Roman"/><w:sz w:val="28"/><w:szCs w:val="28"/></w:rPr><w:t xml:space="preserve">Assoc. Prof. Lyubomir Bogdanov, PhD</w:t></w:r></w:p>
 ```
-
-
-
-```{=openxml}
-<w:p><w:r><w:br w:type="page"/></w:r></w:p>
-```
-
 
 
 
@@ -65,7 +58,7 @@
 # СЪДЪРЖАНИЕ
 
 ```{=openxml}
-<w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">СПИСЪК НА ИЗПОЛЗВАНИТЕ СЪКРАЩЕНИЯ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">6</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">УВОД</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">7</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ПЪРВА. ЛИТЕРАТУРНО ПРОУЧВАНЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">9</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">1.1. Безжични технологии за домашна автоматизация</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">9</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">1.2. Връзка с проблематиката на електромобилите и локалния енергиен мениджмънт</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">14</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">1.3. Изводи от литературното проучване</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">18</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ВТОРА. ХАРДУЕРНО ПРОЕКТИРАНЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">19</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.1. Изисквания и избор на метод на работа</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">19</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.2. Блокова схема на хардуера</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">19</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.3. Избор на елементна база</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">21</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.4. Изпълнителна част – релейни модули</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">23</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.5. Органи за местно управление – бутони</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">25</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.6. Измервателни канали</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">27</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.7. Захранване и енергиен баланс</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">31</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.8. Разпределение на изводите</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">32</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.9. Принципна схема на подчинения възел</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">34</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.10. Конструктивна реализация на макета</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">34</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.11. Анализ на точността</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">35</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.12. Икономически показатели</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">37</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.13. Изводи по Глава 2</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">38</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ТРЕТА. СОФТУЕРНО ПРОЕКТИРАНЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">39</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.1. Организация на програмното осигуряване</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">39</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.2. Конфигуриране и енергонезависима памет</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">42</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.3. Комуникационен протокол по ESP-NOW</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">45</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.4. Уеб сървър и потребителски интерфейс</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">49</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.5. Измервания в подчинения възел</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">51</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.6. Местно управление и защита при влага</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">53</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.7. Алгоритъм на управляващата програма</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">54</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.8. Проверка на програмата</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">57</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.9. Изводи по Глава 3</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">58</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ЧЕТВЪРТА. ЕКСПЕРИМЕНТАЛНИ И СИМУЛАЦИОННИ ИЗСЛЕДВАНИЯ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">59</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.1. Цел и методи на изследването</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">59</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.2. Проверка на макета</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">59</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.3. Симулационен модел</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">60</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.4. Закъснение на обмена</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">62</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.5. Устойчивост при грешки в радиоканала</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">65</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.6. Местно управление и защита при влага</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">67</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.7. Денонощна работа</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">68</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.8. Изводи по Глава 4</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">69</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ЗАКЛЮЧЕНИЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">70</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ИЗПОЛЗВАНА ЛИТЕРАТУРА</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">74</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">АНОТАЦИЯ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">77</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ПРИЛОЖЕНИЕ А. Графична част</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">78</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ПРИЛОЖЕНИЕ Б. Програмно осигуряване</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">82</w:t></w:r></w:p>
+<w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">СПИСЪК НА ИЗПОЛЗВАНИТЕ СЪКРАЩЕНИЯ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">7</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">УВОД</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">8</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ПЪРВА. ЛИТЕРАТУРНО ПРОУЧВАНЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">10</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">1.1. Безжични технологии за домашна автоматизация</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">10</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">1.2. Връзка с проблематиката на електромобилите и локалния енергиен мениджмънт</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">15</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">1.3. Изводи от литературното проучване</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">18</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ВТОРА. ХАРДУЕРНО ПРОЕКТИРАНЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">19</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.1. Изисквания и избор на метод на работа</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">19</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.2. Блокова схема на хардуера</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">19</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.3. Избор на елементна база</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">21</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.4. Изпълнителна част – релейни модули</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">23</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.5. Органи за местно управление – бутони</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">25</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.6. Измервателни канали</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">27</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.7. Захранване и енергиен баланс</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">31</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.8. Разпределение на изводите</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">33</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.9. Принципна схема на подчинения възел</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">34</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.10. Конструктивна реализация на макета</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">35</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.11. Анализ на точността</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">36</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.12. Икономически показатели</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">38</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">2.13. Изводи по Глава 2</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">39</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ТРЕТА. СОФТУЕРНО ПРОЕКТИРАНЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">40</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.1. Организация на програмното осигуряване</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">40</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.2. Конфигуриране и енергонезависима памет</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">43</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.3. Комуникационен протокол по ESP-NOW</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">45</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.4. Уеб сървър и потребителски интерфейс</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">50</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.5. Измервания в подчинения възел</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">51</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.6. Местно управление и защита при влага</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">54</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.7. Алгоритъм на управляващата програма</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">55</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.8. Проверка на програмата</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">58</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">3.9. Изводи по Глава 3</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">59</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ГЛАВА ЧЕТВЪРТА. ЕКСПЕРИМЕНТАЛНИ И СИМУЛАЦИОННИ ИЗСЛЕДВАНИЯ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">60</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.1. Цел и методи на изследването</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">60</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.2. Проверка на макета</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">60</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.3. Симулационен модел</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">61</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.4. Закъснение на обмена</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">63</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.5. Устойчивост при грешки в радиоканала</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">66</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.6. Местно управление и защита при влага</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">67</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.7. Денонощна работа</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">68</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC2"/></w:pPr><w:r><w:t xml:space="preserve">4.8. Изводи по Глава 4</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">70</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ЗАКЛЮЧЕНИЕ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">71</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ИЗПОЛЗВАНА ЛИТЕРАТУРА</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">74</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">АНОТАЦИЯ</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">77</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ПРИЛОЖЕНИЕ А. Графична част</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">78</w:t></w:r></w:p><w:p><w:pPr><w:pStyle w:val="TOC1"/></w:pPr><w:r><w:t xml:space="preserve">ПРИЛОЖЕНИЕ Б. Програмно осигуряване</w:t></w:r><w:r><w:tab/></w:r><w:r><w:t xml:space="preserve">82</w:t></w:r></w:p>
 ```
 
 
@@ -86,30 +79,32 @@
 | **BSS** | Basic Service Set – базов набор от услуги |
 | **CRC** | Cyclic Redundancy Check – циклична контролна сума |
 | **CSMA-CA** | Carrier Sense Multiple Access with Collision Avoidance |
-| **CTR** | Current Transfer Ratio – коефициент на предаване по ток на оптрон |
 | **DCF** | Distributed Coordination Function – разпределена координационна функция |
 | **DLM** | Dynamic Load Management – динамично управление на товара |
 | **EEPROM** | Electrically Erasable Programmable Read-Only Memory |
-| **ESP-NOW** | Протокол на Espressif за обмен на връзково ниво |
+| **ESP-NOW** | Протокол на Espressif за директен обмен на канално (MAC) ниво |
 | **EVSE** | Electric Vehicle Supply Equipment – зарядна станция |
+| **FER** | Frame Error Rate – вероятност за грешка в кадъра |
 | **GPIO** | General Purpose Input/Output – универсален вход/изход |
 | **HEMS** | Home Energy Management System – система за управление на енергията в дома |
 | **HTTP** | HyperText Transfer Protocol |
 | **JSON** | JavaScript Object Notation |
-| **LDO** | Low Dropout regulator – стабилизатор с малък пад |
 | **MAC** | Medium Access Control – управление на достъпа до средата |
+| **mDNS** | Multicast DNS – разпознаване на имена в локалната мрежа |
 | **OCPP** | Open Charge Point Protocol |
 | **OTA** | Over-The-Air – безжично обновяване на програмата |
-| **PDR** | Packet Delivery Ratio – коефициент на доставените пакети |
-| **REST** | Representational State Transfer |
 | **RC** | Резисторно-капацитивна верига |
+| **REST** | Representational State Transfer |
 | **RH** | Relative Humidity – относителна влажност |
+| **RTT** | Round-Trip Time – двупосочно закъснение |
+| **SDK** | Software Development Kit – комплект за разработка на програми |
 | **SPI** | Serial Peripheral Interface – сериен периферен интерфейс |
+| **SSID** | Service Set Identifier – име на безжичната мрежа |
 | **STA** | Station – станция в инфраструктурен режим |
+| **TCP/IP** | Transmission Control Protocol / Internet Protocol |
 | **UART** | Universal Asynchronous Receiver/Transmitter |
 | **USB** | Universal Serial Bus – универсална серийна шина |
-| **WPA2/WPA3** | Wi-Fi Protected Access – механизми за защита |
-| **1-Wire** | Еднопроводен цифров интерфейс |
+| **WPA2** | Wi-Fi Protected Access 2 – защита на безжичната връзка |
 | **АЦП** | Аналогово-цифров преобразувател |
 
 
@@ -121,29 +116,32 @@
 
 # УВОД
 
-Домашната автоматизация се развива от кабелни шинни системи, които изискват отделна
-инсталация, към безжични системи, изградени върху евтини системи в кристал с вграден
-радиочестотен тракт. Масовото навлизане на електромобилите ѝ дава и енергийна роля: при
-еднофазен главен предпазител 25 A и домашно зареждане с 16 A за всички останали потребители
-остават около 2 kW – по-малко от мощността на един бойлер (т. 1.2.1). Нужна е система, която
-изключва второстепенните товари по време на зареждането и позволява управлението им от
-разстояние. IEEE 802.11 (Wi-Fi) е единствената безжична технология, до която всеки смартфон
-или лаптоп има достъп чрез уеб браузър, без допълнителен хардуер и приложение, а
-микроконтролерът ESP8266 позволява и пряк обмен между възлите по протокола ESP-NOW.
+Системите за домашна автоматизация са преминали от кабелни шинни инсталации към безжични
+устройства, изградени с евтини микроконтролери с вграден радиомодул. С навлизането на
+електромобилите се появява и нова задача – разпределянето на ограничената мощност на
+битовото присъединяване. При еднофазен главен предпазител 25 A и домашно зареждане с 16 A
+за останалите потребители остават около 2 kW, колкото е мощността на един бойлер
+(т. 1.2.1). Затова е полезно второстепенните товари да могат да се изключват по време на
+зареждането, включително от разстояние.
+
+За връзка с потребителя е избран IEEE 802.11 (Wi-Fi). Смартфонът или лаптопът се свързват с
+устройството през уеб браузър – не са нужни допълнителен хардуер или специално приложение.
+Микроконтролерът ESP8266 поддържа Wi-Fi и освен това позволява пряк обмен между два модула
+по протокола ESP-NOW.
 
 **Цел.** Да се проектира, реализира и изследва двувъзлова микроконтролерна система за
-управление на дома с потребителски интерфейс по стандарта IEEE 802.11, която изпълнява и
-функциите на изпълнителен слой на локален енергиен мениджмънт при домашно зареждане на
-електромобил.
+управление на дома с потребителски интерфейс по стандарта IEEE 802.11. Системата трябва да
+може да служи и като изпълнителна част на локален енергиен мениджмънт при домашно зареждане
+на електромобил.
 
-**Изходни данни.** Съгласно заданието системата се изгражда с два микроконтролера ESP8266 –
+**Изходни данни.** Според заданието системата се изгражда с два микроконтролера ESP8266 –
 главен и подчинен, температурен датчик с интерфейс по избор, четири електромеханични релета,
-два механични бутона и конфигуриране по UART. Избран е датчикът DHT11, който измерва и
-относителната влажност. За защита при теч е добавен втори датчик – датчикът за влага HR202.
+два механични бутона и конфигуриране по UART. Използван е датчикът DHT11, който измерва и
+относителната влажност. За защита при теч е добавен втори датчик – HR202.
 
 **Задачи.**
 
-1. Литературно проучване и обоснован избор на комуникационни протоколи и елементна база
+1. Литературно проучване и избор на комуникационни протоколи и елементна база
    (т. 4.1 от заданието).
 2. Блокова схема на хардуера – функции на блоковете и сигнали между тях (т. 4.2, т. 5.1).
 3. Принципна схема на подчинения възел с изчисления, анализ на точността и на
@@ -156,16 +154,16 @@
 8. Експериментално и симулационно изследване на системата (т. 4.5).
 9. Изводи и насоки за бъдещо развитие.
 
-**Ограничения на обхвата.** Не се проектира зарядна станция и не се измерва общият ток на
-присъединяването – режимът се превключва от потребителя. Силнотоковата част не е изградена:
-в макета контактите на релетата не са свързани към мрежата 230 V. Системата съзнателно
-работи без облачни услуги.
+**Ограничения.** Зарядна станция не се проектира и общият ток на присъединяването не се
+измерва – товарите се изключват по команда на потребителя. Силнотоковата част не е
+изградена: в макета контактите на релетата не са свързани към мрежата 230 V. Системата не
+използва облачни услуги.
 
-**Структура.** Глава 1 съдържа резултатите от литературното проучване. Глава 2 представя
-хардуерното проектиране – блоковата и принципната схема, изчисленията, анализа на точността
-и себестойността. Глава 3 описва програмите на двата възела, а Глава 4 – проверката на
-макета и симулационното изследване. Графичната част (листове 1–3) е в Приложение А, а
-структурите на данните и фрагменти от програмите – в Приложение Б.
+**Структура.** В Глава 1 са обобщени резултатите от литературното проучване. Глава 2 описва
+хардуера – блоковата и принципната схема, изчисленията, анализа на точността и
+себестойността, а Глава 3 – програмите на двата възела. В Глава 4 са проверката на макета и
+симулационното изследване. Графичната част (листове 1–3) е в Приложение А, а структурите на
+данните и фрагменти от програмите – в Приложение Б.
 
 
 ```{=openxml}
@@ -181,88 +179,77 @@
 
 ### 1.1.1. Развитие на системите за домашна автоматизация
 
-Развитието на домашната автоматизация преминава през три поколения. **Първото** се
-свързва с протокола **X10** (1975 г.), пренасящ информация по силнотоковата мрежа при
-скорост около 60 bit/s; въпреки ниската си надеждност той въвежда идеята за **адресируемо
-управление на разпределени товари**. **Второто** се налага през 90-те години с кабелните
-полеви шини **KNX/EIB** [1, 2], **LonWorks** и **BACnet** – надеждни и
-детерминирани, но изискващи отделна шинна инсталация, което ги прави икономически
-неприложими при модернизация на съществуващ жилищен фонд.
+Първите системи за домашна автоматизация използват силнотоковата мрежа за пренос на
+команди. Най-известният пример е протоколът X10 от 1975 г. Скоростта му е от порядъка на
+десетки bit/s, а надеждността – ниска, но с него се появява идеята товарите в дома да имат
+адреси и да се управляват от едно място. През 90-те години се разпространяват кабелните
+полеви шини KNX/EIB [1, 2], LonWorks и BACnet. Те са надеждни и детерминирани, но изискват
+отделна шинна инсталация, която е скъпа, когато сградата вече е построена.
 
-**Третото поколение** се основава на безжичните сензорни мрежи след приемането на
-**IEEE 802.15.4** (2003 г.) и на концепцията за **ограничен изчислителен възел** (RFC 7228)
-със стека **6LoWPAN** (RFC 4944) и протокола **CoAP** (RFC 7252) [3–5], като появата на евтини
-системи в кристал с интегриран радиочестотен тракт свежда себестойността на един възел под
-5 €. Към това поколение принадлежи настоящата разработка, чиято постановка е: **да се
-постигне функционалност, съпоставима с професионална шинна система, без полагане на
-допълнителна инсталация и при себестойност от няколко десетки евро.**
+Следващата стъпка са безжичните сензорни мрежи. Стандартът IEEE 802.15.4 е приет през
+2003 г., а за устройства с ограничени ресурси са разработени стекът 6LoWPAN и протоколът
+CoAP [3–5]. Системите в кристал с вграден радиомодул намаляват цената на един възел под
+5 €. Настоящата разработка е от този вид. Целта е функционалност, близка до тази на шинна
+система, без нова инсталация и при себестойност от няколко десетки евро.
 
-### 1.1.2. Критерии за оценка на безжичните технологии
+### 1.1.2. Критерии за сравнение
 
-Оценката е проведена по десет критерия: пропускателна способност; латентност;
-обхват; енергопотребление; топология; себестойност; **необходимост от допълнителен шлюз**;
-**достъп от потребителско устройство без допълнителен хардуер**; защита на информацията;
-съвместно съществуване в ISM обхвата.
+Технологиите са сравнени по пропускателна способност, латентност, обхват,
+енергопотребление, топология, себестойност, нужда от шлюз, достъп от потребителско
+устройство без допълнителен хардуер, защита на информацията и съвместна работа с други
+устройства в обхвата 2,4 GHz. За тази задача най-голяма тежест имат два от критериите –
+нуждата от шлюз и достъпът от смартфон или лаптоп без допълнителен хардуер. Шлюзът оскъпява
+системата и е още едно устройство, от чиято работа зависи управлението.
 
-Двата удебелени критерия са определящи: система, изискваща отделен шлюз, за да бъде
-достъпна от смартфон, увеличава едновременно себестойността и броя на точките на отказ
-(*single points of failure*), което противоречи на изискването за автономност.
+### 1.1.3. Алтернативни безжични технологии
 
-### 1.1.3. Анализ на алтернативните безжични технологии
+IEEE 802.15.4 и ZigBee [6] позволяват клетъчна (*mesh*) топология при много ниска
+консумация – средният ток на заспиващо крайно устройство е от порядъка на десетки
+микроампера. За разглежданата задача обаче имат три недостатъка. Смартфоните и лаптопите
+нямат ZigBee радиомодул, затова е нужен шлюз. Кадърът е до 127 байта, от които за
+приложни данни остават около 80…100, а това е малко за пренос на уеб интерфейс. Освен това
+ZigBee работи в обхвата на Wi-Fi и каналите му трябва да се подберат между Wi-Fi каналите
+1, 6 и 11, което в жилищна сграда не винаги е възможно.
 
-**IEEE 802.15.4 и ZigBee** [6] осигуряват клетъчна (*mesh*) топология при изключително ниска
-консумация – средният ток на крайно устройство се свежда до десетки микроампера. Три
-обстоятелства обаче правят стека неприложим за поставената задача: **задължителен шлюз**,
-тъй като нито един смартфон, таблет или лаптоп не разполага със ZigBee приемо-предавател;
-**недостатъчна пропускателна способност** при кадър от **127 байта**, от които за приложни
-данни остават 80…100 – принципно непригодно за пренос на уеб интерфейс; и **интерференция
-с Wi-Fi**, чието избягване изисква каналите да бъдат подбрани в междините между Wi-Fi
-канали 1, 6 и 11, което не може да бъде гарантирано в жилищна среда.
+Bluetooth Low Energy [7] се поддържа от всеки съвременен смартфон, но връзката е с
+устройство в непосредствена близост. За достъп отдалеч или от уеб браузър е нужен мост към
+IP мрежата. Основната топология е звезда. Bluetooth Mesh увеличава обхвата чрез управляемо
+наводняване (*managed flooding*), при което един и същ пакет се препредава от много възли.
 
-**Bluetooth Low Energy** [7] е налице във всеки съвременен смартфон, но отпада поради:
-**липса на постоянна свързаност** – BLE е ориентиран към периодично свързване, докато
-системата трябва да е достъпна непрекъснато, включително в отсъствието на собственика;
-**топологично ограничение** – базовата архитектура е звезда, а Bluetooth Mesh използва
-управляемо наводняване (*managed flooding*) със значителен паразитен трафик; и **отсъствие
-на естествен IP стек**, поради което достъпът от браузър изисква междинен мост.
+Z-Wave работи под 1 GHz и не се смущава от Wi-Fi, но също изисква контролер (шлюз), а
+спецификацията му дълго време не е била публично достъпна. Стекът на Matter [8] е
+по-обемен и се изпълнява на по-мощни микроконтролери, а мрежата Thread [9] се свързва с IP
+мрежата на дома чрез граничен маршрутизатор. LoRaWAN и NB-IoT са предназначени за друг клас
+задачи. В подобхвата g1 при 868 MHz коефициентът на запълване е ограничен до 1 %, което не
+позволява интерактивно управление, а NB-IoT изисква абонамент към мобилен оператор.
 
-**Z-Wave** осигурява добра проникваща способност без конфликт с Wi-Fi, но е
-**собственическа технология** с лицензиран достъп до спецификацията. **Thread/Matter** [8, 9] е
-перспективно решение, което обаче изисква **граничен маршрутизатор** и по-обемен стек,
-налагащ по-мощни микроконтролери. **LoRaWAN и NB-IoT** са принципно непригодни:
-регулаторното **ограничение на коефициента на запълване** от 1 % в подобхвата g1 е
-несъвместимо с интерактивно управление, а NB-IoT изисква абонамент към мобилен оператор,
-с което системата губи автономността си.
+### 1.1.4. IEEE 802.11 (Wi-Fi)
 
-### 1.1.4. IEEE 802.11 (Wi-Fi) – характеристика и критичен анализ
+ESP8266 поддържа 802.11 b/g/n [10] с една антена и скорост до 72,2 Mbit/s на физическо
+ниво. Достъпът до средата се управлява от разпределената координационна функция (DCF),
+която използва CSMA-CA. Важно предимство е положителното потвърждение на канално (MAC)
+ниво: ако кадър се загуби, MAC подслоят го предава повторно, без участие на приложението.
+Връзката с точката за достъп се защитава с WPA2-PSK (CCMP/AES-128).
 
-ESP8266 поддържа изменения **802.11 b/g/n** [10] в конфигурация 1 × 1, достигайки **72,2 Mbit/s**
-на физическо ниво. Достъпът до средата се управлява от разпределената координационна
-функция (**DCF**), реализираща **CSMA-CA**. Съществено предимство е **положителното
-потвърждение на връзково ниво** – при загуба на кадър повторното предаване се извършва от
-MAC подслоя, без участие на приложението. Защитата се осигурява от **WPA2-PSK**
-(CCMP/AES-128) или **WPA3-SAE**.
+Недостатъкът на Wi-Fi е консумацията. По каталожните данни на ESP8266EX [11] токът е около
+170 mA при предаване, 50…56 mA при приемане, около 15 mA в режим *modem-sleep* и около
+20 µA в режим *deep-sleep*. Това е в пъти повече, отколкото при ZigBee и BLE, затова в
+литературата за Интернет на нещата Wi-Fi обикновено се смята за неподходящ за възли с
+батерийно захранване.
 
-Съгласно каталожните данни на ESP8266EX [11] консумацията е ≈ 170 mA при предаване, 56…60 mA
-при приемане, ≈ 15 mA в *modem-sleep* и ≈ 20 µA в *deep-sleep* – с един до два порядъка
-по-високо от ZigBee и BLE. Именно това традиционно се посочва като основен недостатък на
-Wi-Fi в литературата за Интернет на нещата.
+Възлите на проектираната система не са батерийни – захранват се от адаптери 5 V. Бобината
+на едно реле консумира 70…90 mA, колкото и самият радиомодул. Електрониката консумира общо
+около 2 W (т. 2.12), а товарите, за които е предназначена системата, са от порядъка на
+киловати, така че делът ѝ е около 0,1 % и по-малко. При такива устройства по-високата
+консумация на Wi-Fi не е пречка.
 
-**Критичен анализ.** Този извод е валиден единствено за **възли с батерийно захранване**.
-Проектираната система е предназначена да управлява чрез релета **битови товари с мрежово
-захранване**: възлите се захранват от адаптери 5 V, а не от батерии, бобината на едно реле
-консумира **70…90 mA** – колкото самият радиомодул, а управляваните товари са от порядъка на
-**киловати**, при което делът на управляващата електроника е под **0,05 %**.
+### 1.1.5. Сравнение
 
-Оттук произтича основополагащият извод на обзора: **ограничението по енергопотребление,
-което дисквалифицира Wi-Fi в класическите сензорни приложения, не е ограничение за
-разглеждания клас изпълнителни устройства.**
-
-### 1.1.5. Сравнителен анализ
+Основните параметри на технологиите са събрани в **Таблица 1.1**.
 
 **Таблица 1.1. Сравнителна характеристика на безжичните технологии**
 
-| Показател | **Wi-Fi (802.11 b/g/n)** | ZigBee | BLE 5.x | Z-Wave | LoRaWAN |
+| Показател | Wi-Fi (802.11 b/g/n) | ZigBee | BLE 5.x | Z-Wave | LoRaWAN |
 |---|---|---|---|---|---|
 | Честотен обхват | 2,4 GHz | 2,4 GHz / 868 MHz | 2,4 GHz | 868,42 MHz | 868 MHz |
 | Скорост (физ. ниво) | до 72,2 Mbit/s | 250 kbit/s | 0,125…2 Mbit/s | до 100 kbit/s | 0,3…50 kbit/s |
@@ -271,87 +258,78 @@ Wi-Fi в литературата за Интернет на нещата.
 | Обхват в помещение | 20…50 m | 10…30 m (mesh) | 10…40 m | 30…50 m | > 1 km |
 | Консумация (активна) | висока | ниска | много ниска | ниска | много ниска |
 | Топология | инфраструктурна звезда | клетъчна | звезда / mesh | клетъчна | звезда |
-| **Необходим шлюз** | **не** | да | да | да | да |
-| **Достъп от браузър** | **директен** | не | не | не | не |
+| Необходим шлюз | не | да | да | да | да |
+| Достъп от браузър | директен | не | не | не | не |
 | Себестойност на възела | ниска (3…5 €) | средна | ниска | висока | средна |
-| Отвореност на стандарта | пълна | пълна | пълна | **ограничена** | пълна |
+| Отвореност на стандарта | пълна | пълна | пълна | ограничена | пълна |
 
-По критерия защита разликата е несъществена – всички технологии използват AES-128. ZigBee
-и BLE превъзхождат Wi-Fi **единствено по енергопотребление**, чието значение беше
-отхвърлено в т. 1.1.4. Особена тежест има критерият **отсъствие на шлюз**: при Wi-Fi
-потребителят въвежда мрежово име или IP адрес в произволен браузър и получава пълноценен
-управляващ интерфейс – без приложение, без облачна регистрация и без допълнителен хардуер.
-Това е решаващо предимство както по **потребителска достъпност**, така и по **надеждност**,
-тъй като броят на елементите във веригата на управление е сведен до минимум.
+По защита на информацията разликата е малка – всички технологии използват AES-128. ZigBee и
+BLE имат предимство по енергопотребление, но то е важно само при батерийно захранване
+(т. 1.1.4). За тази задача по-важно е, че Wi-Fi не изисква шлюз. Потребителят въвежда името
+или IP адреса на устройството в браузъра и получава интерфейса за управление, без да
+инсталира приложение и без регистрация в облачна услуга. Между потребителя и системата
+остава само домашната точка за достъп.
 
-### 1.1.6. Хибридна комуникационна архитектура: IEEE 802.11 и ESP-NOW
+### 1.1.6. Обмен между възлите: IEEE 802.11 и ESP-NOW
 
-Използването на инфраструктурен Wi-Fi за обмен **между самите възли** поражда специфичен
-проблем. В режим BSS две станции, асоциирани към една и съща точка за достъп, **не могат
-да обменят кадри директно** – всеки пакет преминава по маршрута STA₁ → AP → STA₂, тоест
-изразходва **два преноса** през ефира. Заедно със забавянията от стека TCP/IP латентността
-достига десетки до стотици милисекунди и, което е по-съществено, **зависи от устройство,
-което не е част от проектираната система**: отпадането на домашния маршрутизатор би
-означавало пълна загуба на управление върху товарите.
+Ако двата възела обменят данни през домашната точка за достъп, в режим BSS те не могат да
+си изпращат кадри пряко. Всеки пакет минава по пътя STA₁ → AP → STA₂, т. е. се предава два
+пъти в ефира. Към това се добавя обработката в стека TCP/IP. Закъснението става десетки
+милисекунди и зависи от маршрутизатора, който не е част от системата.
 
-Решението е **двуслойна хибридна архитектура** с протокола **ESP-NOW** [12]. Обменът се
-осъществява директно на **връзково ниво** чрез специализирани управляващи кадри
-(*vendor-specific action frames*), адресирани по **MAC адрес** (**MAC-to-MAC** обмен), без
-асоциация с точка за достъп, без DHCP и без TCP съединение. Полезният товар е до
-**250 байта** – достатъчен за структурите с телеметрия и команди; поддържат се потвърждение
-на доставката и криптиране по AES-128, а латентността е от **порядъка на единици
-милисекунди**.
+Затова за обмена между възлите е използван протоколът ESP-NOW [12]. Данните се предават
+директно на канално ниво чрез управляващи кадри от вида „действие, специфично за
+производителя“ (*vendor-specific action frames*), адресирани по MAC адрес. Не са нужни
+асоциация с точка за достъп, DHCP или TCP съединение. Полезният товар е до 250 байта, което
+стига за телеметрията и командите. Протоколът поддържа потвърждение на доставката и
+шифриране с AES-128, а закъснението е няколко милисекунди. Потребителят продължава да
+достига до главния възел през домашната мрежа, защото главният възел е свързан към нея като
+станция.
 
-Съществено **технологично ограничение** произтича от наличието на **един-единствен
-радиочестотен тракт** в ESP8266: интерфейсът за станция и интерфейсът за ESP-NOW
-задължително работят на **един и същ физически канал**. Това налага каналът на подчинения
-възел да бъде фиксиран и синхронизиран с канала на домашната точка за достъп – въпрос,
-разгледан подробно в Глава 3.
+ESP8266 има само един радиочестотен тракт. Интерфейсът за станция и ESP-NOW работят на
+един и същ канал, затова каналът на подчинения възел трябва да съвпада с канала на
+домашната точка за достъп (т. 3.3.5). Разпределението на функциите е дадено в
+**Таблица 1.2**.
 
-**Таблица 1.2. Функционална декомпозиция на комуникационната подсистема**
+**Таблица 1.2. Разпределение на функциите на обмена**
 
-| Направление | Протокол | Обосновка |
+| Направление | Протокол | Причина за избора |
 |---|---|---|
-| Потребител → главен възел (**Master**) | IEEE 802.11, STA режим, HTTP/REST | универсален достъп от произволен браузър |
-| Главен възел ↔ подчинен възел (**Slave**) | **ESP-NOW** (MAC-to-MAC) | минимална латентност, независимост от точката за достъп |
+| Потребител → главен възел (Master) | IEEE 802.11, режим STA, HTTP | достъп от произволен браузър |
+| Главен ↔ подчинен възел (Slave) | ESP-NOW (MAC-to-MAC) | малко закъснение, без зависимост от точката за достъп |
 
-Така се използват едновременно универсалната съвместимост на IEEE 802.11 на приложно ниво и
-ниската латентност на връзково ниво.
+### 1.1.7. Избор на микроконтролерна платформа
 
-### 1.1.7. Обоснован избор на микроконтролерна платформа
+Разгледаните платформи са сравнени в **Таблица 1.3**.
 
 **Таблица 1.3. Сравнение на микроконтролерни платформи**
 
 | Платформа | Ядро / такт | RAM | Вградено радио | Цена | Оценка |
 |---|---|---|---|---|---|
-| ATmega328P + ESP-01 | AVR 8-bit / 16 MHz | 2 KB | Wi-Fi (AT команди) | ≈ 6 € | Недостатъчна RAM, бавен обмен |
-| **ESP8266EX** | **Xtensa LX106 / 80…160 MHz** | **≈ 50 KB свободни** | **802.11 b/g/n** | **≈ 3…5 €** | **Оптимално съотношение** |
-| ESP32 | Xtensa LX6 двуядрен / 240 MHz | ≈ 320 KB | Wi-Fi + BLE | ≈ 6…9 € | Свръхкачествено за задачата |
-| CC2530 / EFR32 | 8051 / Cortex-M | 8…64 KB | IEEE 802.15.4 | ≈ 5…10 € | Изисква задължителен шлюз |
-| nRF52832 | Cortex-M4F | 64 KB | BLE | ≈ 5…8 € | Изисква мост към IP мрежата |
+| ATmega328P + ESP-01 | AVR 8-bit / 16 MHz | 2 KB | Wi-Fi (AT команди) | ≈ 6 € | малко RAM, бавен обмен |
+| ESP8266EX | Xtensa LX106 / 80…160 MHz | ≈ 50 KB свободни | 802.11 b/g/n | ≈ 3…5 € | избрана |
+| ESP32 | Xtensa LX6 двуядрен / 240 MHz | ≈ 320 KB | Wi-Fi + BLE | ≈ 6…9 € | повече ресурси, отколкото са нужни |
+| CC2530 / EFR32 | 8051 / Cortex-M | 8…64 KB | IEEE 802.15.4 | ≈ 5…10 € | изисква шлюз |
+| nRF52832 | Cortex-M4F | 64 KB | BLE | ≈ 5…8 € | изисква мост към IP мрежата |
 
-Изборът на **ESP8266EX** се обосновава със следното:
-
-- **пълна интеграция** – 32-битов процесор, радиочестотен приемо-предавател, PHY и MAC
-  подслоят на IEEE 802.11 и стек TCP/IP (lwIP) в един корпус;
-- **достатъчен, но не излишен ресурс** – 80 MHz и около 50 KB свободна памет стигат за уеб
-  сървър, обмен по ESP-NOW, два датчика и четири релейни канала при **неблокиращ главен
-  цикъл**;
-- **4 MB Flash памет** – програмата и уеб страницата се обновяват заедно, с едно безжично
-  обновяване (OTA);
-- **емулирана EEPROM** в сектор от Flash паметта – позволява конфигуриране по UART и
-  премахване на твърдо кодираните мрежови данни (т. 3.5 от заданието);
-- **зряла екосистема** – ядро Arduino и библиотеки за уеб сървър, ESP-NOW, EEPROM, OTA, mDNS
-  и DHT11.
+Избран е ESP8266EX. Той съдържа в един корпус 32-битов процесор, радиочестотния тракт, MAC
+подслоя на IEEE 802.11 и стек TCP/IP (lwIP). Тактовата честота 80 MHz и около 50 KB свободна
+оперативна памет стигат за уеб сървър, обмен по ESP-NOW, два датчика и четири релейни
+канала, ако главният цикъл не блокира. Развойната платка има 4 MB Flash памет и програмата
+се обновява заедно с уеб страницата, включително безжично (OTA). Емулираната EEPROM в сектор
+от Flash паметта позволява мрежовите настройки да се въвеждат по UART, вместо да са записани
+в програмата (т. 3.5 от заданието). За ядрото Arduino има готови библиотеки за уеб сървър,
+ESP-NOW, EEPROM, OTA, mDNS и DHT11. ESP32 също би изпълнил задачата, но е по-скъп, а
+допълнителните му ресурси тук не се използват.
 
 ## 1.2. Връзка с проблематиката на електромобилите и локалния енергиен мениджмънт
 
-### 1.2.1. Домашното зареждане като ограничение на битовото присъединяване
+### 1.2.1. Мощност на битовото присъединяване при домашно зареждане
 
-Масовото навлизане на електрическите превозни средства поражда качествено нов проблем на
-ниво жилищен извод. Съгласно **IEC 61851-1** [13] домашното зареждане се осъществява
-преимуществено в **Режим 2** (с вграден в кабела защитно-управляващ блок, IC-CPD) или
-**Режим 3** (със стационарна зарядна станция, EVSE).
+Стандартът IEC 61851-1 [13] определя режимите на зареждане на електромобили. У дома се
+използват Режим 2 – с блок за управление и защита, вграден в кабела (IC-CPD), и Режим 3 –
+със стационарна зарядна станция (EVSE). Типичните конфигурации са дадени в
+**Таблица 1.4**.
 
 **Таблица 1.4. Типични конфигурации за домашно зареждане**
 
@@ -362,34 +340,31 @@ Wi-Fi в литературата за Интернет на нещата.
 | Трифазно, 16 A | 3 × 16 A | ≈ 11 kW |
 | Трифазно, 32 A | 3 × 32 A | ≈ 22 kW |
 
-Разполагаемата мощност на типично българско битово присъединяване при еднофазен главен
-предпазител 25 A е:
+При еднофазно присъединяване с главен предпазител 25 A разполагаемата мощност е:
 
 $$P_{\text{макс}} = U \cdot I_{\text{ном}} = 230\ \text{V} \times 25\ \text{A} = 5750\ \text{W}$$
 
-Резервът, оставащ за битовите потребители при започнало зареждане, е:
+При зареждане с 16 A за останалите потребители остават:
 
 $$P_{\text{резерв}} = P_{\text{макс}} - P_{EV} = 5750 - 3680 = 2070\ \text{W}$$
 
-Този резерв е **недостатъчен** дори за самостоятелна работа на един електрически бойлер
-(типично 2000 W), да не говорим за едновременна работа с останалите битови потребители.
-Практическият резултат е **задействане на главния защитен апарат** и обезточване на цялото
-жилище.
+Това е колкото мощността на един електрически бойлер (обикновено 2…3 kW). Ако по време на
+зареждането се включат и други мощни уреди, токът надхвърля 25 A и след известно време
+главният прекъсвач изключва цялото жилище.
 
-Съгласно **EN 60898-1** [14] автоматичен прекъсвач с характеристика B се задейства мигновено
-при ток $(3\ldots5) \cdot I_{\text{ном}}$, а при условен ток на сработване
-$1{,}45 \cdot I_{\text{ном}}$ – в рамките на един час. Следователно при умерено
-претоварване системата за управление разполага с **минути**, а не с милисекунди, за да
-реагира. Това е съществен извод: изискването към бързодействието е **меко**, но
-изискването към **гарантираността** на реакцията е твърдо.
+Според EN 60898-1 [14] автоматичен прекъсвач с характеристика B изключва мигновено при ток
+$(3\ldots5) \cdot I_{\text{ном}}$, а при условния ток на сработване
+$1{,}45 \cdot I_{\text{ном}}$ – в рамките на един час. При умерено претоварване следователно
+има време от порядъка на минути, за да се изключи някой товар. От системата не се иска
+бърза реакция, но командата за изключване трябва да бъде изпълнена сигурно.
 
-### 1.2.2. Подходи за управление на пиковото натоварване
+### 1.2.2. Подходи за ограничаване на пиковата мощност
 
-В съвременната практика са известни три направления:
+В практиката се използват три подхода.
 
-**а) Динамично управление на товара** (*Dynamic Load Management*, DLM) – измерва се общият
-ток на присъединяването и се **намалява токът за зареждане** чрез коефициента на запълване
-$D$ на сигнала **Control Pilot**. Съгласно IEC 61851-1 за $10\,\% \le D \le 85\,\%$:
+**а) Динамично управление на товара** (*Dynamic Load Management*, DLM). Измерва се общият
+ток на присъединяването и се намалява токът за зареждане чрез коефициента на запълване $D$
+на сигнала Control Pilot. Съгласно IEC 61851-1 за $10\,\% \le D \le 85\,\%$:
 
 $$I_{\text{макс}} = 0{,}6 \cdot D \quad [\text{A}]$$
 
@@ -397,33 +372,34 @@ $$I_{\text{макс}} = 0{,}6 \cdot D \quad [\text{A}]$$
 
 $$I_{\text{макс}} = (D - 64) \cdot 2{,}5 \quad [\text{A}]$$
 
-**б) Изключване на прекъсваеми товари** (*load shedding*) – временно обезточване на
-второстепенни потребители за времето на зареждане.
+**б) Изключване на прекъсваеми товари** (*load shedding*) – временно прекъсване на
+електрозахранването на второстепенни консуматори за времето на зареждане.
 
-**в) Изместване на товари във времето** (*load shifting*) – използване на нощната тарифа и
-на излишъка от собствено фотоволтаично производство.
+**в) Изместване на товари във времето** (*load shifting*) – включване на товарите при нощна
+тарифа или при излишък от собствено фотоволтаично производство.
 
-**Таблица 1.5. Съпоставка на подходите спрямо настоящата разработка**
+**Таблица 1.5. Подходите и настоящата разработка**
 
-| Подход | Изпълнителен орган | Изисква | Реализиран |
+| Подход | Изпълнителен орган | Изисква | В разработката |
 |---|---|---|---|
-| DLM | генератор на Control Pilot | EVSE контролер и защитна електроника | не |
-| Load shedding | релейни изходи | комутационни канали | **да** |
-| Load shifting | релейни изходи + времеви график | часовник / тарифен сигнал | **да** |
+| DLM | генератор на Control Pilot | контролер на зарядна станция и защитна електроника | не |
+| Load shedding | релейни изходи | комутационни канали | да – по команда на потребителя |
+| Load shifting | релейни изходи и график | часовник или тарифен сигнал | не – само ръчно превключване |
 
-Първият подход изисква реализация на пълноценен EVSE контролер, което излиза извън обхвата
-на заданието. Настоящата разработка реализира **втория и третия подход**, които са
-**допълващи, а не конкуриращи** спрямо първия: DLM ограничава потреблението на
-превозното средство, докато load shedding освобождава мощност откъм страната на битовите
-товари. Четирите релейни канала образуват изпълнителния слой на **система за управление на
-енергията в дома** (*Home Energy Management System*, HEMS), а двата датчика осигуряват
-обратната връзка: DHT11 (температура и влажност) – за интелигентно, а не просто аварийно
-превключване, а HR202 (влага) – за защитно изключване при теч.
+DLM изисква контролер на зарядна станция и излиза извън заданието. Разработката осигурява
+изпълнителната част на втория подход – четирите релейни канала изключват второстепенни
+консуматори по команда на потребителя. Изместване на товарите във времето е възможно само
+ръчно, защото системата няма часовник и график. DLM и изключването на товари не си пречат:
+първият намалява мощността на зареждане, а второто освобождава мощност откъм битовите
+консуматори. В по-голяма система за управление на енергията в дома (*Home Energy Management
+System*, HEMS) релейните канали биха били изпълнителната част. Датчикът DHT11 показва
+температурата и влажността в помещението, а HR202 дава сигнал за защитно изключване при
+теч.
 
-### 1.2.3. Обосновка на избора на прекъсваеми товари
+### 1.2.3. Прекъсваеми товари
 
-Електрическият бойлер представлява **идеален прекъсваем товар** поради голямата си топлинна
-инерция. Охлаждането му се описва с експоненциален закон, аналогичен на разряда на
+Електрическият бойлер може да се изключва за няколко часа, защото има голяма топлинна
+инерция. Охлаждането му се описва с експоненциален закон, подобен на разряда на
 кондензатор:
 
 $$\vartheta(t) = \vartheta_{\text{ок}} + (\vartheta_0 - \vartheta_{\text{ок}}) \cdot e^{-t/\tau_T}, \qquad \tau_T = R_{\text{т}} \cdot C_{\text{т}}$$
@@ -432,61 +408,54 @@ $$\vartheta(t) = \vartheta_{\text{ок}} + (\vartheta_0 - \vartheta_{\text{ок}
 
 $$C_{\text{т}} = m \cdot c = 80\ \text{kg} \times 4186\ \frac{\text{J}}{\text{kg} \cdot \text{K}} \approx 3{,}35 \cdot 10^{5}\ \text{J/K}$$
 
-При топлинни загуби $P_{\text{заг}} \approx 50$ W (≈ 1,2 kWh за денонощие) и температурна
+При топлинни загуби $P_{\text{заг}} \approx 50$ W (около 1,2 kWh за денонощие) и температурна
 разлика $\Delta\vartheta = 45$ K топлинното съпротивление е
 $R_{\text{т}} = \Delta\vartheta / P_{\text{заг}} = 0{,}9$ K/W, откъдето:
 
 $$\tau_T = 0{,}9 \times 3{,}35 \cdot 10^{5} \approx 3{,}0 \cdot 10^{5}\ \text{s} \approx 84\ \text{h}$$
 
-Спадът на температурата за типично време на нощно зареждане от 3 часа е:
+За три часа нощно зареждане температурата спада с:
 
 $$\Delta\vartheta_{3h} = 45 \cdot \left(1 - e^{-3/84}\right) \approx 1{,}6\ \text{K}$$
 
-Прекъсване с продължителност няколко часа води до понижаване на температурата с **под 2 °C**,
-което е **практически неосезаемо** за потребителя. Аналогични съображения са валидни за
-климатичната инсталация при умерени външни температури и за сушилнята за дрехи.
+Прекъсване от няколко часа понижава температурата на водата с под 2 °C, което потребителят
+практически не забелязва. По подобен начин може да се изключва климатикът при умерени
+външни температури, а работата на сушилнята за дрехи може да се отложи.
 
-> Показателно е, че същият математически апарат – времеконстантата $\tau = R \cdot C$ –
-> се прилага и при анализа на RC филтъра за потискане на контактното трептене на бутоните
-> в Глава 2, но при времеви мащаб, различен с осем порядъка.
+### 1.2.4. Изисквания към обмена и връзка със специалността
 
-### 1.2.4. Изисквания към комуникационната подсистема и връзка със специалността
+Тъй като има време от порядъка на минути (т. 1.2.1), скоростта на обмена не е решаваща – и
+обменът през маршрутизатора (20…100 ms), и ESP-NOW (няколко милисекунди) са достатъчно
+бързи. Важното е командата да бъде изпълнена гарантирано, тъй като неизпълнена команда за
+изключване може да доведе до задействане на главния прекъсвач и прекъсване на
+електрозахранването в жилището. ESP-NOW не зависи от домашния маршрутизатор, а обратната
+функция за потвърждение позволява на главния възел да разбере, че командата не е
+доставена, и да съобщи на потребителя.
 
-Тъй като разполагаемото време е от порядъка на минути (т. 1.2.1), предимството на ESP-NOW не
-е в скоростта – и маршрутизираният обмен (20…100 ms), и ESP-NOW (единици милисекунди) са
-достатъчни. Същественото е **гарантираността**: неизпълнената команда за изключване води до
-обезточване на жилището. ESP-NOW не зависи от домашния маршрутизатор, а обратната функция за
-потвърждение позволява на главния възел да установи неуспешното доставяне и да вдигне авария.
-
-Проблематиката е свързана с **ISO 15118** [15] (*Plug & Charge*, *Vehicle-to-Grid*), с
-**OCPP 2.0.1** [16] (интелигентно зареждане) и с **EN 50160** [17] (качество на
-напрежението). Специалистът по електронни системи за хибридни и електромобили трябва да
-владее и **електронната инфраструктура за зареждане** и взаимодействието ѝ с битовата
-инсталация. Затова системата се разглежда като **изпълнителен слой на локален енергиен
-мениджмънт**, а не като самостоятелна потребителска услуга.
+Темата е свързана със специалността „Електронни системи за хибридни и електромобили“ чрез
+домашното зареждане. По-широката рамка включва стандартите ISO 15118 [15] (обмен между
+автомобила и зарядната станция, *Plug & Charge*, *Vehicle-to-Grid*), OCPP 2.0.1 [16]
+(управление на зарядни станции) и EN 50160 [17] (качество на напрежението). В работата те
+не се прилагат пряко, но описват средата, в която би работила система за управление на
+товарите в дома.
 
 ## 1.3. Изводи от литературното проучване
 
-1. **Кабелните шинни системи** са най-надеждни, но изискват отделна инсталация и са
-   неприложими при модернизация на съществуващ жилищен фонд.
-2. **ZigBee и BLE** превъзхождат Wi-Fi единствено по енергопотребление – показател **без
-   практическо значение** за устройства без батерийно захранване, предназначени да управляват
-   киловатови товари.
-3. **Задължителният шлюз** при ZigBee, Z-Wave и Thread увеличава себестойността и броя на
-   точките на отказ, което противоречи на изискването за автономност.
-4. **IEEE 802.11** е единствената технология с **директен достъп от произволно потребителско
-   устройство чрез браузър**, без допълнителен хардуер и софтуер.
-5. Зависимостта от точката за достъп при обмена между възлите се преодолява с **хибридна
-   архитектура** с **ESP-NOW** на връзково ниво.
-6. **ESP8266EX** дава най-добро съотношение между функционалност, себестойност и сложност и
-   осигурява емулирана EEPROM и достатъчно Flash памет за уеб интерфейса и за безжичното
-   обновяване.
-7. При домашно зареждане на електромобил изискването към системата е не бързодействието, а
-   **гарантираното** изключване на прекъсваемите товари – разполагаемото време е от порядъка
-   на минути. Електрическият бойлер е подходящ прекъсваем товар: тричасово прекъсване понижава
-   температурата му с под 2 °C.
-
-Тези изводи определят техническата концепция на системата, разработена в Глава 2 и Глава 3.
+1. Кабелните шинни системи са надеждни, но изискват отделна инсталация и затова рядко се
+   използват в жилища, които вече са построени.
+2. ZigBee и BLE консумират по-малко от Wi-Fi, но това е важно само за възли с батерийно
+   захранване. Възлите на системата се захранват от мрежови адаптери.
+3. ZigBee, Z-Wave и Thread изискват шлюз, който оскъпява системата и е още едно
+   устройство, от което зависи управлението.
+4. От разгледаните технологии само IEEE 802.11 позволява достъп от смартфон или лаптоп
+   чрез браузър, без допълнителен хардуер и софтуер.
+5. Зависимостта от точката за достъп при обмена между възлите се преодолява с протокола
+   ESP-NOW на канално ниво.
+6. ESP8266EX има достатъчно ресурси за задачата при ниска цена, а емулираната EEPROM и
+   Flash паметта от 4 MB позволяват конфигуриране по UART и безжично обновяване.
+7. При домашно зареждане на електромобил има време от порядъка на минути, за да се изключи
+   товар, но изключването трябва да е сигурно. Бойлерът е подходящ прекъсваем товар – за
+   три часа температурата му спада с под 2 °C.
 
 
 ```{=openxml}
@@ -496,24 +465,23 @@ $$\Delta\vartheta_{3h} = 45 \cdot \left(1 - e^{-3/84}\right) \approx 1{,}6\ \tex
 
 
 # ГЛАВА ВТОРА
-# ХАРДУЕРНО ПРОЕКТИРАНЕ НА СИСТЕМАТА
+# ХАРДУЕРНО ПРОЕКТИРАНЕ
 
 ## 2.1. Изисквания и избор на метод на работа
 
-Хардуерното проектиране изхожда от изходните данни по заданието (т. 3) и от изводите на
+Хардуерът е проектиран по изходните данни от заданието (т. 3) и по изводите от
 литературното проучване (т. 1.3). Изискванията са: двувъзлова структура на базата на ESP8266
 (т. 3.1); температурен датчик с интерфейс по избор (т. 3.2) – избран е DHT11, който измерва и
 относителната влажност; четири електромеханични релета (т. 3.3); два механични бутона
-(т. 3.4); конфигуриране по UART (т. 3.5). Извън минималните изисквания са въведени **защита
-при влага** с втори датчик – HR202 с компаратор LM393, и **контрол на захранващото
-напрежение** на релейната част през аналоговия вход A0.
+(т. 3.4); конфигуриране по UART (т. 3.5). Освен това са добавени защита при влага с втори
+датчик – HR202 с компаратор LM393, и контрол на захранващото напрежение на релейната част
+през аналоговия вход A0.
 
-Приетият метод е **модулен**: релейните канали и датчиците са масово произвеждани модули, а
-двата възела – развойни платки NodeMCU v3. Модулите съдържат проверени схемни решения и
-позволяват изграждане на макета без запояване. Затова проектирането се съсредоточава върху
-**съвместимостта между модулите** – логическите нива, енергийния баланс при захранване по USB
-и функциите на изводите при стартиране, където са действителните рискове за надеждната
-работа.
+Приет е модулен метод. Релейните канали и датчиците са масово произвеждани модули, а
+двата възела са изградени с развойни платки NodeMCU v3. Модулите съдържат готови схемни
+решения и макетът може да се сглоби без запояване. Затова в проектирането основното
+внимание е върху съвместимостта между модулите – логическите нива, енергийния баланс при
+захранване по USB и функциите на изводите при стартиране.
 
 ## 2.2. Блокова схема на хардуера
 
@@ -526,31 +494,32 @@ $$\Delta\vartheta_{3h} = 45 \cdot \left(1 - e^{-3/84}\right) \approx 1{,}6\ \tex
 (процесорно ядро Xtensa LX106, 80 MHz, радиочестотен тракт по IEEE 802.11 b/g/n [11]),
 SPI Flash памет 4 MB за програмата, уеб страницата и емулираната EEPROM, мост USB–UART CH340
 за конфигурирането по т. 3.5 [18] и стабилизатор AMS1117 за 3,3 V. Главният възел няма
-външна периферия – той е свързан към домашната точка за достъп в режим на станция (STA) и към
+външна периферия. Той е свързан към домашната точка за достъп в режим на станция (STA) и към
 подчинения възел по ESP-NOW.
 
-**Подчинен възел.** Към същата платка са свързани четири релейни модула (D0, D1, D2, D8,
+**Подчинен възел.** Към същия тип платка са свързани четири релейни модула (D0, D1, D2, D8,
 захранване от шината +5 V), датчиците DHT11 (D4) и HR202 (D7), захранени от 3,3 V, два бутона
 към масата (D5, D6), делителят R1–R2 към аналоговия вход A0 и буферният кондензатор C1 на
-шината +5 V. Токовете на бобините на релетата не преминават през стабилизатора.
+шината +5 V. Токовете на бобините на релетата не минават през стабилизатора.
 
-**Изходи на релетата.** Контактите на релетата (COM, NO, NC) в макета **не са свързани към
-мрежата 230 V** – превключването се наблюдава по светодиодите на модулите и по щракването на
-релетата. Ако към контактите се свържат товари с мрежово напрежение, границата на галванично
-разделяне е между бобината и контактите (изолация 1500 V~ [19]). При едноканалните модули
-входната и релейната част обикновено имат обща маса, затова оптронът **не се разглежда като
-граница на безопасност**.
+**Изходи на релетата.** В макета контактите на релетата (COM, NO, NC) не са свързани към
+мрежата 230 V. Превключването се наблюдава по светодиодите на модулите и по щракването на
+релетата. Ако към контактите се свържат товари с мрежово напрежение, границата на
+галванично разделяне е между бобината и контактите (изолация 1500 V~ [19]). При
+едноканалните модули входната и релейната част обикновено имат обща маса, затова оптронът
+не се разглежда като граница на безопасност.
 
-Командите достигат до подчинения възел през две среди – IEEE 802.11 до главния възел и
-ESP-NOW до подчинения, а телеметрията се връща само по ESP-NOW (т. 1.1.6). Параметрите и
-изискванията към сигналите между блоковете са обобщени в **Таблица 2.1**.
+Командите от браузъра стигат до главния възел по IEEE 802.11, а оттам до подчинения – по
+ESP-NOW. Отчетите на подчинения възел се връщат по ESP-NOW и браузърът ги получава от
+главния възел по HTTP. Параметрите на сигналите между блоковете са обобщени в
+**Таблица 2.1**.
 
 **Таблица 2.1. Сигнали между блоковете**
 
 | Сигнал | Между блоковете | Вид и нива | Изисквания |
 |---|---|---|---|
 | HTTP, JSON | браузър ↔ главен възел | IEEE 802.11 b/g/n, TCP/IP през точката за достъп | асинхронни заявки; отговор до 2 kB |
-| ESP-NOW | главен ↔ подчинен възел | кадри на връзково ниво, 2,4 GHz, общ канал с точката за достъп | полезни данни до 250 B; потвърждение на MAC ниво |
+| ESP-NOW | главен ↔ подчинен възел | кадри на канално (MAC) ниво, 2,4 GHz, общ канал с точката за достъп | полезни данни до 250 B; потвърждение на MAC ниво |
 | UART | компютър ↔ възел | 115 200 bit/s, 8N1, през моста USB–UART | текстови команди, завършващи с нов ред |
 | IN1…IN4 | D0, D1, D2, D8 → A1…A4 | 0 / 3,3 V, активно високо ниво | около 2,2 mA на канал; ниско ниво при стартиране |
 | DATA | D4 ↔ BK1 (DHT11) | еднопроводна линия, отворен дрейн, 3,3 V | четене около 25 ms, не по-често от 1 s |
@@ -567,7 +536,7 @@ ESP-NOW до подчинения, а телеметрията се връща �
 
 | Означение | Елемент | Тип / параметри | Функция |
 |---|---|---|---|
-| DD1, DD2 | Развойна платка | NodeMCU v3 (ESP8266EX, CH340, AMS1117) | главен и подчинен възел |
+| DD1, DD2 | Развойна платка | NodeMCU v3 (ESP8266EX, CH340, AMS1117) | подчинен (DD1) и главен (DD2) възел |
 | A1…A4 | Релеен модул | 1 канал, 5 V, оптронен вход с избор H/L, реле SRD-05VDC-SL-C | изпълнителни елементи |
 | BK1 | Датчик за температура и влажност | DHT11, еднопроводен цифров интерфейс | измервателен канал |
 | A5 | Датчик за влага (модул) | HR202 + компаратор LM393, цифров изход DO | защитна блокировка |
@@ -576,28 +545,28 @@ ESP-NOW до подчинения, а телеметрията се връща �
 | R2 | Резистор | 20 kΩ, 0,25 W | долно рамо на делителя |
 | C1 | Кондензатор | електролитен, 1000 µF / 16 V | буфер на шината +5 V |
 
-**Развойна платка NodeMCU v3.** Освен ESP8266EX съдържа всички елементи, необходими за
+**Развойна платка NodeMCU v3.** Освен ESP8266EX платката съдържа всичко, което е нужно за
 самостоятелна работа – стабилизатор, мост USB–UART, бутони RST и FLASH, вграден делител на
 аналоговия вход и изводи със стъпка 2,54 mm за макетна платка [21].
 
-**Релейни модули с оптронен вход.** Предпочетени са пред собствено транзисторно стъпало,
-защото имат вграден защитен диод, светлинна индикация, избор на активното ниво с джъмпер и
-оптронен вход, който черпи от извода само няколко милиампера. Вътрешната им схема не е
-документирана от производителя, затова в т. 2.4 тя се разглежда като типична за този клас
-модули.
+**Релейни модули с оптронен вход.** Използвани са готови модули вместо собствено
+транзисторно стъпало. Те имат вграден защитен диод, светлинна индикация, джъмпер за избор на
+активното ниво и оптронен вход, който черпи от извода само няколко милиампера. Вътрешната им
+схема не е документирана от производителя, затова в т. 2.4 е разгледана типичната схема на
+такъв модул.
 
 **DHT11 вместо DS18B20.** Първоначално е разгледан DS18B20 (1-Wire, ±0,5 °C). Избран е
-DHT11 [22], защото измерва и относителната влажност, работи при 3,3 V и изисква един извод.
-Цената на избора е по-ниската точност и **блокиращото четене** от около 25 ms (т. 2.6.1).
+DHT11 [22], защото измерва и относителната влажност, работи при 3,3 V и използва един извод.
+Недостатъците му са по-ниската точност и блокиращото четене от около 25 ms (т. 2.6.1).
 
 **Датчик за влага HR202.** HR202 (по каталога на производителя – HR202L) е влагочувствителен
 резистор [23], чието съпротивление спада рязко, когато върху него попадне вода. Компараторът
-LM393 [24] превръща това изменение в цифров сигнал с праг, настроен с потенциометър така, че
-модулът да реагира на **намокряне**, а не на обичайната влажност в помещението.
+LM393 [24] превръща това изменение в цифров сигнал. Прагът се настройва с потенциометъра на
+модула така, че модулът да реагира на намокряне, а не на обичайната влажност в помещението.
 
-**Бутони, R1–R2 и C1.** Тактовите бутони 6 × 6 mm са свързани между извода и масата;
-изводите на бутона са съединени вътрешно по двойки, затова завъртян на 90° бутон е постоянно
-„натиснат". Стойностите на R1, R2 и C1 са обосновани в т. 2.6.3 и т. 2.7.
+**Бутони, R1–R2 и C1.** Тактовите бутони 6 × 6 mm са свързани между извода и масата.
+Изводите на бутона са съединени вътрешно по двойки и ако бутонът се постави завъртян на 90°,
+той е постоянно „натиснат“. Стойностите на R1, R2 и C1 са избрани в т. 2.6.3 и т. 2.7.
 
 ## 2.4. Изпълнителна част – релейни модули
 
@@ -609,10 +578,10 @@ LM393 [24] превръща това изменение в цифров сигн
 ![Фиг. 2.2](figuri/png/fig_2_2_releen_modul.png){width=15.5cm}
 
 Входният сигнал IN постъпва през резистор (обикновено 1 kΩ) към светодиода на оптрона
-(обикновено PC817 [25]). В положение **H** на джъмпера катодът е свързан към масата и
-светодиодът свети при **високо** ниво на IN, а в положение **L** анодът е свързан към +5 V и
-светодиодът свети при **ниско** ниво. Фототранзисторът на оптрона отпушва ключовия
-транзистор, който включва бобината на релето; паралелно на бобината е защитен диод.
+(обикновено PC817 [25]). В положение H на джъмпера катодът е свързан към масата и
+светодиодът свети при високо ниво на IN, а в положение L анодът е свързан към +5 V и
+светодиодът свети при ниско ниво. Фототранзисторът на оптрона отпушва ключовия транзистор,
+който включва бобината на релето; паралелно на бобината е свързан защитен диод.
 
 **Приет е режим H (активно високо ниво).** При нулиране и стартиране изводите на ESP8266 са
 входове и в режим H релето остава изключено. В режим L входът е свързан към +5 V през
@@ -626,17 +595,17 @@ $V_F \approx 1{,}15$ V за инфрачервения светодиод на �
 
 $$I_{\text{вх}} = \frac{V_{OH} - V_F}{R_{\text{вх}}} = \frac{3{,}3 - 1{,}15}{1000} \approx 2{,}2\ \text{mA}$$
 
-Това е **под една пета от допустимия ток на извода** ($I_{\max} = 12$ mA [11]). При четири
+Това е под една пета от допустимия ток на извода ($I_{\max} = 12$ mA [11]). При четири
 включени канала изводите отдават общо около 9 mA.
 
-Коефициентът на предаване по ток на PC817 е поне 50 % [25]. Следователно
-фототранзисторът осигурява поне 1,1 mA за управление на ключа. За бобина с ток 71,4 mA
-(т. 2.4.3) това изисква коефициент на усилване на ключа
+Коефициентът на предаване по ток на PC817 е поне 50 % [25], следователно фототранзисторът
+дава поне 1,1 mA за управление на ключа. За бобина с ток 71,4 mA (т. 2.4.3) ключът трябва да
+има коефициент на усилване
 
 $$h_{FE} > \frac{I_K}{I_{C,\text{опт}}} = \frac{71{,}4}{1{,}1} \approx 65$$
 
-Транзисторите в тези модули изпълняват условието при типичните си параметри, но **без голям
-запас**. В макета четирите модула се задействат надеждно при 3,3 V.
+Транзисторите в тези модули изпълняват условието при типичните си параметри, но запасът не
+е голям. В макета четирите модула се задействат надеждно при 3,3 V.
 
 ### 2.4.3. Параметри на релето
 
@@ -645,50 +614,51 @@ $$h_{FE} > \frac{I_K}{I_{C,\text{опт}}} = \frac{71{,}4}{1{,}1} \approx 65$$
 
 $$I_K = \frac{U_K}{R_K} = \frac{5\ \text{V}}{70\ \Omega} = 71{,}4\ \text{mA}$$
 
-Напрежението на задействане е най-много 3,75 V. Релето се задейства надеждно и при пропадане
-на шината +5 V с повече от 1 V спрямо действителното напрежение на VIN (около 4,9 V).
+Напрежението на задействане е най-много 3,75 V. Релето се задейства и ако шината +5 V
+пропадне с повече от 1 V спрямо действителното напрежение на VIN (около 4,9 V).
 
 **Натоварване на контактите.** В макета контактите не са натоварени. При свързване на товари
 стойността 10 A се отнася за активен товар; при индуктивни товари и товари с голям пусков ток
-допустимият ток е значително по-малък. Бойлер с мощност 3 kW консумира около 13 A и **не може
-да се включва пряко** – релето би управлявало контактор.
+допустимият ток е значително по-малък. Бойлер с мощност 3 kW консумира около 13 A и не може
+да се включва пряко – релето би управлявало контактор.
 
 ### 2.4.4. Защитен диод
 
-Без защитен елемент самоиндукционното напрежение при изключване на бобината достига стотици
-волта и пробива ключовия транзистор. Диодът затваря тока след изключването. При индуктивност
-от порядъка на 0,15 H (оценка) енергията в магнитното поле и времеконстантата са:
+Без защитен елемент самоиндукционното напрежение при изключване на бобината може да
+достигне стотици волта и да пробие ключовия транзистор. Диодът затваря тока на бобината след
+изключването. При индуктивност от порядъка на 0,15 H (оценка) енергията в магнитното поле и
+времеконстантата са:
 
 $$W = \frac{1}{2} L I_K^2 = \frac{1}{2} \times 0{,}15 \times (71{,}4 \cdot 10^{-3})^2 \approx 0{,}38\ \text{mJ}$$
 
 $$\tau_L = \frac{L}{R_K} = \frac{0{,}15}{70} \approx 2{,}1\ \text{ms}$$
 
-Диодът удължава отпускането на релето с няколко милисекунди – без значение за предвидените
-товари с топлинна инерция.
+Диодът удължава отпускането на релето с няколко милисекунди, което за товари с топлинна
+инерция няма значение.
 
 ## 2.5. Органи за местно управление – бутони
 
 ### 2.5.1. Схема на свързване и контактно трептене
 
 Бутонът SB1 (D5) превключва реле 1, а SB2 (D6) изключва аварийно всички релета. Двата бутона
-са свързани между извода и масата (**Фиг. 2.3, а**), а високото ниво при отпуснат бутон се
-осигурява от **вградения подтеглящ резистор**, включен с режима `INPUT_PULLUP` [26].
-Изводите GPIO14 и GPIO12 поддържат прекъсвания, което позволява **броене на фронтовете** и
-измерване на трептенето. Трептенето на механичен контакт обикновено продължава няколко
-милисекунди и рядко надхвърля 10 ms [27].
+са свързани между извода и масата (**Фиг. 2.3, а**). Високото ниво при отпуснат бутон се
+осигурява от вградения подтеглящ резистор, включен с режима `INPUT_PULLUP` [26]. Изводите
+GPIO14 и GPIO12 поддържат прекъсвания, което позволява да се броят фронтовете и да се оцени
+трептенето. Трептенето на механичен контакт обикновено продължава няколко милисекунди и
+рядко надхвърля 10 ms [27].
 
 ![Фиг. 2.3](figuri/png/fig_2_3_butoni.png){width=13cm}
 
 ### 2.5.2. Програмно потискане и сравнение с RC филтър
 
-В реализацията потискането е **програмно**. Новото състояние на бутона се приема едва когато
-входът е останал непроменен поне **60 ms** (алгоритъмът е описан в Глава 3). Интервалът е
+В реализацията трептенето се потиска програмно. Новото състояние на бутона се приема едва
+когато входът е останал непроменен поне 60 ms (алгоритъмът е описан в Глава 3). Интервалът е
 шест пъти по-дълъг от 10 ms и остава под 100 ms – границата, под която реакцията на
 системата се възприема като мигновена [28].
 
-За сравнение е разгледана алтернативата – **хардуерен RC филтър** (**Фиг. 2.3, б**) с
-подтеглящ резистор $R_п = 10$ kΩ, кондензатор $C_ф = 1$ µF и токоограничаващ резистор
-$R_{огр} = 100$ Ω. Времеконстантата при отпускане е:
+За сравнение е разгледан хардуерен RC филтър (**Фиг. 2.3, б**) с подтеглящ резистор
+$R_п = 10$ kΩ, кондензатор $C_ф = 1$ µF и токоограничаващ резистор $R_{огр} = 100$ Ω.
+Времеконстантата при отпускане е:
 
 $$\tau = R_п \cdot C_ф = 10 \cdot 10^{3} \times 1 \cdot 10^{-6} = 10\ \text{ms}$$
 
@@ -704,7 +674,7 @@ $$t_{\text{нат}} = R_{огр} C_ф \ln\frac{V_{DD}}{V_{IL}} = 100\ \mu\text{s
 
 $$\Delta u = V_{DD}\left(1 - e^{-t_b/\tau}\right) = 3{,}3 \times \left(1 - e^{-0{,}5}\right) = 1{,}30\ \text{V} < V_{IH}$$
 
-Следователно филтърът също потиска трептенето.
+Следователно и филтърът потиска трептенето.
 
 **Таблица 2.3. Сравнение на програмното и хардуерното потискане**
 
@@ -717,8 +687,9 @@ $$\Delta u = V_{DD}\left(1 - e^{-t_b/\tau}\right) = 3{,}3 \times \left(1 - e^{-0
 | Устойчивост при дълги проводници и смущения | по-ниска | по-висока |
 | Измерване на трептенето чрез броене на фронтовете | възможно | филтърът скрива трептенето |
 
-За бутони близо до платката програмното потискане е достатъчно и по-гъвкаво; RC филтър е
-препоръчителен при дълги проводници или силни смущения.
+За бутони близо до платката програмното потискане е достатъчно и позволява параметрите да
+се сменят без промяна на схемата. При дълги проводници или силни смущения е по-добре да се
+използва RC филтър.
 
 ## 2.6. Измервателни канали
 
@@ -727,7 +698,7 @@ $$\Delta u = V_{DD}\left(1 - e^{-t_b/\tau}\right) = 3{,}3 \times \left(1 - e^{-0
 Датчикът работи при захранване 3…5,5 V и има точност ±2 °C и ±5 % RH при разделителна
 способност 1 °C и 1 % RH [22]. Захранва се с 3,3 V, а линията за данни (отворен дрейн) е
 свързана към D4 (GPIO2). Библиотеката включва вградения подтеглящ резистор на извода преди
-всяко четене [29], което е достатъчно за проводници до няколко десетки сантиметра; при кабел
+всяко четене [29], което е достатъчно за проводници до няколко десетки сантиметра. При кабел
 до 20 m производителят препоръчва външен резистор 5 kΩ [22].
 
 **Протокол на обмена.** Времедиаграмата на едно четене е показана на **Фиг. 2.4**.
@@ -737,45 +708,45 @@ $$\Delta u = V_{DD}\left(1 - e^{-t_b/\tau}\right) = 3{,}3 \times \left(1 - e^{-0
 Микроконтролерът задържа линията в ниско ниво поне 18 ms (библиотеката използва 20 ms,
 предшествани от 1 ms във високо ниво). Датчикът отговаря с 80 µs ниско и 80 µs високо ниво и
 предава 40 бита – влажност, температура и контролна сума. Всеки бит започва с 50 µs ниско
-ниво, последвано от 26…28 µs („0") или 70 µs („1") високо ниво.
+ниво, последвано от 26…28 µs („0“) или 70 µs („1“) високо ниво.
 
 Продължителността на едно четене е:
 
 $$t_{\text{четене}} \approx 1 + 20 + 0{,}16 + (3{,}0 \ldots 4{,}8) \approx 24{,}2 \ldots 26{,}0\ \text{ms}$$
 
-Библиотеката приема 40-те бита при **забранени прекъсвания** (3…5 ms), а стартовия импулс
-формира чрез `delay()` [29]. Wi-Fi стекът продължава да работи, но за главния цикъл цялото
-четене от около 25 ms е **блокиращо** и определя максималното време за цикъл. Линията на
-DHT11 в покой е във високо ниво, както изисква GPIO2 при стартиране (т. 2.8).
+Библиотеката приема 40-те бита при забранени прекъсвания (3…5 ms), а стартовия импулс
+формира с `delay()` [29]. Wi-Fi стекът продължава да работи, но за главния цикъл цялото
+четене от около 25 ms е блокиращо и определя най-голямото време за цикъл. Линията на DHT11 в
+покой е във високо ниво, както изисква GPIO2 при стартиране (т. 2.8).
 
 ### 2.6.2. Датчик за влага HR202 (модул с компаратор LM393)
 
 Типичната схема на модула е показана на **Фиг. 2.5**.
 
+HR202 (съпротивление около 31 kΩ при 60 % RH и 25 °C [23]) и постоянен резистор образуват
+делител, чието напрежение LM393 сравнява с праговото напрежение от потенциометъра. Изходът
+на LM393 е с отворен колектор [24] и е изтеглен с 10 kΩ към захранването на модула. Модулът
+е захранен от 3,3 V, затова изходът DO се изменя между 0 и 3,3 V и се свързва към GPIO13 (D7)
+без преобразуване на нивото. При захранване 5 V високото ниво би било над допустимото за
+ESP8266.
+
 ![Фиг. 2.5](figuri/png/fig_2_5_hr202_modul.png){width=13cm}
 
-HR202 (съпротивление около 31 kΩ при 60 % RH и 25 °C [23]) и постоянен резистор образуват
-делител, чието напрежение се сравнява от LM393 с праговото напрежение от потенциометъра.
-Изходът на LM393 е с **отворен колектор** [24] и е изтеглен с 10 kΩ към захранването на
-модула. Модулът е захранен от 3,3 V, затова изходът DO се изменя между 0 и 3,3 V и се
-свързва към GPIO13 (D7) **без преобразуване на нивото**; при 5 V високото ниво би превишило
-допустимото за ESP8266.
-
 **Поведение в макета.** При сух датчик DO е във високо ниво, а при намокряне преминава в
-ниско. Програмата веднага изключва всички релета и блокира включването им, а блокировката се
+ниско. Програмата веднага изключва всички релета и блокира включването им. Блокировката се
 сваля едва след 2 s непрекъснато сухо състояние. Компараторът няма хистерезис и близо до
 прага изходът му може да трепти – задържането във времето изпълнява ролята на хистерезис.
 
 **Ограничения.** Производителят предписва захранване с променливо напрежение до 1,5 V с
-честота 500 Hz…2 kHz [23], за да се избегне поляризацията на чувствителния слой. В модула се използва
-постоянно напрежение, което е приемливо за праговото откриване на намокряне, но не и за
-точно измерване на влажността. Затова стойността на влажността се измерва с DHT11, а HR202
-служи **като прагов датчик за влага** – за защитната блокировка.
+честота 500 Hz…2 kHz [23], за да не се поляризира чувствителният слой. Модулът използва
+постоянно напрежение. Това е приемливо, когато трябва само да се открие намокряне, но не и
+за точно измерване на влажността. Затова влажността се измерва с DHT11, а HR202 се използва
+като прагов датчик за защитната блокировка.
 
-**Поведение при неизправност.** Изводът D7 е с вграден подтеглящ резистор, затова при
-прекъснат проводник входът се чете като „сухо" и защитата **не се задейства**. Недостатъкът
-се отстранява с обърнато активно ниво, така че прекъсването да води до блокировка (насока
-за развитие).
+**Поведение при неизправност.** Изводът D7 използва вградения подтеглящ резистор. При
+прекъснат проводник входът се чете като „сухо“ и защитата не се задейства. Недостатъкът
+може да се отстрани с обърнато активно ниво, при което прекъсването води до блокировка –
+това е една от насоките за развитие.
 
 ### 2.6.3. Контрол на захранващото напрежение (A0)
 
@@ -786,7 +757,7 @@ HR202 (съпротивление около 31 kΩ при 60 % RH и 25 °C [23
 Аналогово-цифровият преобразувател (АЦП) на ESP8266 е 10-битов и измерва напрежения
 0…1,0 V на извода TOUT [11]. Платката NodeMCU съдържа вграден делител 220 kΩ / 100 kΩ, с
 който обхватът на извода A0 става 0…3,2 V [21]. Външният делител R1 = 47 kΩ,
-R2 = 20 kΩ разширява обхвата така, че да се измерва шината +5 V.
+R2 = 20 kΩ разширява обхвата така, че да може да се измерва шината +5 V.
 
 **Изчисляване на делителя.** Входното съпротивление на вградения делител,
 $R_{\text{вх}} = 220 + 100 = 320$ kΩ, е свързано успоредно на R2 и не може да се пренебрегне:
@@ -802,31 +773,32 @@ $$U_{\text{VIN,max}} = \frac{U_{\text{АЦП,max}}}{k_1 k_2} = \frac{1{,}0}{0{,}
 Ако вграденият делител се пренебрегне, се получава $3{,}2 \times (47 + 20)/20 = 10{,}72$ V –
 грешка от 4,2 %.
 
-**Калибровка.** В програмата е използвана пълна скала **10,91 V**, определена чрез сравнение
-с мултиметър – с 2,5 % по-малка от изчислената заради допуските на опорното напрежение и на
-резисторите (т. 2.11). Разделителната способност е 10,91 V / 1024 = 10,65 mV, а осредняването
-на 10 проби намалява случайния шум около 3,2 пъти. При $U_{\text{VIN}} = 5$ V отчетът е около
-469, а токът през делителя (76 µA) е пренебрежим.
+**Калибровка.** В програмата е използвана пълна скала 10,91 V, определена чрез сравнение с
+мултиметър. Тя е с 2,5 % по-малка от изчислената заради допуските на опорното напрежение и
+на резисторите (т. 2.11). Разделителната способност е 10,91 V / 1024 = 10,65 mV, а
+осредняването на 10 проби намалява случайния шум около 3,2 пъти. При $U_{\text{VIN}} = 5$ V
+отчетът е около 469, а токът през делителя (76 µA) е пренебрежим.
 
-**Корекция при включени релета.** При калибровката е установено, че с всяко включено реле
-изчисленото напрежение надвишава показанието на мултиметъра с около 55 mV; в програмата е
-въведена съответна корекция. Причината е **изместването на масата**: долният край на R2 е
-свързан към шината GND на макетната платка, по която тече и токът на бобините. Ако този край
-е с $U_g$ над масата на ESP8266, изчисленото напрежение е:
+**Корекция при включени релета.** При калибровката се оказва, че с всяко включено реле
+изчисленото напрежение надвишава показанието на мултиметъра с около 55 mV. В програмата е
+въведена съответна корекция. Вероятната причина е изместването на масата: в макета долният
+край на R2 е свързан към шината GND на макетната платка, по която тече и токът на бобините.
+Ако този край е с $U_g$ над масата на ESP8266, изчисленото напрежение е:
 
 $$U_{\text{изч}} = U_{\text{VIN}} + \frac{1 - k_1}{k_1}\,U_g = U_{\text{VIN}} + 2{,}5\,U_g$$
 
 Грешката от 55 mV на реле отговаря на $U_g \approx 22$ mV на реле, т. е. на съпротивление на
-общия път на масата около 0,29 Ω при ток около 75 mA на модул – типично за контактите на
-макетна платка. Хипотезата може да се провери с измерване на $U_g$ между долния край на R2 и
-извода GND на NodeMCU. **Схемното решение** е долният край на R2 да се свърже пряко към
-извода GND с отделен проводник – тогава програмната корекция става излишна.
+общия път на масата около 0,29 Ω при ток около 75 mA на модул. Такова съпротивление е
+възможно при контактите на макетна платка. Предположението може да се провери с измерване
+на $U_g$ между долния край на R2 и извода GND на NodeMCU. Решението е долният край на R2 да
+се свърже с отделен проводник пряко към извода GND на NodeMCU, както е показано на
+принципната схема (Фиг. 2.7). Тогава корекцията в програмата трябва да се нулира.
 
 ## 2.7. Захранване и енергиен баланс
 
 Двата възела се захранват по USB с 5 V. Главният възел няма периферия и консумира до
-около 180 mA. Подчиненият възел захранва и релейните модули, затова балансът му е
-определящ.
+около 180 mA. Подчиненият възел захранва и релейните модули, затова по-важен е неговият
+баланс.
 
 **Таблица 2.4. Енергиен баланс на подчинения възел (най-неблагоприятен случай)**
 
@@ -841,14 +813,14 @@ $$U_{\text{изч}} = U_{\text{VIN}} + \frac{1 - k_1}{k_1}\,U_g = U_{\text{VIN}}
 | Делител R1–R2 | 0,08 | изчисление |
 | **Общо** | **≈ 493** | |
 
-Сумарният ток при четири включени релета и предаване по радиоканала достига около
-0,49 A. Порт USB 2.0 на персонален компютър гарантира 500 mA [20], т. е. **запасът е
-практически нулев**. Затова подчиненият възел се захранва от **адаптер 5 V с ток поне 1 A**,
-който осигурява двукратен запас. Средната консумация е по-малка, защото ESP8266 предава
-само част от времето: при приемане консумира около 56 mA [11].
+При четири включени релета и предаване по радиоканала токът достига около 0,49 A. Порт
+USB 2.0 на персонален компютър гарантира 500 mA [20], т. е. запас практически няма. Затова
+подчиненият възел се захранва от адаптер 5 V с ток поне 1 A, който дава двукратен запас.
+Средната консумация е по-малка, защото ESP8266 предава само част от времето – при приемане
+консумира около 56 mA [11].
 
-Токът на бобините протича от USB конектора през извода VIN до модулите и **не преминава през
-стабилизатора**. Разсейваната мощност в AMS1117 [30] при ток на логическата част 180 mA и
+Токът на бобините минава от USB конектора през извода VIN до модулите и не преминава през
+стабилизатора. Разсейваната мощност в AMS1117 [30] при ток на логическата част 180 mA и
 напрежение на VIN около 4,9 V е:
 
 $$P_{\text{стаб}} = (U_{\text{VIN}} - 3{,}3) \cdot I = (4{,}9 - 3{,}3) \times 0{,}18 \approx 0{,}29\ \text{W}$$
@@ -862,18 +834,17 @@ $$P_{\text{стаб}} = (U_{\text{VIN}} - 3{,}3) \cdot I = (4{,}9 - 3{,}3) \time
 $$\Delta U = \frac{I \cdot \Delta t}{C} = \frac{0{,}1 \times 1 \cdot 10^{-3}}{1000 \cdot 10^{-6}} = 0{,}1\ \text{V}$$
 
 Заедно със съпротивлението на захранващия път (около 0,5 Ω) кондензаторът образува
-нискочестотен филтър с времеконстанта около 0,5 ms; номиналното напрежение 16 V дава
-3,2-кратен запас. Спецификацията USB 2.0 допуска до 10 µF капацитет при включване [20], затова
-при захранване от порт на компютър е възможно кратко пропадане на напрежението; при адаптер
-това е без значение.
+нискочестотен филтър с времеконстанта около 0,5 ms. Номиналното напрежение 16 V дава
+3,2-кратен запас. Спецификацията USB 2.0 допуска до 10 µF капацитет при включване [20],
+затова при захранване от порт на компютър е възможно кратко пропадане на напрежението. При
+захранване от адаптер това няма значение.
 
 ## 2.8. Разпределение на изводите
 
-Част от изводите на ESP8266 имат **специални функции при стартиране** (*boot straps*):
-GPIO0 и GPIO2 трябва да са във високо ниво, а GPIO15 – в ниско; GPIO1 и GPIO3 са на
-серийния интерфейс, а GPIO6…GPIO11 са заети от SPI Flash паметта. Нарушаването на тези
-условия прави зареждането на програмата невъзможно [31]. Приетото разпределение е дадено в
-**Таблица 2.5**.
+Част от изводите на ESP8266 имат специални функции при стартиране (*boot straps*): GPIO0 и
+GPIO2 трябва да са във високо ниво, а GPIO15 – в ниско. GPIO1 и GPIO3 са на серийния
+интерфейс, а GPIO6…GPIO11 са заети от SPI Flash паметта. Ако тези условия не са изпълнени,
+програмата не може да се зареди [31]. Приетото разпределение е дадено в **Таблица 2.5**.
 
 **Таблица 2.5. Разпределение на изводите на подчинения възел**
 
@@ -888,55 +859,57 @@ GPIO0 и GPIO2 трябва да са във високо ниво, а GPIO15 �
 | Бутон SB2 | D6 | GPIO12 | без ограничения; прекъсване по фронт |
 | HR202 (DO) | D7 | GPIO13 | без ограничения |
 | Напрежение +5 V | A0 | TOUT | единственият аналогов вход |
-| Конфигуриране | TX / RX | GPIO1 / GPIO3 | **оставени свободни** (т. 3.5 от заданието) |
+| Конфигуриране | TX / RX | GPIO1 / GPIO3 | оставени свободни (т. 3.5 от заданието) |
 | Свободен | D3 | GPIO0 | бутон FLASH на платката |
 
 **Реле 4 е преместено от GPIO0 (D3) на GPIO15 (D8).** В първата версия реле 4 беше на GPIO0,
 който при стартиране трябва да е във високо ниво, а входът на модула в режим H е товар към
-маса. С използвания модул нивото остава над прага за „1", но това е **негарантирана работна
-точка**: с друг модул платката би стартирала в режим на програмиране, а бутонът FLASH при
-включено реле дава изхода накъсо към маса. GPIO15 изисква **ниско ниво** при стартиране –
-изискването съвпада с изключеното състояние на релето, при условие че джъмперът е в
-положение H (в положение L платката **не стартира**).
+маса. С използвания модул нивото остава над прага за „1“, но това не е гарантирано – с друг
+модул платката би стартирала в режим на програмиране, а натискането на бутона FLASH при
+включено реле свързва изхода накъсо към маса. GPIO15 изисква ниско ниво при стартиране.
+Това съвпада с изключеното състояние на релето, ако джъмперът е в положение H; в положение L
+платката не стартира.
 
-Реле 1 е на GPIO16, който не поддържа прекъсвания и затова не е използван за бутон; при някои
-платки той е кратко във високо ниво при включване, което може да предизвика кратко щракване
-на релето. Бутоните са на GPIO14 и GPIO12, които поддържат прекъсвания; фабричното нулиране
-се извършва със задържане на SB1 за 3 s при подаване на захранване. На главния възел се
-използват само USB и серийният интерфейс.
+Реле 1 е на GPIO16, който не поддържа прекъсвания и затова не е използван за бутон. При някои
+платки той е за кратко във високо ниво при включване, което може да предизвика кратко
+щракване на релето. Бутоните са на GPIO14 и GPIO12, които поддържат прекъсвания. Фабричните
+настройки се възстановяват със задържане на SB1 за 3 s при подаване на захранване. На
+главния възел се използват само USB и серийният интерфейс.
 
 ## 2.9. Принципна схема на подчинения възел
 
 Обобщената принципна схема на подчинения възел е представена на **Фиг. 2.7**. Тя реализира
 т. 4.3 от обяснителната записка и т. 5.2 от графичната част на заданието.
 
-![Фиг. 2.7](figuri/png/fig_2_7_principna_shema.png){width=15.5cm}
-
 Шината +5 V (VIN) захранва релейните модули A1…A4 и горния край на делителя R1–R2, а между
 нея и масата е буферният кондензатор C1. Шината +3,3 V от стабилизатора на платката захранва
-двата датчика – DHT11 и HR202. Долният край на R2 е свързан към масата с отделен проводник
-(т. 2.6.3). Връзките са означени с **имената на веригите**, а не с начертани проводници – така
-се избягват пресичанията на линиите. Вътрешните схеми на модулите са дадени на Фиг. 2.2 и
-Фиг. 2.5, а схемата на модула A5 с чувствителния елемент B1 (HR202) – и на лист 2 от
-графичната част.
+двата датчика – DHT11 и HR202. На принципната схема долният край на R2 е свързан с отделен
+проводник към масата на DD1, за да не влияе на измерването падът на напрежение от тока на
+бобините по общата шина GND (т. 2.6.3). В макета R2 все още е свързан към шината GND на
+макетната платка и затова програмата прилага корекцията от 55 mV на включено реле. Връзките
+са означени с имената на веригите, а не с начертани проводници, за да няма пресичания на
+линиите. Вътрешните схеми на модулите са дадени на Фиг. 2.2 и Фиг. 2.5, а схемата на модула
+A5 с чувствителния елемент B1 (HR202) е показана и на лист 2 от графичната част.
+
+![Фиг. 2.7](figuri/png/fig_2_7_principna_shema.png){width=15.5cm}
 
 ## 2.10. Конструктивна реализация на макета
 
-Макетът на подчинения възел е изграден върху **макетна платка без запояване** с
-гъвкави съединителни проводници (**Фиг. 2.8**). Релейните модули и двата датчика – DHT11 и
-HR202 – са свързани с проводници с накрайници. Главният възел е отделна платка NodeMCU,
-захранена по USB.
+Макетът на подчинения възел е изграден върху макетна платка без запояване с гъвкави
+съединителни проводници (**Фиг. 2.8**). Релейните модули и двата датчика – DHT11 и HR202 –
+са свързани с проводници с накрайници. Главният възел е отделна платка NodeMCU, захранена
+по USB.
 
 ![Фиг. 2.8](figuri/png/fig_2_8_maket.png){width=7.5cm}
 
-Макетната платка позволява бързи промени – например преместването на реле 4 от D3 на D8, –
-но преходното съпротивление на контактите ѝ се натрупва по пътя на тока (вероятната причина
-за грешката от т. 2.6.3), а механичната ѝ надеждност е ниска. Макетът работи изцяло с
-безопасно ниско напрежение (5 V от USB адаптерите) – контактите на релетата не са свързани
-към мрежата 230 V. За окончателно изделие, в което релетата комутират реални товари, се
-препоръчват печатна платка с отделен път на масата за релейната част, предпазител и схема за
-плавно включване, контактори за товари над 10 A и кутия, отговаряща на изискванията за
-електрическа безопасност.
+Макетната платка позволява бързи промени, например преместването на реле 4 от D3 на D8. От
+друга страна, преходното съпротивление на контактите ѝ се натрупва по пътя на тока
+(вероятната причина за грешката от т. 2.6.3), а механичната ѝ надеждност е ниска. Макетът
+работи изцяло с ниско напрежение (5 V от USB адаптерите) – контактите на релетата не са
+свързани към мрежата 230 V. За окончателно изделие, в което релетата комутират реални
+товари, са нужни печатна платка с отделен път на масата за релейната част, предпазител и
+схема за плавно включване, контактори за товари над 10 A и кутия, отговаряща на
+изискванията за електрическа безопасност.
 
 ## 2.11. Анализ на точността
 
@@ -957,17 +930,16 @@ $$\frac{\Delta k_1}{k_1} = \frac{R_1}{R_1 + R_2'}\left(\frac{\Delta R_2'}{R_2'} 
 
 Каналът служи за откриване на пропадания на захранването – под долната граница 4,75 V за
 USB [20] и под напрежението на задействане на релетата 3,75 V. Разделителната способност
-10,65 mV е над 20 пъти по-фина от най-малкото от тези отклонения (0,25 V), затова
+10,65 mV е над 20 пъти по-малка от най-малкото от тези отклонения (0,25 V), така че
 точността е достатъчна.
 
 **Температура и влажност.** Точността се определя от DHT11 – ±2 °C и ±5 % RH [22].
-Показанието се предава с два знака след десетичната запетая, но това не повишава точността.
-За оценка на микроклимата и за управление на товари с голяма топлинна инерция (т. 1.2.3) тя
-е достатъчна.
+Стойностите се предават с два знака след десетичната запетая, но това не повишава
+точността. За оценка на микроклимата в помещението тя е достатъчна.
 
-**Датчик за влага.** HR202 работи като прагов датчик и точността му по влажност е без
-значение. Прагът се задава с потенциометъра на модула. Времето за реакция на програмата
-при намокряне без трептене на изхода е най-много 25,5 ms (т. 4.6) – пренебрежимо спрямо
+**Датчик за влага.** HR202 работи като прагов датчик, затова точността му по влажност няма
+значение. Прагът се задава с потенциометъра на модула. Времето за реакция на програмата при
+намокряне без трептене на изхода е най-много 25,5 ms (т. 4.6). Това е много по-малко от
 времето, за което водата достига до датчика.
 
 **Времена.** Времето за цикъл и закъснението на обмена се измерват с функцията `micros()`
@@ -988,9 +960,9 @@ USB [20] и под напрежението на задействане на р�
 ## 2.12. Икономически показатели
 
 Себестойността на макета е оценена по ориентировъчни цени на дребно към септември 2026 г.
-(**Таблица 2.7**). Цените на развойната платка и на релейния модул са по данни от онлайн
-магазини за електронни компоненти [32, 33], закръглени нагоре. Останалите
-цени са типични цени на дребно.
+(**Таблица 2.7**). Цените на развойната платка и на релейния модул са взети от онлайн
+магазини за електронни компоненти [32, 33] и са закръглени нагоре. Останалите цени са
+типични цени на дребно.
 
 **Таблица 2.7. Себестойност на макета (ориентировъчни цени, септември 2026 г.)**
 
@@ -1006,31 +978,31 @@ USB [20] и под напрежението на задействане на р�
 | **Общо** | | | **40,20** |
 
 Електронната част без захранващите адаптери и монтажните материали струва около 25 €. При
-серийно производство модулите се заменят с обща печатна платка, което намалява
-себестойността допълнително.
+серийно производство модулите биха се заменили с обща печатна платка и себестойността би
+намаляла.
 
-**Разходи за експлоатация.** Всеки възел консумира около 0,35 W без включени релета
-(около 66 mA при приемане по радиоканала [11]), а всяко включено реле добавя 0,36 W. При
-средно две включени релета и к.п.д. на адаптерите около 75 % (прието) адаптерите консумират
-от мрежата около 1,9 W, т. е. около 17 kWh годишно. При цена 0,15 €/kWh (прието) това са
-около 2,5 € годишно – пренебрежимо спрямо енергията на товарите, за чието управление е
-предназначена системата.
+**Разходи за експлоатация.** Всеки възел консумира около 0,35 W без включени релета – около
+56 mA при приемане по радиоканала [11] и около 10 mA за моста USB–UART и светодиодите. Всяко
+включено реле добавя 0,36 W. При средно две включени релета и к.п.д. на адаптерите около
+75 % (прието) адаптерите консумират от мрежата около 1,9 W, т. е. около 17 kWh годишно. При
+цена 0,15 €/kWh (прието) това са около 2,5 € годишно, което е пренебрежимо спрямо енергията
+на товарите, за чието управление е предназначена системата.
 
 ## 2.13. Изводи по Глава 2
 
-1. Разработени са **блокова схема на хардуера** (Фиг. 2.1) с параметрите на сигналите между
-   блоковете (Таблица 2.1) и **принципна схема на подчинения възел** (Фиг. 2.7).
-2. Релейните модули работят в режим **H** при входен ток около 2,2 mA, но запасът на ключа им
-   при 3,3 V е малък. Контактите на релетата в макета не са свързани към мрежата 230 V; при
-   свързване на товари над 10 A е необходим контактор. Трептенето на бутоните се потиска
-   програмно с интервал 60 ms.
-3. Датчиците DHT11 и HR202 се захранват от 3,3 V и се свързват без преобразуване на нивата;
-   четенето на DHT11 (около 25 ms) е блокиращо за главния цикъл.
-4. Делителят дава разделителна способност 10,65 mV; грешката от 55 mV на включено реле е
-   обяснена с изместване на масата. Енергийният баланс (около 0,49 A) обосновава адаптер
-   5 V / 1 A, а реле 4 е преместено от GPIO0 на GPIO15.
-5. Точността на измерванията е достатъчна за предназначението им. Себестойността на макета е
-   около 40 €, а разходът за енергия – около 2,5 € годишно.
+1. Разработени са блоковата схема на хардуера (Фиг. 2.1) с параметрите на сигналите между
+   блоковете (Таблица 2.1) и принципната схема на подчинения възел (Фиг. 2.7).
+2. Релейните модули работят в режим H с входен ток около 2,2 mA, но запасът на ключа им при
+   3,3 V е малък. В макета контактите на релетата не са свързани към мрежата 230 V; за товари
+   над 10 A е необходим контактор.
+3. Датчиците DHT11 и HR202 се захранват от 3,3 V и се свързват без преобразуване на нивата.
+   Четенето на DHT11 (около 25 ms) блокира главния цикъл.
+4. Делителят дава разделителна способност 10,65 mV. Грешката от 55 mV на включено реле
+   най-вероятно се дължи на изместване на масата и би трябвало да изчезне, ако R2 се свърже
+   с отделен проводник към GND.
+5. Енергийният баланс (около 0,49 A) налага адаптер 5 V / 1 A, а реле 4 е преместено от
+   GPIO0 на GPIO15. Себестойността на макета е около 40 €, а разходът за енергия – около
+   2,5 € годишно.
 
 
 ```{=openxml}
@@ -1040,21 +1012,21 @@ USB [20] и под напрежението на задействане на р�
 
 
 # ГЛАВА ТРЕТА
-# СОФТУЕРНО ПРОЕКТИРАНЕ НА СИСТЕМАТА
+# СОФТУЕРНО ПРОЕКТИРАНЕ
 
 ## 3.1. Организация на програмното осигуряване
 
-Програмното осигуряване реализира т. 4.4 от заданието – алгоритъма на управляващата програма
-– и т. 3.5 – конфигурирането по UART. Освен управлението на релетата, телеметрията и
-защитата при влага (датчик HR202) програмите измерват сами показателите, които се изследват в Глава 4:
-време за цикъл, закъснение и загуби на пакети, трептене на бутоните.
+Програмното осигуряване реализира т. 4.4 от заданието – алгоритъма на управляващата
+програма – и т. 3.5 – конфигурирането по UART. Освен управлението на релетата, телеметрията
+и защитата при влага (датчик HR202) програмите измерват и показателите, които се изследват в
+Глава 4: време за цикъл, закъснение и загуби на пакети, трептене на бутоните.
 
 Програмата на всеки възел е един файл на C++ – около 1560 реда за главния (`Master.ino`) и
 около 1080 реда за подчинения възел (`Slave.ino`). Описана е версия 3 на програмите, а
 разликите спрямо версия 2 са посочени там, където са съществени. Използвано е ядрото Arduino
-за ESP8266, версия 3.1.2 [26], което е надстройка над Non-OS SDK [34], и
-библиотеките `ESP8266WiFi`, `espnow` [12], `EEPROM`, `ESP8266WebServer`,
-`ESP8266mDNS`, `ArduinoOTA` и `DHT sensor library` 1.4.6 [29].
+за ESP8266, версия 3.1.2 [26], изградено върху Non-OS SDK [34], с библиотеките
+`ESP8266WiFi`, `espnow` [12], `EEPROM`, `ESP8266WebServer`, `ESP8266mDNS`, `ArduinoOTA` и
+`DHT sensor library` 1.4.6 [29].
 
 ### 3.1.1. Модел на изпълнение
 
@@ -1063,38 +1035,38 @@ ESP8266 не изпълнява операционна система с при�
 `delay()` и `yield()`, управлението се предава на SDK, който обслужва радиостека и TCP/IP.
 Затова участъци от програмата с продължителност над 50 ms трябва да се избягват [26].
 
-Приетият модел е **кооперативна многозадачност**. Всяка подсистема е функция, която се
-извиква във всяка итерация на `loop()`, проверява дали има работа и връща управлението, без
-да чака. Изчакването се реализира чрез сравнение на `millis()` или `micros()` със запомнен
-момент. Разликата се изчислява с беззнакова аритметика и остава вярна и при препълването на
-брояча (за `micros()` – на всеки $2^{32}$ µs ≈ 71,6 min).
+Използвана е кооперативна многозадачност. Всяка подсистема е функция, която се извиква във
+всяка итерация на `loop()`, проверява дали има работа и връща управлението, без да чака.
+Изчакването се реализира чрез сравнение на `millis()` или `micros()` със запомнен момент.
+Разликата се изчислява с беззнакова аритметика и остава вярна и при препълването на брояча
+(за `micros()` – на всеки $2^{32}$ µs ≈ 71,6 min).
 
 Освен главния цикъл има още два контекста на изпълнение (**Фиг. 3.1**):
 
-- **обратните функции на ESP-NOW** – извикват се от системния контекст на SDK между две
+- обратните функции на ESP-NOW, които се извикват от системния контекст на SDK между две
   итерации на `loop()` или по време на `delay()`. В тях не се допускат изчакване,
   продължителна работа и извеждане по UART [12, 26];
-- **обработчиците на прекъсвания** от бутоните – изпълняват се веднага при фронта и трябва
+- обработчиците на прекъсвания от бутоните, които се изпълняват веднага при фронта и трябва
   да са в оперативната памет за инструкции (атрибут `IRAM_ATTR`) [26].
+
+Обменът между контекстите следва едно правило: обратната функция и обработчикът на
+прекъсване само записват данни и вдигат флаг, а действието се изпълнява в главния цикъл.
+Споделените променливи са обявени като `volatile`. Така изходите и серийният порт не се
+достъпват едновременно от два контекста.
 
 ![Фиг. 3.1](figuri/png/fig_3_1_struktura_programa.png){width=15.5cm}
 
-Обменът между контекстите следва едно правило: **обратната функция и обработчикът на
-прекъсване само записват данни и вдигат флаг, а действието се изпълнява в главния цикъл.**
-Споделените променливи са обявени като `volatile`. Така изходите и серийният порт никога не
-се достъпват едновременно от два контекста.
-
 ### 3.1.2. Изисквания към времето за цикъл
 
-Горната граница на времето за изпълнение на една итерация се определя от три условия:
-работата на радиостека (под 50 ms [26]); филтъра на бутоните, който приема ново
-състояние след 60 ms без промяна (т. 2.5.2) и затова изисква многократна проверка на входа в
-този интервал; и възприемането от потребителя – реакция до 100 ms изглежда мигновена
-[28].
+Горната граница на продължителността на една итерация се определя от три условия. Първото
+е работата на радиостека (под 50 ms [26]). Второто е филтърът на бутоните, който приема ново
+състояние след 60 ms без промяна (т. 2.5.2) и затова трябва да проверява входа многократно
+в този интервал. Третото е възприемането от потребителя – реакция до 100 ms изглежда
+мигновена [28].
 
-Единствената съзнателно блокираща операция е четенето на DHT11 – около 25 ms на всеки 2 s
-(т. 2.6.1). Ако натискането съвпадне с него, промяната се отчита с до 25 ms закъснение, след
-което тече интервалът на филтъра:
+Единствената блокираща операция, оставена в програмата, е четенето на DHT11 – около 25 ms
+на всеки 2 s (т. 2.6.1). Ако натискането на бутон съвпадне с него, промяната се отчита с до
+25 ms закъснение, след което тече интервалът на филтъра:
 
 $$t_{\text{реакция,max}} \approx t_{\text{DHT}} + t_{\text{филтър}} = 25 + 60 = 85\ \text{ms} < 100\ \text{ms}$$
 
@@ -1119,15 +1091,14 @@ ESP8266 няма вградена EEPROM памет. Библиотеката `E
 мрежа, адрес на другия възел, канал, интервал на телеметрията, корекция на напрежението,
 пароли и праг за авария – са дадени в Таблица Б.1 (Приложение Б).
 
-Целостта на записа се проверява по три признака: **сигнатура** („HMC1" или „HMS1"), която
-открива неинициализирана памет; **версия на формата**, която открива запис от друга версия на
-програмата; и **контролна сума CRC-32** на останалите байтове, която открива повреда при
-прекъсване на захранването по време на запис. Запис от версия 2 с вярна сигнатура и
-контролна сума се **прехвърля** автоматично – разположението на полетата е същото, затова се
-сменя само номерът на версията, а корекцията на напрежението се нулира, тъй като във версия 2
-тя не се прилагаше. Във всички останали случаи се зареждат фабричните настройки. Записът във
-Flash паметта се извършва само по команда, никога периодично, затова ограниченият брой
-цикли на изтриване практически не се изчерпва.
+Целостта на записа се проверява по три признака. Сигнатурата („HMC1“ или „HMS1“) открива
+неинициализирана памет, версията на формата – запис от друга версия на програмата, а
+контролната сума CRC-32 на останалите байтове – повреда при прекъсване на захранването по
+време на запис. Запис от версия 2 с вярна сигнатура и контролна сума се прехвърля
+автоматично. Разположението на полетата е същото, затова се сменя само номерът на версията,
+а корекцията на напрежението се нулира, тъй като във версия 2 тя не се прилагаше. Във
+всички останали случаи се зареждат фабричните настройки. Във Flash паметта се записва само
+по команда, а не периодично, така че ограниченият брой цикли на изтриване не е проблем.
 
 ### 3.2.2. Команден интерфейс по UART
 
@@ -1135,35 +1106,35 @@ Flash паметта се извършва само по команда, ник�
 <ключ> <стойност>` за параметрите, `SAVE`, `FACTORY`, `PUSH`, команди за релетата и за
 измерванията (Таблица Б.2 в Приложение Б). Алгоритъмът на обработката е даден на **Фиг. 3.2**.
 
-![Фиг. 3.2](figuri/png/fig_3_2_algoritam_uart.png){width=15.5cm}
-
 Разборът на командите `SET` е даден в Листинг Б.1 (Приложение Б). Ключовите думи се
-сравняват в главни букви, а **стойността запазва регистъра си**, защото SSID и паролите
+сравняват в главни букви, а стойността запазва регистъра си, защото SSID и паролите
 различават малки и главни букви. Стойностите се проверяват преди присвояването (обхват,
-формат на MAC адреса), а текстовете се копират с `strncpy` до размера на полето. **Паролите
-не се извеждат** – нито в ехото на командата, нито в уеб интерфейса. Приемането **не блокира
-цикъла**: изчакването на непълен ред е ограничено до 50 ms, затова терминалът изпраща целия
-ред наведнъж.
+формат на MAC адреса), а текстовете се копират с `strncpy` до размера на полето. Паролите
+не се извеждат нито в ехото на командата, нито в уеб интерфейса. Приемането не блокира
+цикъла: изчакването на непълен ред е ограничено до 50 ms, затова терминалът трябва да
+изпраща целия ред наведнъж.
 
 Промените се правят в оперативната памет и се запазват със `SAVE`. Ако главният възел не се
-свърже с мрежата за 20 s, той обслужва само UART още 120 s и се рестартира – така погрешно
-въведени SSID или парола се поправят без повторно програмиране. Фабричните настройки на
-подчинения възел се възстановяват и без компютър – със задържане на бутона SB1 за 3 s при
-подаване на захранването (т. 2.8).
+свърже с мрежата за 20 s, той обслужва само UART още 120 s и се рестартира. Така погрешно
+въведени SSID или парола могат да се поправят без повторно програмиране. Фабричните
+настройки на подчинения възел се възстановяват и без компютър – със задържане на бутона SB1
+за 3 s при подаване на захранването (т. 2.8).
+
+![Фиг. 3.2](figuri/png/fig_3_2_algoritam_uart.png){width=15.5cm}
 
 ## 3.3. Комуникационен протокол по ESP-NOW
 
 ### 3.3.1. Съобщения
 
 ESP-NOW пренася до 250 B полезни данни в кадър за управление по IEEE 802.11 от вида
-„действие, специфично за производителя". Освен данните кадърът съдържа MAC заглавие,
+„действие, специфично за производителя“. Освен данните кадърът съдържа MAC заглавие,
 идентификатори и контролна сума – общо 43 B [10, 12].
 
-Обменът използва две структури, еднакви в двата възела: **отчет** от 144 B от подчинения
-към главния възел (съставът му е даден в Таблица Б.3 в Приложение Б) и **команда** от 20 B
-в обратна посока (**Таблица 3.2**). Структурите се предават като блок байтове без преобразуване, което е
-допустимо, защото двата възела са с еднакъв процесор и компилатор. Ограничението от 250 B се
-проверява при компилиране със `static_assert`.
+Обменът използва две структури, еднакви в двата възела: отчет от 144 B от подчинения
+към главния възел (съставът му е даден в Таблица Б.3 в Приложение Б) и команда от 20 B
+в обратна посока (**Таблица 3.2**). Структурите се предават като блок байтове без
+преобразуване. Това е допустимо, защото двата възела са с еднакъв процесор и компилатор.
+Ограничението от 250 B се проверява при компилиране със `static_assert`.
 
 **Таблица 3.2. Видове команди на главния възел**
 
@@ -1176,9 +1147,9 @@ ESP-NOW пренася до 250 B полезни данни в кадър за �
 | 4 | `CMD_RESET_STATS` | нулира броячите на измерванията |
 
 Всяка команда съдържа версията на протокола и пореден номер `seq`. Отчетите са три вида:
-**периодичен** – на всеки интервал на телеметрията (2 s); **отговор на команда** – веднага
-след изпълнението ѝ; **събитие** – след натискане на бутон, промяна на датчика за влага HR202
-или команда по UART, най-често веднъж на 50 ms.
+периодичен – на всеки интервал на телеметрията (2 s); отговор на команда – веднага след
+изпълнението ѝ; събитие – след натискане на бутон, промяна на датчика за влага HR202 или
+команда по UART, най-често веднъж на 50 ms.
 
 **Време за предаване.** Горна оценка се получава при най-ниската скорост на IEEE 802.11b –
 1 Mbit/s с дълга преамбюла от 192 µs [10]:
@@ -1187,30 +1158,31 @@ $$t_{\text{кадър}} = t_{\text{PLCP}} + \frac{8\,(L + 43)}{R} = 192\ \mu\tex
 
 За командата ($L$ = 20 B) времето е 0,70 ms. С кадъра за потвърждение (0,30 ms) един отчет
 заема канала за около 2 ms, а една команда – за около 1 ms. При интервал 2 s периодичните
-отчети заемат около **0,1 %** от времето на канала, т. е. практически не натоварват домашната
-мрежа.
+отчети заемат около 0,1 % от времето на канала, така че натоварването на домашната мрежа е
+пренебрежимо.
 
 ### 3.3.2. Надеждност на обмена
 
 **Две нива на потвърждение.** Обратната функция `OnDataSent` съобщава дали приемникът е
-потвърдил кадъра на MAC ниво. Това гарантира приемане от радиоинтерфейса, но не и обработка
-от програмата [12]. Затова след всяка изпълнена команда подчиненият възел изпраща отчет
-„отговор на команда" с номера ѝ (`ackSeq`) и с действителното състояние на релетата,
-прочетено обратно от изходите. Главният възел приема състоянието на релетата **само от
-отчетите** – подчиненият възел е единственият източник на истина.
+потвърдил кадъра на MAC ниво. Това показва, че кадърът е приет от радиоинтерфейса, но не и
+че е обработен от програмата [12]. Затова след всяка изпълнена команда подчиненият възел
+изпраща отчет „отговор на команда“ с номера ѝ (`ackSeq`) и с действителното състояние на
+релетата, прочетено обратно от изходите. Главният възел приема състоянието на релетата само
+от отчетите, т. е. меродавно е състоянието, прочетено в подчинения възел.
 
 **Проверка на приетите команди.** Подчиненият възел проверява адреса на подателя, версията
-на протокола, дължината и поредния номер (Листинг Б.2 в Приложение Б). Отхвърлените команди се броят и
-се предават в отчетите.
+на протокола, дължината и поредния номер (Листинг Б.2 в Приложение Б). Отхвърлените
+команди се броят и броят им се предава в отчетите.
 
 **Идемпотентни команди.** `CMD_RELAY` съдържа желаното състояние, а не указание
-„превключи". Повторното изпълнение дава същия резултат, а две бързи натискания в браузъра
+„превключи“. Повторното изпълнение дава същия резултат и две бързи натискания в браузъра
 преди пристигането на отчета не превключват релето обратно.
 
 **Случаен начален пореден номер.** Главният възел номерира командите от случайно 32-битово
 число (`ESP.random()`). Във версия 2 номерирането започваше от стойност, запазена в
 конфигурацията, и след рестарт на главния възел първата команда можеше да бъде отхвърлена
-като повторна. Сега вероятността за това е $2^{-32}$.
+като повторна. Във версия 3 вероятността за такова съвпадение е пренебрежимо малка
+(около $2^{-32}$).
 
 **Отчитане на загубите.** Отчетите се номерират последователно след всеки рестарт на
 подчинения възел. Пропуск от $k$ номера увеличава брояча на загубените пакети с $k$, а
@@ -1223,14 +1195,14 @@ $$t_{\text{кадър}} = t_{\text{PLCP}} + \frac{8\,(L + 43)}{R} = 192\ \mu\tex
 `PUSH` и `RESET STATS` – се поставят в кръгова опашка с 12 места. Изпращането се управлява
 от крайния автомат на **Фиг. 3.3**, който заменя блокиращото изчакване на потвърждението.
 
-![Фиг. 3.3](figuri/png/fig_3_3_opashka.png){width=15.5cm}
-
-Командата не се повтаря на приложно ниво – повторните предавания на MAC ниво се извършват от
+Командата не се повтаря на приложно ниво. Повторните предавания на MAC ниво се извършват от
 радиоинтерфейса, а неуспехът се съобщава на потребителя. Изчакването от 500 ms предпазва
 автомата от блокиране, ако обратната функция не бъде извикана. Паузата от 250 ms между
 командите включва релетата едно след друго: токът по шината +5 V нараства на стъпки от
 71,4 mA вместо 286 mA наведнъж (т. 2.7), а при свързани товари във времето се разпределят и
-пусковите им токове. Командата „включи всички" се изпълнява за около 0,76 s.
+пусковите им токове. Командата „включи всички“ се изпълнява за около 0,76 s.
+
+![Фиг. 3.3](figuri/png/fig_3_3_opashka.png){width=15.5cm}
 
 ### 3.3.4. Последователност на обмена
 
@@ -1239,17 +1211,18 @@ $$t_{\text{кадър}} = t_{\text{PLCP}} + \frac{8\,(L + 43)}{R} = 192\ \mu\tex
 ![Фиг. 3.4](figuri/png/fig_3_4_posledovatelnost.png){width=15.5cm}
 
 Главният възел поставя командата в опашката и веднага отговаря на браузъра. Подчиненият
-възел я изпълнява в следващата си итерация и в нея изпраща отчета. Закъснението до
-задействането на релето е сума от предаването на командата (около 1 ms), изчакването на
-итерацията (до 25 ms при четене на DHT11) и времето за задействане на релето (до 10 ms [19]) –
-общо под 40 ms. Двупосочното закъснение „команда – отчет" се изследва в Глава 4.
+възел я изпълнява в следващата си итерация и в същата итерация изпраща отчета.
+Закъснението до задействането на релето е сума от предаването на командата (около 1 ms),
+изчакването на итерацията (до 25 ms при четене на DHT11) и времето за задействане на релето
+(до 10 ms [19]) – общо под 40 ms. Двупосочното закъснение „команда – отчет“ е изследвано в
+Глава 4.
 
 ### 3.3.5. Синхронизация на работния канал
 
-ESP8266 има един радиочестотен тракт, затова интерфейсът за станция и ESP-NOW работят на общ
-канал (т. 1.1.6). Каналът на главния възел се определя от рутера, а подчиненият възел не е
-свързан към мрежата. Затова той стартира **скрита точка за достъп**, чиято единствена задача
-е да фиксира канала от конфигурацията:
+ESP8266 има един радиочестотен тракт, затова интерфейсът за станция и ESP-NOW работят на
+общ канал (т. 1.1.6). Каналът на главния възел се определя от рутера, а подчиненият възел не
+е свързан към мрежата. Затова подчиненият възел стартира скрита точка за достъп, чиято
+единствена задача е да фиксира канала от конфигурацията:
 
 ```cpp
 WiFi.mode(WIFI_AP_STA);
@@ -1257,10 +1230,10 @@ WiFi.softAP("Hidden_Slave", "", cfg.wifiChannel, 1);   // 1 - скрито им�
 ```
 
 При стартиране главният възел сравнява канала на рутера с конфигурирания и при разлика
-извежда предупреждение. Каналът на подчинения възел се сменя по UART или с `CMD_CONFIG`. Втората
-възможност работи само докато двата възела са на общ канал, т. е. при планирана смяна –
-първо се изпраща новият канал, а след това се сменя каналът на рутера. Рутерът трябва да
-работи на **фиксиран канал**. Автоматичното търсене на канала е насока за развитие.
+извежда предупреждение. Каналът на подчинения възел се сменя по UART или с `CMD_CONFIG`.
+Втората възможност работи само докато двата възела са на общ канал, т. е. при планирана
+смяна: първо се изпраща новият канал и след това се сменя каналът на рутера. Рутерът трябва
+да работи на фиксиран канал. Автоматичното търсене на канала е оставено за бъдещо развитие.
 
 ## 3.4. Уеб сървър и потребителски интерфейс
 
@@ -1271,40 +1244,40 @@ WiFi.softAP("Hidden_Slave", "", cfg.wifiChannel, 1);   // 1 - скрито им�
 в опашката или формира отговор. Уеб страницата (HTML, CSS и JavaScript, 17,5 kB) е записана
 в програмната памет с атрибут `PROGMEM` и се изпраща с `send_P()` направо от Flash паметта,
 без копиране в оперативната памет. Затова не е необходима файлова система, а страницата и
-програмата се обновяват винаги заедно. Адресите – `/`, `/data`, `/config`, `/toggle`, `/onAll`,
-`/offAll`, `/ping` и `/resetStats` – и кодовете за грешка са дадени в Таблица Б.4 (Приложение Б).
+програмата се обновяват заедно. Адресите – `/`, `/data`, `/config`, `/toggle`, `/onAll`,
+`/offAll`, `/ping` и `/resetStats` – и кодовете за грешка са дадени в Таблица Б.4
+(Приложение Б).
 
 Състоянието е представено като ресурс (`/data`), който страницата запитва периодично –
-подход, близък до стила REST [35]. Действията обаче се извикват с метода GET, който
-според семантиката на HTTP не бива да променя състоянието на сървъра [36]. В системата
-рискът е малък, защото адресите се извикват само от скрипта на страницата, но в изделие
-действията трябва да се изпълняват с метода POST.
+подход, близък до стила REST [35]. Действията обаче се извикват с метода GET, който според
+семантиката на HTTP не бива да променя състоянието на сървъра [36]. В системата рискът е
+малък, защото адресите се извикват само от скрипта на страницата, но в изделие действията
+трябва да се изпълняват с метода POST.
 
 ### 3.4.2. Формиране на отговорите в JSON
 
-Във версия 2 отговорът на `/data` се получаваше с долепване на обекти `String`. Всяка
-секундна заявка заделяше и освобождаваше десетки блокове динамична памет, което при
-непрекъсната работа води до фрагментиране. Във версия 3 отговорите се формират в
-**статичен буфер от 2048 B** (Листинг Б.3 в Приложение Б). Текстовете се екранират съгласно RFC 8259, а
-NaN и ±∞, които нямат представяне в JSON, се записват като `null` [37]. Съкращаването
-на резултата се открива и при препълване сървърът връща код 500 с кратък валиден JSON –
-браузърът никога не получава невалиден документ.
+Във версия 2 отговорът на `/data` се получаваше чрез долепване на обекти `String`. Всяка
+заявка, изпращана веднъж в секунда, заделяше и освобождаваше десетки блокове динамична
+памет, а при непрекъсната работа това води до фрагментиране. Във версия 3 отговорите се
+формират в статичен буфер от 2048 B (Листинг Б.3 в Приложение Б). Текстовете се екранират
+съгласно RFC 8259, а стойностите NaN и ±∞, които нямат представяне в JSON, се записват като
+`null` [37]. Ако резултатът не се побере в буфера, сървърът връща код 500 с кратък валиден
+JSON, така че браузърът не получава невалиден документ.
 
-При типични стойности отговорът на `/data` е около 1 kB. Горната граница, получена при
-най-големи стойности на всички броячи и най-дълги текстове, е около 1,4 kB – буферът има
-резерв около 30 %.
+При типични стойности отговорът на `/data` е около 1 kB. При най-големи стойности на всички
+броячи и най-дълги текстове той е около 1,4 kB, т. е. буферът има резерв около 30 %.
 
 ### 3.4.3. Клиентска част, достъп и защита
 
 Скриптът на страницата запитва всяка секунда `/data` чрез Fetch API [38] и обновява
 страницата без презареждане. Неуспешната заявка означава, че главният възел е недостъпен, а
 флагът за авария в отговора – че подчиненият възел не изпраща данни. Датчикът за влага HR202
-се показва в картата „Сензор за влага" като „СУХО", „МОКРО (БЛОКИРАНО)" или „СУХО
-(ИЗЧАКВАНЕ)".
+се показва в картата „Сензор за влага“ като „СУХО“, „МОКРО (БЛОКИРАНО)“ или „СУХО
+(ИЗЧАКВАНЕ)“.
 
 Главният възел обявява името си чрез mDNS [39] и LLMNR и е достъпен на адрес
 `http://smarthome.local`. По избор достъпът се защитава с HTTP Basic автентикация, при която
-паролата се предава кодирана, но не шифрирана [40] – приемливо в доверена домашна
+паролата се предава кодирана, но не шифрирана [40]. Това е приемливо в доверена домашна
 мрежа, но не и в изделие. Главният възел се обновява безжично (OTA) с парола – изображението
 от 393 kB се побира в областта за OTA от около 1 MB. Шифрирането на ESP-NOW със 128-битови
 ключове е предвидено по избор [12] и в макета е изключено.
@@ -1314,8 +1287,8 @@ NaN и ±∞, които нямат представяне в JSON, се зап�
 ### 3.5.1. Температура, влажност и захранващо напрежение
 
 DHT11 се чете в началото на всеки периодичен отчет, но не по-често от веднъж на 2 s. При
-неуспешно четене се увеличава броячът на грешките и **се задържат последните валидни
-стойности** – ако вместо тях се предаде нула, панелът би показал подвеждащите 0 °C. До първото
+неуспешно четене се увеличава броячът на грешките и се задържат последните валидни
+стойности. Ако вместо тях се предаде нула, панелът би показал подвеждащите 0 °C. До първото
 успешно четене в JSON се предава `null`.
 
 Измерването на напрежението е разделено на стъпки, за да не блокира цикъла. След четенето на
@@ -1327,81 +1300,84 @@ $$U_{\text{VCC}} = \frac{\bar{N}_{A0}}{1024}\,U_{\text{FS}} - n\,\Delta U_{\text
 
 където $\bar{N}_{A0}$ е средният отчет на АЦП; $U_{\text{FS}}$ = 10,91 V – калибрираната пълна
 скала (т. 2.6.3); $n$ – броят на включените релета; $\Delta U_{\text{р}}$ = 0,055 V –
-грешката на едно включено реле; $U_{\text{кор}}$ – корекцията от конфигурацията. В отчета се
-предава и сумата на пробите – за калибровката (т. 2.6.3).
+грешката на едно включено реле; $U_{\text{кор}}$ – корекцията от конфигурацията. Стойността
+$\Delta U_{\text{р}}$ съответства на макета, в който R2 е свързан към шината GND на
+макетната платка. Ако R2 се свърже по принципната схема с отделен проводник (т. 2.9),
+константата трябва да се нулира. В отчета се предава и сумата на пробите – за калибровката.
 
 При интервал 2 ms десетте проби обхващат около 20 ms – един период на мрежовото напрежение.
-При равномерно разположение сумата на десет проби от синусоида с период 20 ms е нула:
+При равномерно разположени проби сумата на десет стойности на синусоида с период 20 ms е
+нула:
 
-$$\sum_{k=0}^{9} \sin\left(\frac{2\pi k}{10} + \varphi\right) = 0$$
+$$\sum_{k=0}^{9} \sin(2\pi k/10 + \varphi) = 0$$
 
-Следователно освен случайния шум осредняването потиска и смущенията с честота 50 Hz. Тъй като
-действителният интервал е малко над 2 ms, потискането е частично, но значително.
+Следователно освен случайния шум осредняването намалява и смущенията с честота 50 Hz. Тъй
+като действителният интервал е малко над 2 ms, потискането е само частично.
 
 ### 3.5.2. Време за цикъл и динамична памет
 
-Програмата измерва с `micros()` две величини (**Фиг. 3.5, б**): **време за изпълнение**
-$t_{\text{изп}}$ – от началото до края на `loop()`, и **период** $T$ – между началата на две
+Програмата измерва с `micros()` две величини (**Фиг. 3.5, б**): време за изпълнение
+$t_{\text{изп}}$ – от началото до края на `loop()`, и период $T$ – между началата на две
 поредни итерации, който включва и обслужването на радиостека от SDK. В началото на `loop()`
 се запомня моментът $t_0$ и се обновява най-големият период, а в края се натрупват броят на
 итерациите, сумата и максимумът на $t_{\text{изп}} = t_{\text{край}} - t_0$.
 
 ![Фиг. 3.5](figuri/png/fig_3_5_telemetria_cikal.png){width=15.5cm}
 
-Статистиката се натрупва в **прозорец** между два периодични отчета и се предава с отчета:
+Статистиката се натрупва в прозорец между два периодични отчета и се предава с отчета:
 брой итерации $N$, средно и най-голямо $t_{\text{изп}}$, най-голям период и продължителност
 на прозореца $t_{\text{пр}}$; честотата на итерациите е $f = N / t_{\text{пр}}$. Пази се и
 най-голямото $t_{\text{изп}}$ от стартирането. Четенето на DHT11 е в началото на същия цикъл
-на телеметрията, затова максимумът във всеки отчет показва пряко времето, през което
-датчикът блокира програмата.
+на телеметрията, затова максимумът във всеки отчет показва колко време датчикът блокира
+програмата.
 
 **Защо версия 2 показваше 0 ms.** Във версия 2 времето се измерваше с `millis()` в края на
 `loop()`, след изпращането на телеметрията. В отчета попадаше продължителността на
-*предходната* итерация – обикновена итерация от няколко микросекунди, която с разделителна
+предходната итерация – обикновена итерация от няколко микросекунди, която с разделителна
 способност 1 ms се отчита като 0 ms. Итерацията с четенето на DHT11 и с блокиращото
-измерване на напрежението (около 45 ms) никога не се предаваше. Това е **грешка в
-методиката на измерване**, а не свойство на системата.
+измерване на напрежението (около 45 ms) не се предаваше. Показанието 0 ms следователно се
+дължи на начина на измерване.
 
 Главният възел измерва по същия начин собствения си цикъл, времето до потвърждението на MAC
-ниво и двупосочното закъснение при теста PING – от изпращането на заявката до пристигането на
-отчета с нейния номер. Двата възела следят и свободната динамична памет, най-малката ѝ
-стойност от стартирането и фрагментацията. С `LOG ON` главният възел извежда по UART ред във
-формат CSV за всеки периодичен отчет – за последваща обработка на измерванията.
+ниво и двупосочното закъснение при теста PING – от изпращането на заявката до пристигането
+на отчета с нейния номер. Двата възела следят и свободната динамична памет, най-малката ѝ
+стойност от стартирането и фрагментацията. С командата `LOG ON` главният възел извежда по
+UART ред във формат CSV за всеки периодичен отчет, за да могат измерванията да се обработят
+по-късно.
 
 ## 3.6. Местно управление и защита при влага
 
 ### 3.6.1. Обработка на бутоните
 
-Всеки бутон се обслужва от неблокиращ филтър (Листинг Б.4 в Приложение Б). Новото състояние се приема,
-когато входът е непроменен повече от 60 ms. При натискане SB1 превключва реле 1, а SB2
-изключва всички релета, след което се изпраща отчет за събитие.
+Всеки бутон се обслужва от неблокиращ филтър (Листинг Б.4 в Приложение Б). Новото
+състояние се приема, когато входът е непроменен повече от 60 ms. При натискане SB1
+превключва реле 1, а SB2 изключва всички релета, след което се изпраща отчет за събитие.
 
 Двата входа имат и прекъсване по всеки фронт, чийто обработчик само увеличава брояч. При
 всяко прието превключване се изчислява колко фронта са отчетени от предходното и се запазва
-най-голямата стойност. Без трептене на едно превключване съответства един фронт – всеки
-следващ е отскок на контакта. Така трептенето се оценява без осцилоскоп, като броят е
+най-голямата стойност. Без трептене на едно превключване съответства един фронт, а всеки
+следващ е отскок на контакта. Така трептенето може да се оцени без осцилоскоп, като броят е
 долна граница, защото много близки фронтове се сливат.
 
 ### 3.6.2. Защитна блокировка при влага (HR202)
 
-Функцията на защитата е първа в главния цикъл. Поведението ѝ е описано с крайния автомат на
-**Фиг. 3.6**.
+Функцията на защитата се извиква първа в главния цикъл. Поведението ѝ е описано с крайния
+автомат на **Фиг. 3.6**.
 
 ![Фиг. 3.6](figuri/png/fig_3_6_zashtita.png){width=15.5cm}
 
-Блокировката се задейства при първото отчитане на влага (DO = 0 на HR202) и изключва незабавно
-всички релета.
-Тя се сваля едва след 2 s **непрекъснато** сухо състояние, което предпазва от трептенето на
-изхода на компаратора около прага (т. 2.6.2). След свалянето ѝ релетата **не се включват
-автоматично**. Докато блокировката е активна, всяко включване – от бутон, по UART или по
-ESP-NOW – се отказва, а изключването е разрешено винаги. Проверката е на три нива: браузърът
-не изпраща заявка, главният възел отговаря с код 403, а подчиненият възел отказва
-изпълнението. Решаваща е проверката в подчинения възел – тя действа и без главния възел, и без
-Wi-Fi мрежа.
+Блокировката се задейства при първото отчитане на влага (DO = 0 на HR202) и незабавно
+изключва всички релета. Тя се сваля едва след 2 s непрекъснато сухо състояние, което
+предпазва от трептенето на изхода на компаратора около прага (т. 2.6.2). След свалянето ѝ
+релетата не се включват автоматично. Докато блокировката е активна, всяко включване – от
+бутон, по UART или по ESP-NOW – се отказва, а изключването е разрешено винаги. Проверката е
+на три нива: браузърът не изпраща заявка, главният възел отговаря с код 403, а подчиненият
+възел отказва изпълнението. Най-важна е проверката в подчинения възел, защото тя работи и
+когато няма връзка с главния възел или с Wi-Fi мрежата.
 
 Времето за реакция е сума от най-много един период на главния цикъл (до около 25 ms при
 съвпадение с четенето на DHT11) и времето за отпускане на релето (до 5 ms [19]), т. е.
-най-много около **30 ms**.
+най-много около 30 ms.
 
 ## 3.7. Алгоритъм на управляващата програма
 
@@ -1421,12 +1397,12 @@ Wi-Fi мрежа.
 ![Фиг. 3.8](figuri/png/fig_3_8_algoritam_slave.png){width=15.5cm}
 
 В началната последователност на подчинения възел (**Фиг. 3.8**) изходите се установяват в
-ниско ниво **преди** конфигурирането им като изходи, така че релетата не се задействат
-кратковременно при подаване на захранването. Фабричното нулиране със задържан бутон се
-проверява преди инициализацията на радиоинтерфейса, а първото измерване на напрежението се
-извършва още в `setup()`, за да съдържа първият отчет валидна стойност. Редът на функциите в
-главния цикъл следва приоритета им: първа е защитата при влага, следват бутоните, командите
-по ESP-NOW и UART, а последна е телеметрията – така отчетът съдържа състоянието след всички
+ниско ниво, преди да бъдат конфигурирани като изходи, така че релетата не се задействат
+за кратко при подаване на захранването. Фабричното нулиране със задържан бутон се проверява
+преди инициализацията на радиоинтерфейса, а първото измерване на напрежението се извършва
+още в `setup()`, за да съдържа първият отчет валидна стойност. Функциите в главния цикъл се
+извикват по реда на приоритета си: първа е защитата при влага, следват бутоните, командите
+по ESP-NOW и UART, а последна е телеметрията. Така отчетът съдържа състоянието след всички
 промени в същата итерация.
 
 ## 3.8. Проверка на програмата
@@ -1447,31 +1423,30 @@ SDK – приложната програма добавя само двата �
 главния възел е нараснала спрямо версия 2 (30 884 B) главно заради статичния буфер за JSON,
 който е постоянен, за разлика от динамичните обекти `String`.
 
-Част от поведението трудно се възпроизвежда на макета – препълването на `micros()`, загуба на
-определени пакети, пакети от чужд адрес, препълване на буфера за JSON. Затова
-**непроменените** файлове `Master.ino` и `Slave.ino` се компилират и на персонален компютър
+Част от поведението трудно се възпроизвежда на макета – препълването на `micros()`, загубата
+на определени пакети, пакети от чужд адрес, препълването на буфера за JSON. Затова
+непроменените файлове `Master.ino` и `Slave.ino` се компилират и на персонален компютър
 заедно с имитация на програмния интерфейс на Arduino и ESP8266 – със симулирано време,
 изводи, АЦП, EEPROM, ESP-NOW, уеб сървър и сериен порт. Проверени са 114 условия за
-подчинения и 74 за главния възел – всички са изпълнени. Отговорите в JSON се проверяват със
+подчинения и 74 за главния възел и всички са изпълнени. Отговорите в JSON се проверяват със
 строг анализатор, а скриптът на уеб страницата се изпълнява в Node.js с действителните
-отговори на главния възел – без грешки. Тестовете проверяват **логиката** на програмата;
-времевите параметри и радиовръзката се изследват в Глава 4.
+отговори на главния възел, без грешки. Тестовете проверяват логиката на програмата, а
+времевите параметри и радиовръзката са изследвани в Глава 4.
 
 ## 3.9. Изводи по Глава 3
 
-1. Програмите са изградени по модела на **кооперативната многозадачност**: обратните функции
-   и прекъсванията само записват данни, а действията се изпълняват в главния цикъл.
-   Единствената блокираща операция е четенето на DHT11 – най-дългата итерация е намалена от
-   около 45 ms във версия 2 до около 25 ms, а реакцията на бутон е до около 85 ms.
-2. Конфигурацията е в емулирана EEPROM с проверка по сигнатура, версия и CRC-32; командите по
-   UART проверяват стойностите и не извеждат паролите.
+1. Програмите използват кооперативна многозадачност: обратните функции и прекъсванията
+   само записват данни, а действията се изпълняват в главния цикъл. Най-дългата итерация е
+   намалена от около 45 ms във версия 2 до около 25 ms (четенето на DHT11), а реакцията на
+   бутон е до около 85 ms.
+2. Конфигурацията се пази в емулирана EEPROM с проверка по сигнатура, версия и CRC-32.
+   Командите по UART проверяват стойностите и не извеждат паролите.
 3. Протоколът по ESP-NOW (отчет 144 B, команда 20 B) има потвърждение на две нива,
-   идемпотентни команди и отчитане на загубите; неблокиращата опашка включва релетата
-   последователно. Един отчет заема канала около 2 ms.
+   идемпотентни команди и отчитане на загубите. Един отчет заема канала около 2 ms.
 4. Уеб страницата се изпраща от Flash паметта, а отговорите в JSON се формират в статичен
    буфер с резерв около 30 %.
-5. Вградени са средства за измерване на времето за цикъл, закъснението, загубите и трептенето
-   на бутоните; обяснен е артефактът „0 ms" във версия 2.
+5. Програмите измерват времето за цикъл, закъснението, загубите и трептенето на бутоните.
+   Показанието „0 ms“ във версия 2 се дължи на начина на измерване.
 6. Защитната блокировка изключва релетата за около 30 ms и се проверява на три нива.
    Алгоритъмът на двата възела (т. 4.4 и т. 5.3 от заданието) е проверен със 188 условия.
 
@@ -1490,13 +1465,13 @@ SDK – приложната програма добавя само двата �
 Изследването проверява дали системата запазва правилното си поведение при неблагоприятни
 условия: грешки и прекъсвания в радиоканала, повторно доставени кадри, рестарти на възлите,
 трептене на бутоните и на изхода на датчика за влага HR202, продължителна непрекъсната работа.
-Използвани са три метода (**Таблица 4.1**): **проверка на макета**, **изчисление** на
-времената на обмена и на енергийния бюджет на радиовръзката и **симулация на системата**, в
-която двете програми работят едновременно в симулирано време и обменят кадри през модел на
-радиоканала. Симулацията позволява изпитвания, които на макета са трудно възпроизводими –
+Използвани са три метода (**Таблица 4.1**): проверка на макета, изчисление на времената на
+обмена и на енергийния бюджет на радиовръзката и симулация на системата, в която двете
+програми работят едновременно в симулирано време и обменят кадри през модел на
+радиоканала. Симулацията позволява изпитвания, които на макета трудно се възпроизвеждат –
 десетки хиляди повторения, зададен процент грешки в канала, рестарт в определен момент,
-денонощна работа. Всички резултати в т. 4.4–4.7 са получени **чрез симулация** и са означени
-като такива.
+денонощна работа. Резултатите в т. 4.4–4.7 са получени чрез симулация и са означени като
+такива.
 
 **Таблица 4.1. Изследвани показатели и методи**
 
@@ -1513,13 +1488,15 @@ SDK – приложната програма добавя само двата �
 ## 4.2. Проверка на макета
 
 Двата възела са програмирани с версия 3 и работят заедно. Реле 4 се управлява нормално от
-новия извод D8, което потвърждава практически решението от т. 2.8. Коефициентите за
+новия извод D8, с което е проверено на практика решението от т. 2.8. Коефициентите за
 измерването на напрежението – пълна скала 10,91 V и грешка 55 mV на включено реле – са
 определени при изработването на макета чрез сравнение с мултиметър (т. 2.6.3).
 
 Величините, които симулацията не моделира – напрежения и токове, обхват на радиовръзката,
-поведение на динамичната памет, – се проверяват на макета с вградените средства за
-измерване. Протоколът за това изпитване (опити Е1–Е12) е приложен към програмите.
+поведение на динамичната памет, – не са измервани с уреди в рамките на тази работа. За
+измерването им е разработена методика (протокол с опити Е1–Е12), приложена в електронния
+архив към програмното осигуряване. Изпълнението ѝ е първата от насоките за бъдещо
+развитие.
 
 ## 4.3. Симулационен модел
 
@@ -1530,8 +1507,6 @@ SDK – приложната програма добавя само двата �
 библиотеката: оперативната памет се инициализира наново, а съдържанието на EEPROM се
 запазва, както при реалния модул.
 
-![Фиг. 4.1](figuri/png/fig_4_1_simulacia.png){width=15.5cm}
-
 Кадрите между възлите преминават през модел на радиоканала по IEEE 802.11b при 1 Mbit/s
 [10]. Всеки опит за предаване започва след интервал DIFS и случайно изчакване, чиято
 горна граница се удвоява при всяко повторение. Кадърът се губи с вероятност FER. Ако
@@ -1539,6 +1514,8 @@ SDK – приложната програма добавя само двата �
 стандарта. Моделирани са и загуба само на потвърждението, повторно доставяне на кадър до
 програмата, фонов трафик от други станции и пълни прекъсвания на връзката. Обратните функции
 на ESP-NOW се извикват между итерациите на главния цикъл, както при реалния модул.
+
+![Фиг. 4.1](figuri/png/fig_4_1_simulacia.png){width=15.5cm}
 
 Въздействията са: браузър, който запитва `/data` всяка секунда и подава команди; тест PING;
 натискания на бутоните с 1…6 отскока през 0,1…1,6 ms [27]; намокряне на датчика за влага
@@ -1564,7 +1541,7 @@ HR202 с трептене на изхода на компаратора; гре�
 модела, а не измерени. Затова симулацията проверява логиката и времевото поведение при тези
 стойности, но не и действителното време за изпълнение на ESP8266. Не се моделират
 разпространението на радиовълните (заместено е с параметъра FER), протоколът TCP и
-динамичната памет. Тези свойства се проверяват на макета.
+динамичната памет. Те могат да се проверят на макета по протокола от т. 4.2.
 
 ## 4.4. Закъснение на обмена
 
@@ -1612,7 +1589,7 @@ $P \approx t_{\text{DHT}} / T_{\text{тел}} = 25 / 2000 = 1{,}25\ \%$.
 
 При идеален канал симулацията потвърждава изчислението. Най-малкото RTT (2,86 ms) и средното
 време до потвърждението (1,43 ms) се отличават от изчислените с по-малко от 5 %. Разликата
-идва от времето до следващата итерация на главния цикъл. Разпределението е двугрупово
+се дължи на времето до следващата итерация на главния цикъл. Разпределението е двугрупово
 (Фиг. 4.3, а): 98 % от заявките са между 2,8 и 4,2 ms, а останалите са разпределени до
 28,2 ms – случаите, в които заявката пристига по време на четенето на DHT11. Делът над 10 ms
 (0,91 %) съвпада с очаквания за закъснения, по-големи от 6,5 ms, в рамките на 25-милисекундното
@@ -1647,20 +1624,17 @@ $\text{FER}^7$.
 | Несъответствие на състоянието: дял / най-дълго | 0,03 % / 0,1 s | 0,06 % / 0,1 s | 0,24 % / 1,8 s | 0,94 % / 3,7 s | 6,6 % / 17,6 s |
 | Средно $t_{\text{потв}}$, ms | 1,46 | 3,72 | 8,51 | 12,4 | 16,5 |
 
-Резултатите показват следното:
+До FER 30 % повторните предавания на MAC ниво скриват грешките в канала и не е загубен нито
+един отчет. Загубите растат рязко едва при FER над 50 %, както следва от $\text{FER}^7$.
+Главният възел открива всеки загубен отчет, след който е пристигнал следващ. Трите неоткрити
+загуби при FER 90 % са последните отчети преди края на симулацията. Повторно доставените
+кадри се разпознават: повторните отчети се броят отделно, а повторните команди не се
+изпълняват втори път.
 
-- **Повторните предавания на MAC ниво скриват грешките в канала** до FER 30 % – не е загубен
-  нито един отчет. Загубите растат стръмно едва при FER над 50 %, в съответствие с
-  $\text{FER}^7$.
-- **Отчитането на загубите е точно.** Главният възел открива всеки загубен отчет, след който е
-  пристигнал следващ; трите неоткрити загуби при FER 90 % са последните отчети преди края на
-  симулацията.
-- **Всеки повторно доставен кадър е разпознат** – повторните отчети се броят отделно, а
-  повторните команди не се изпълняват втори път.
-- **Показаното състояние се възстановява само** със следващия периодичен отчет –
-  несъответствието трае до 1,8 s при FER 50 % и до 17,6 s при 48 % загуби, а опашката от
-  команди не блокира. Когато командата е изпълнена, но потвърждението е загубено,
-  потребителят вижда съобщение за грешка, а показаното състояние остава вярно (т. 3.3.3).
+Показаното в браузъра състояние се възстановява със следващия периодичен отчет.
+Несъответствието трае до 1,8 s при FER 50 % и до 17,6 s при 48 % загуби, а опашката от
+команди не блокира. Когато командата е изпълнена, но потвърждението е загубено,
+потребителят вижда съобщение за грешка, а показаното състояние остава вярно (т. 3.3.3).
 
 ### 4.5.2. Оценка на обхвата
 
@@ -1682,8 +1656,8 @@ $PL(d) = PL(1\ \text{m}) + N \lg d + L_{\text{прегр}}$, където $PL(1\
 | Затихване без прегради, dB | 59,8 | 68,2 | 76,6 | 81,5 | 87,8 |
 | Запас за прегради, dB | 48 | 40 | 31 | 26 | 20 |
 
-Обхватът в жилище се определя от преградите, а не от разстоянието – на 20 m остават около
-31 dB за загуби в стени и плочи. Когато сигналът приближи границата на чувствителността,
+В жилище обхватът зависи най-вече от преградите – на
+20 m остават около 31 dB за загуби в стени и плочи. Когато сигналът приближи границата на чувствителността,
 делът на грешните кадри расте. Според Таблица 4.5 системата продължава да работи с
 възстановяващо се състояние дори при FER 70…90 %.
 
@@ -1704,7 +1678,7 @@ $PL(d) = PL(1\ \text{m}) + N \lg d + L_{\text{прегр}}$, където $PL(1\
 | Време за реакция без трептене: медиана / 99 % / макс. | 0,25 / 15,6 / 25,5 ms |
 | Време за реакция с трептене: медиана / 99 % / макс. | 0,25 / 27,8 / 45,7 ms |
 
-Филтърът на бутоните приема всяко нормално натискане въпреки трептенето. Той отхвърля всички
+Филтърът на бутоните приема всяко нормално натискане въпреки трептенето и отхвърля всички
 почуквания, по-кратки от 60 ms. Трептенето на изхода на компаратора при намокряне и при
 изсъхване не предизвиква допълнителни задействания и преждевременно сваляне на блокировката
 – изискването за 2 s непрекъснато сухо състояние действа.
@@ -1753,8 +1727,9 @@ $PL(d) = PL(1\ \text{m}) + N \lg d + L_{\text{прегр}}$, където $PL(1\
 
 ## 4.8. Изводи по Глава 4
 
-1. Макетът работи с версия 3 на програмите, а реле 4 се управлява от извода D8. Системата е
-   изследвана и чрез съвместна симулация на двете непроменени програми – 44 h в 11 сценария.
+1. Макетът работи с версия 3 на програмите, а реле 4 се управлява от извода D8. Поведението
+   на системата е изследвано чрез съвместна симулация на двете непроменени програми – 44 h в
+   11 сценария.
 2. Изчисленото закъснение е потвърдено: при идеален канал RTT е 2,86…4,2 ms за 98 % от
    заявките и до 28,2 ms при съвпадение с четенето на DHT11; при зает канал средното RTT е
    6,47 ms без загубени заявки.
@@ -1765,8 +1740,9 @@ $PL(d) = PL(1\ \text{m}) + N \lg d + L_{\text{прегр}}$, където $PL(1\
    Защитната блокировка се задейства при всяко намокряне на HR202 и не допуска включено реле;
    реакцията без трептене е до 25,5 ms.
 5. При денонощна работа с прекъсвания, рестарти и грешки отчитането на загубите остава точно,
-   а опашката и буферът за JSON не се препълват. Програмите са устойчиви в рамките на
-   модела; напреженията, токовете и обхватът се проверяват на макета.
+   а опашката и буферът за JSON не се препълват. Тези резултати важат в рамките на модела.
+   Напреженията, токовете и обхватът не са измервани с уреди; за тях е подготвен протокол с
+   опити Е1–Е12.
 
 
 ```{=openxml}
@@ -1777,98 +1753,81 @@ $PL(d) = PL(1\ \text{m}) + N \lg d + L_{\text{прегр}}$, където $PL(1\
 
 # ЗАКЛЮЧЕНИЕ
 
-## 1. Изпълнение на поставените задачи
+## 1. Изпълнение на заданието
 
-В дипломната работа е проектирана, реализирана и изследвана двувъзлова микроконтролерна
-система за управление на дома с потребителски интерфейс по стандарта IEEE 802.11.
-Изпълнението на поставените в увода задачи е обобщено в таблицата по-долу. Покрити са всички
-точки от обяснителната записка (т. 4.1–4.5 от заданието) и от графичната част (т. 5.1–5.3).
-
-**Изпълнение на поставените задачи**
-
-| № | Задача | Резултат | Раздел |
-|---|---|---|---|
-| 1 | Литературно проучване | Сравнени пет технологии; обоснован избор на IEEE 802.11 + ESP-NOW и на ESP8266 | Глава 1 |
-| 2 | Блокова схема | Два възела на NodeMCU v3; функции на блоковете и параметри на сигналите между тях | 2.2, Фиг. 2.1 |
-| 3 | Принципна схема с изчисления | Съвместимост на модулите и датчиците с 3,3 V логика; делител; енергиен баланс; изводи; точност; себестойност | 2.4–2.12, Фиг. 2.7 |
-| 4 | Конфигуриране по UART | Конфигурация в емулирана EEPROM с проверка по сигнатура, версия и CRC-32 | 3.2, Фиг. 3.2 |
-| 5 | Обмен по ESP-NOW | Потвърждение на две нива, отчитане на загубите, неблокираща опашка | 3.3, Фиг. 3.3, 3.4 |
-| 6 | Уеб сървър | Страница във Flash паметта; JSON в статичен буфер; Fetch API | 3.4 |
-| 7 | Неблокиращ главен цикъл | Най-дълга итерация около 25 ms; защитна блокировка; измерване на времето за цикъл | 3.5–3.7, Фиг. 3.7, 3.8 |
-| 8 | Изследване | Проверка на макета; съвместна симулация на двете програми – 44 h в 11 сценария | Глава 4 |
-| 9 | Изводи и насоки | Настоящото заключение | – |
+В дипломната работа е проектирана, реализирана и изследвана двувъзлова система за
+управление на дома с два модула ESP8266 и потребителски интерфейс по IEEE 802.11.
+Литературното проучване (т. 4.1 от заданието) е в Глава 1. Блоковата схема (т. 4.2, т. 5.1)
+и принципната схема на подчинения възел с изчисленията (т. 4.3, т. 5.2) са в Глава 2, а
+алгоритъмът на програмите (т. 4.4, т. 5.3) и конфигурирането по UART – в Глава 3.
+Изследването (т. 4.5) е описано в Глава 4, а графичната част е в Приложение А.
 
 ## 2. Основни резултати
 
-- **Хардуер.** Релейните модули за 5 V логика и двата датчика – DHT11 и HR202 – работят с
-  3,3 V логика на ESP8266 без допълнителни елементи; входният ток на релейния модул е около
-  2,2 mA. Енергийният баланс (около 0,49 A) обосновава адаптер 5 V / 1 A. Делителят дава
-  разделителна способност 10,65 mV, а грешката от 55 mV на включено реле е обяснена с
-  изместване на масата. Себестойността на макета е около 40 €.
-- **Програми.** Най-дългата итерация на главния цикъл е намалена от около 45 ms във
-  версия 2 до около 25 ms – времето за четене на DHT11. Отчетът по ESP-NOW заема
-  радиоканала около 2 ms, т. е. около 0,1 % от времето.
-- **Изследване.** Съвместната симулация на двете непроменени програми показва двупосочно
-  закъснение 2,86…4,2 ms за 98 % от заявките, в съгласие с изчислението. Повторните
-  предавания скриват грешките в канала до FER 30 %, а при по-голям FER загубите се отчитат
-  точно и състоянието се възстановява със следващия отчет. Всички нормални натискания на
-  бутоните са приети, а почукванията под 60 ms – отхвърлени. При 495 намокряния на HR202
-  блокировката не допуска нито едно включено реле; реакцията е до 25,5 ms.
-- **Радиовръзка.** Допустимото затихване е 108 dB; на 20 m остават около 31 dB за стени и
-  плочи – обхватът се определя от преградите.
+Релейните модули за 5 V логика и двата датчика – DHT11 и HR202 – работят с 3,3 V логиката
+на ESP8266 без допълнителни елементи. Входният ток на релейния модул е около 2,2 mA, а
+енергийният баланс на подчинения възел (около 0,49 A) налага адаптер 5 V / 1 A. Делителят за
+контрол на захранването дава разделителна способност 10,65 mV. Грешката от 55 mV на
+включено реле най-вероятно се дължи на общия път на масата в макетната платка.
+Себестойността на макета е около 40 €.
 
-## 3. Научно-приложни приноси
+В програмите най-дългата итерация на главния цикъл е намалена от около 45 ms във версия 2 до
+около 25 ms – колкото продължава четенето на DHT11. Един отчет по ESP-NOW заема радиоканала
+около 2 ms, т. е. около 0,1 % от времето при интервал 2 s.
 
-1. Обоснована е **хибридна двуслойна комуникационна архитектура** – IEEE 802.11 на
-   приложно ниво за връзка с потребителя и ESP-NOW на връзково ниво между възлите. Показано е,
-   че доводът за високата консумация на Wi-Fi е без значение за устройства, предназначени да
-   управляват киловатови товари (дял на електрониката под 0,05 %).
-2. Показано е как модули за 5 V логика и изводи със специални функции при стартиране се
-   съчетават с ESP8266 **без допълнителни елементи** – чрез избор на активното ниво,
-   захранване на датчиците от 3,3 V и разпределение на изводите. Грешката при измерването на
-   напрежението е обяснена физически, а не само коригирана програмно.
-3. Разработен е протокол по ESP-NOW с **потвърждение на две нива**, идемпотентни команди и
-   отчитане на загубите, съчетан с **вградени средства за измерване** на показателите на
-   системата.
-4. Предложен е метод за изследване на устойчивостта чрез **съвместна симулация на
-   непроменените програми** с модел на радиоканала по IEEE 802.11, с непрекъсната проверка
-   на инвариантите на безопасността.
-5. Системата е позиционирана като **изпълнителен слой на локален енергиен мениджмънт** при
-   домашно зареждане на електромобил: при присъединяване 25 A и зареждане с 16 A остава
-   резерв едва 2070 W, а тричасово прекъсване на бойлера го охлажда с под 2 °C.
+Симулацията на двете непроменени програми дава двупосочно закъснение 2,86…4,2 ms за 98 % от
+заявките, което съответства на изчислението. До FER 30 % повторните предавания скриват
+грешките в канала, а при повече грешки загубите се отчитат точно и състоянието се
+възстановява със следващия отчет. Всички нормални натискания на бутоните са приети, а
+почукванията под 60 ms – отхвърлени. При 495 намокряния на HR202 блокировката не е
+допуснала включено реле, а реакцията е до 25,5 ms.
+
+Резултатите имат и ограничения. Времената в симулационния модел са зададени, а не
+измерени; напреженията, токовете и обхватът не са проверени с уреди, а контактите на
+релетата в макета не са свързани към мрежата 230 V.
+
+## 3. Приноси
+
+Като приложни приноси на работата могат да се посочат:
+
+1. Архитектура с два вида обмен – Wi-Fi към потребителя и ESP-NOW между възлите – и
+   оценката, че по-високата консумация на Wi-Fi не е пречка за възли с мрежово захранване,
+   предназначени да управляват киловатови товари (делът на електрониката е около 0,1 %).
+2. Свързване на модули за 5 V логика и на двата датчика към ESP8266 без допълнителни
+   елементи – чрез режим H на релейните модули, захранване на датчиците от 3,3 V и
+   преместване на реле 4 на GPIO15, – както и обяснение на грешката при измерването на
+   напрежението.
+3. Протокол по ESP-NOW, при който подчиненият възел потвърждава изпълнението на всяка
+   команда с отчет, командите са идемпотентни, а загубите се броят. Програмите измерват сами
+   времето за цикъл, закъснението и трептенето на бутоните.
+4. Изследване на непроменените програми в съвместна симулация с модел на радиоканала по
+   IEEE 802.11, при което през цялото време се проверява, че по време на блокировка няма
+   включено реле.
 
 ## 4. Насоки за бъдещо развитие
 
-1. **Изпитване на макета с измервателни уреди** – напрежения и токове на релейните модули,
-   обхват при различни прегради, продължителна работа – за потвърждаване на симулацията.
-2. **Свързване на реални товари** – контактите на релетата в макета не са свързани към
-   мрежата 230 V; необходими са печатна платка, предпазител, контактори за товари над 10 A и
-   кутия, отговаряща на изискванията за електрическа безопасност.
-3. **Токов трансформатор** (например SCT-013) към главния извод за автоматично разпознаване
-   на започнало зареждане – затваря управляващия контур.
-4. **Контролер за зарядна станция** – генератор на сигнала *Control Pilot* по IEC 61851-1 за
-   динамично управление на тока за зареждане и изместване на товарите към периодите на
+1. Изпитване на макета с измервателни уреди по протокола Е1–Е12 – напрежения и токове на
+   релейните модули, обхват при различни прегради, продължителна работа.
+2. Свързване на реални товари – с печатна платка, предпазител, контактори за товари над
+   10 A и кутия, отговаряща на изискванията за електрическа безопасност.
+3. Добавяне на токов трансформатор (например SCT-013) към главния захранващ проводник на
+   таблото за автоматично разпознаване на започнало зареждане – така се затваря
+   управляващият контур.
+4. Контролер за зарядна станция – генератор на сигнала *Control Pilot* по IEC 61851-1 за
+   динамично управление на тока за зареждане и за изместване на товарите към периодите със
    собствено фотоволтаично производство.
-5. **Защита на достъпа** – шифриране на ESP-NOW по подразбиране, метод POST, HTTPS и смяна на
-   паролите по подразбиране при първото включване.
-6. **Безопасно поведение на датчика за влага** – обърнато активно ниво, така че прекъснат
-   проводник да води до блокировка.
-7. **Автоматично търсене на работния канал** от подчинения възел при загуба на връзката.
-8. **Преход към ESP32 и Matter** и натрупване на измерванията във файлова система, например
+5. По-добра защита на достъпа – шифриране на ESP-NOW по подразбиране, метод POST, HTTPS и
+   смяна на паролите по подразбиране при първото включване.
+6. Обърнато активно ниво на датчика за влага, така че прекъснат проводник да води до
+   блокировка, и автоматично търсене на работния канал от подчинения възел.
+7. Преход към ESP32 и Matter и запис на измерванията във файлова система, например
    LittleFS [43], за анализ на енергийното потребление.
 
 ## 5. Заключителна оценка
 
-Поставената цел е постигната. Разработена е система с четири независими релейни изхода,
-която измерва температура и влажност с датчика DHT11, защитава при влага с датчика HR202 и
-контролира захранващото напрежение. Тя е достъпна от произволно потребителско устройство
-**без допълнителен хардуер, без приложение и без облачна услуга**, при себестойност около
-40 €. Изследването показва, че програмите запазват правилното си поведение при грешки и
-прекъсвания в радиоканала, повторни кадри, рестарти на възлите и трептене на входовете.
-Контактите на релетата в макета не са свързани към мрежата 230 V – свързването на реални
-товари е следващата стъпка (насока 2).
-Изведените от явни ограничения решения, вградените измервания и симулацията на реалния код
-правят разработката **възпроизводима** и позволяват надграждането ѝ в очертаните посоки.
+Целта на работата е постигната, като изследването е проведено главно чрез симулация.
+Системата се управлява от браузъра на смартфон или лаптоп в домашната мрежа. Следващите
+стъпки са измерванията с уреди и свързването на реални товари.
 
 
 ```{=openxml}
@@ -1939,26 +1898,30 @@ $PL(d) = PL(1\ \text{m}) + N \lg d + L_{\text{прегр}}$, където $PL(1\
 
 # АНОТАЦИЯ
 
-**Тема:** Система за управление на дома чрез IEEE 802.11 (Wi-Fi) интерфейс\
-**Дипломант:** инж. Кръстиян Тодоров Праматаров, ф. № 901322003\
+::: {custom-style="Compact"}
+**Тема:** Система за управление на дома чрез IEEE 802.11 (Wi-Fi) интерфейс
+
+**Дипломант:** инж. Кръстиян Тодоров Праматаров, ф. № 901322003
+
 **Научен ръководител:** доц. д-р инж. Любомир Богданов
+:::
 
 В дипломната работа е проектирана, реализирана и изследвана двувъзлова система за
-управление на дома с потребителски интерфейс по IEEE 802.11, изградена с два модула ESP8266.
+управление на дома с два модула ESP8266 и потребителски интерфейс по IEEE 802.11.
 Подчиненият възел управлява четири релета и има два датчика – DHT11 за температура и
 влажност и HR202 за влага. Системата се управлява от произволен браузър, а възлите обменят
-данни по протокола ESP-NOW, без участието на домашния маршрутизатор.
+данни по протокола ESP-NOW, без да минават през домашния маршрутизатор.
 
 Литературното проучване обосновава избора на IEEE 802.11 и на ESP8266. В хардуерната част са
 изчислени съвместимостта на модулите с 3,3 V логика, делителят за контрол на захранването и
-енергийният баланс, направени са анализ на точността и оценка на себестойността (около
-40 €). Програмите реализират неблокиращ главен цикъл, опашка от команди, конфигуриране по
-UART и защитна блокировка при влага.
+енергийният баланс, анализирана е точността и е оценена себестойността (около 40 €).
+Програмите имат неблокиращ главен цикъл, опашка от команди, конфигуриране по UART и защитна
+блокировка при влага.
 
-Устойчивостта е изследвана чрез съвместна симулация на двете непроменени програми с модел на
-радиоканала – 44 h в 11 сценария. Закъснението на обмена е 2,9…4,2 ms за 98 % от заявките,
-загубите се отчитат точно, а блокировката не допуска включено реле при нито едно от
-495 намокряния.
+Поведението на системата е изследвано чрез съвместна симулация на двете непроменени
+програми с модел на радиоканала – 44 h в 11 сценария. Закъснението на обмена е 2,9…4,2 ms
+за 98 % от заявките, загубите се отчитат точно, а при 495 намокряния блокировката не допуска
+включено реле. Напреженията, токовете и обхватът не са измервани с уреди.
 
 **Ключови думи:** IEEE 802.11, ESP8266, ESP-NOW, домашна автоматизация, енергиен мениджмънт,
 DHT11, HR202, симулация.
@@ -1985,7 +1948,7 @@ DHT11, HR202, симулация.
 ```
 
 
-![Лист 1. Блокова схема на хардуера (т. 5.1 от заданието)](/tmp/tmpcaknm4j2/List_1_Blokova_shema_A4.png){width=15.5cm}
+![Лист 1. Блокова схема на хардуера (т. 5.1 от заданието)](/tmp/tmpwamkrgrd/List_1_Blokova_shema_A4.png){width=15.5cm}
 
 
 ```{=openxml}
@@ -1993,7 +1956,7 @@ DHT11, HR202, симулация.
 ```
 
 
-![Лист 2. Принципна електрическа схема на подчинения възел (т. 5.2)](/tmp/tmpcaknm4j2/List_2_Principna_shema_A4.png){width=15.5cm}
+![Лист 2. Принципна електрическа схема на подчинения възел (т. 5.2)](/tmp/tmpwamkrgrd/List_2_Principna_shema_A4.png){width=15.5cm}
 
 
 ```{=openxml}
@@ -2001,7 +1964,7 @@ DHT11, HR202, симулация.
 ```
 
 
-![Лист 3. Алгоритъм на управляващата програма (т. 5.3)](/tmp/tmpcaknm4j2/List_3_Algoritam_A4.png){width=15.5cm}
+![Лист 3. Алгоритъм на управляващата програма (т. 5.3)](/tmp/tmpwamkrgrd/List_3_Algoritam_A4.png){width=15.5cm}
 
 
 
