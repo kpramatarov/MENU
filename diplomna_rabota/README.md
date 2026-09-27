@@ -66,6 +66,7 @@ python3 literatura.py          # номерира литературата по 
 python3 zaglavna_stranica.py   # попълва образеца на заглавната страница (отделен файл)
 python3 sglobyavane.py         # Word документ, PDF и номерата на страниците в съдържанието
 python3 tabla/generirane_figuri_tabla.py   # фигурите за таблата A0 (SVG и PNG, около 200 dpi)
+node podgotovka_docx.js        # Word документът „Подготовка за защитата“ (пакет docx от npm)
 ```
 
 `sglobyavane.py` изобразява документа с LibreOffice (`soffice`, с модула за формули
