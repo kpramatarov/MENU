@@ -121,8 +121,14 @@ def find_pages(pdf_path, entries):
     doc = pdfium.PdfDocument(pdf_path)
     lines = []
     for i in range(len(doc)):
-        t = doc[i].get_textpage().get_text_range().replace('\r', '')
+        page = doc[i]
+        tp = page.get_textpage()
+        t = tp.get_text_range().replace('\r', '')
+        tp.close()
+        page.close()
         lines.append([l.strip() for l in t.split('\n') if l.strip()])
+    n_pages = len(doc)
+    doc.close()
     p = next(i for i, ls in enumerate(lines) if 'СЪДЪРЖАНИЕ' in ls) + 1
     pages = []
     for title, lvl, key in entries:
@@ -136,7 +142,7 @@ def find_pages(pdf_path, entries):
         if p >= len(lines):
             raise RuntimeError('не е намерено заглавие: ' + title)
         pages.append(p + 1)
-    return pages, len(doc)
+    return pages, n_pages
 
 
 def render_pdf(docx, outdir):
@@ -305,6 +311,9 @@ def page_break_before(doc):
     out = parts[0]
     for part in parts[1:]:
         s = part.lstrip()
+        # отметките на разделите (bookmarkEnd/bookmarkStart) преди следващия абзац остават на мястото си
+        lead = re.match(r'(?:<w:bookmark(?:Start|End) [^>]*/>)*', s).group(0)
+        s = s[len(lead):]
         if not s.startswith('<w:p>'):
             out += PB_XML + part           # следва таблица - оставя се обикновеният разделител
             continue
@@ -313,7 +322,7 @@ def page_break_before(doc):
             s = s[:m.end()] + '<w:pageBreakBefore />' + s[m.end():]
         else:
             s = '<w:p><w:pPr><w:pageBreakBefore /></w:pPr>' + s[len('<w:p>'):]
-        out += s
+        out += lead + s
     return out
 
 
