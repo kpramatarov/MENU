@@ -143,7 +143,7 @@ function build(blocks) {
     } else if (b.type === 'h' && b.level === 2) {
       children.push(new Paragraph({
         heading: HeadingLevel.HEADING_1,
-        pageBreakBefore: /^[23]\. /.test(b.text),
+        pageBreakBefore: /^[234]\. /.test(b.text),
         children: runs(b.text),
       }));
     } else if (b.type === 'h') {
