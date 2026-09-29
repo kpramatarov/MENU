@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-// Word документът „Подготовка за защитата“ от Podgotovka_za_zashtitata.md.
+// Word документ от Markdown файл за защитата (заглавието е първият ред „# …“).
 //
-// Употреба (от папката diplomna_rabota):  node podgotovka_docx.js
+// Употреба (от папката diplomna_rabota):
+//   node podgotovka_docx.js                          – Podgotovka_za_zashtitata.docx
+//   node podgotovka_docx.js Tekst_za_zashtitata.md   – Tekst_za_zashtitata.docx
 // Изисква: Node.js и пакета docx (npm install docx).
 //
 // Разпознава подмножеството Markdown, използвано в документа: заглавия #, ##, ###,
@@ -17,8 +19,10 @@ const {
   Paragraph, ShadingType, Table, TableCell, TableRow, TextRun, WidthType,
 } = require('docx');
 
-const SRC = path.join(__dirname, 'Podgotovka_za_zashtitata.md');
-const OUT = path.join(__dirname, 'Podgotovka_za_zashtitata.docx');
+const SRC = path.resolve(__dirname, process.argv[2] || 'Podgotovka_za_zashtitata.md');
+const OUT = path.resolve(__dirname, process.argv[3] || SRC.replace(/(\.md)?$/, '.docx'));
+const MD = fs.readFileSync(SRC, 'utf8');
+const TITLE = (/^# (.*)$/m.exec(MD) || [null, 'Подготовка за защитата'])[1];
 
 const FONT = 'Arial';
 const MONO = 'Courier New';
@@ -130,12 +134,16 @@ function slideHeading(text) {
 }
 
 // ------------------------------------------------------------------ документ
+const SPEECH = /^\*\*Какво да кажа:\*\* (.*)$/;
+
 function build(blocks) {
   const children = [];
   let instance = 0;
   let afterBox = false;
-  for (const b of blocks) {
+  for (const [i, b] of blocks.entries()) {
     const before = afterBox ? 200 : undefined;
+    const next = blocks[i + 1];
+    const beforeBox = Boolean(next && next.type === 'p' && SPEECH.test(next.text));
     afterBox = false;
     let m;
     if (b.type === 'h' && b.level === 1) {
@@ -155,7 +163,7 @@ function build(blocks) {
         spacing: k === 0 && before ? { before, after: 80 } : { after: 80 },
         children: runs(item),
       })));
-    } else if ((m = /^\*\*Какво да кажа:\*\* (.*)$/.exec(b.text))) {
+    } else if ((m = SPEECH.exec(b.text))) {
       children.push(speechBox(m[1]));
       afterBox = true;
     } else if ((m = /^\*\*На екрана:\*\* (.*)$/.exec(b.text))) {
@@ -167,9 +175,14 @@ function build(blocks) {
         children: runs(b.text.slice(2, -2), { bold: true, color: NAVY }),
       }));
     } else {
-      // „**Ако питат:**“ и подобни надписи остават на една страница със списъка под тях
+      // „**Ако питат:**“ и подобни надписи остават на една страница със списъка под тях,
+      // а абзацът точно преди рамката (напр. въпросът на рецензента) – с рамката
       const label = /^\*\*[^*]+\*\*( \([^)]*\))?:?$/.test(b.text);
-      children.push(new Paragraph({ keepNext: label, spacing: before ? { before } : undefined, children: runs(b.text) }));
+      children.push(new Paragraph({
+        keepNext: label || beforeBox,
+        spacing: before ? { before } : undefined,
+        children: runs(b.text),
+      }));
     }
   }
   return children;
@@ -177,8 +190,8 @@ function build(blocks) {
 
 const doc = new Document({
   creator: 'Кръстиян Праматаров',
-  title: 'Подготовка за защитата',
-  description: 'Ред на защитата, текст към слайдовете и вероятни въпроси с отговори',
+  title: TITLE,
+  description: 'Материал за подготовка за защитата на дипломната работа',
   styles: {
     default: {
       document: {
@@ -233,11 +246,11 @@ const doc = new Document({
       default: new Footer({
         children: [new Paragraph({
           alignment: AlignmentType.CENTER,
-          children: [new TextRun({ children: ['Подготовка за защитата · стр. ', PageNumber.CURRENT], size: 18, color: GREY })],
+          children: [new TextRun({ children: [`${TITLE} · стр. `, PageNumber.CURRENT], size: 18, color: GREY })],
         })],
       }),
     },
-    children: build(parse(fs.readFileSync(SRC, 'utf8'))),
+    children: build(parse(MD)),
   }],
 });
 

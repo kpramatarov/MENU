@@ -50,7 +50,9 @@
    схема; принципна схема; алгоритъм; изследване и резултати). Фигурите в тях се генерират
    с `tabla/generirane_figuri_tabla.py`. Остава отпечатването и закрепването на всяко табло
    на лата с кука. Текстът за всеки слайд, редът на защитата и вероятните въпроси с отговори
-   са в `Podgotovka_za_zashtitata.md` (и `.docx` за печат).
+   са в `Podgotovka_za_zashtitata.md` (и `.docx` за печат). По-кратко – само какво да кажа
+   на всеки слайд, обяснение и отговорите на рецензията – е `Tekst_za_zashtitata.md`
+   (`.docx`); същият текст е в бележките на говорещия към презентацията.
 3. Електронен носител: `901322003_D.pdf` (работата с подписаните страници),
    `901322003_Z.pdf` (заданието), `901322003_R.pdf` (рецензията).
 4. По желание – опитите Е1–Е12 на макета по `../firmware/Protokol_na_izmervaniyata.md` за
@@ -67,6 +69,7 @@ python3 zaglavna_stranica.py   # попълва образеца на загла
 python3 sglobyavane.py         # Word документ, PDF и номерата на страниците в съдържанието
 python3 tabla/generirane_figuri_tabla.py   # фигурите за таблата A0 (SVG и PNG, около 200 dpi)
 node podgotovka_docx.js        # Word документът „Подготовка за защитата“ (пакет docx от npm)
+node podgotovka_docx.js Tekst_za_zashtitata.md   # Word документът „Текст за защитата“
 ```
 
 `sglobyavane.py` изобразява документа с LibreOffice (`soffice`, с модула за формули
